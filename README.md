@@ -32,33 +32,33 @@ Cette page présente l'organisation globale entre ces deux modules.
 
 | Séance | Type  | Module | Objectifs                                         | Date(s) [^1]            |
 | ------ | ----- | ------ | --------------------------------------------------| ----------------------- |
-|    1   | TD1 | M2203 | Cours sur les BDD et présentation DUTAF | 07/09/17, 8h00 |
-|    2   | TD1 | M2202 | Révision formulaire, boucles, ... | 07/09/17, 9h30 |
-|    3   | TD2 | M2203 | Exercice Stages, Arboretum | 08/09/17, 8h00 |
-| 4 | TD3 | M2203 | Exercice court métrage et Chenil | 11/09/17, 11h00 |
-| 5 | TD4 | M2203 | Exercice requêtes Chenil | 13/09/17, 8h00 |
-| 6 | TP1 | M2203 | Analyse DUTAF | 13 et 14/09/17 |
-| 7 | TP2 | M2203 | Mise en place structure | 15/09/17 |
-| 8 | TD2 | M2202 | Accès aux base de données | 18/09/17, 17h00 |
-| 9 | TP1 | M2202 | Accès aux base de données | 19/09/17 |
-| 10 | TD5 | M2203 | Catalogue | 26/09/17, 8h00 |
-| 11 | TD6 | M2203 | Recherche petit prix | 27/09/17, 11h00 |
-| 12 | TP2 | M2202 | Formatage et fonctions pratiques en PHP | |
-| 13 | TD3 | M2202 | Sessions et panier | |
-| 14 | TP3 | M2202 | Sessions et panier | |
-| 15 | TP3 | M2203 | Administration + Ajout d’article | |
-| 16 | TP4 | M2203 | Modification d’un article | |
-| 17 | TD4 | M2202 | Upload d’image et marquage de l’image | |
-| 18 | TP4 | M2202 | Upload d’image et marquage de l’image et modification | |
-| 19 | TP5 | M2203 | Suppression d’un article et de l’image associée | |
-| 20 | TD5 | M2202 | Sécurisation du back-office en PHP | |
-| 21 | TP5 | M2202 | Sécurisation du back-office en PHP | |
-| 22 | TD6 | M2202 | Export format text/csv | |
-| 23 | TP6 | M2202 | Export format text/csv | |
-| 24 | TP7 | M2202 | Finalisation DUTAF ? | |
-| 25 | TP6 | M2203 | Finalisation DUTAF | |
-| 26 | TD7 | M2203 | Evaluation | |
-| 27 | TD7 | M2202 | Evaluation | |
+|    1   | TD1 | M2203 | [Cours sur les BDD et présentation DUTAF](M2203-seance-1.md) | 07/09/17, 8h00 |
+|    2   | TD1 | M2202 | [Révision formulaire, boucles, ...](M2202-seance-1.md)  | 07/09/17, 9h30 |
+|    3   | TD2 | M2203 | [Exercice Stages, Arboretum](M2203-seance-2.md)  | 08/09/17, 8h00 |
+| 4 | TD3 | M2203 | [Exercice court métrage et Chenil](M2203-seance-3.md)  | 11/09/17, 11h00 |
+| 5 | TD4 | M2203 | [Exercice requêtes Chenil](M2203-seance-4.md) | 13/09/17, 8h00 |
+| 6 | TP1 | M2203 | [Analyse DUTAF](M2203-seance-5.md)  | 13 et 14/09/17 |
+| 7 | TP2 | M2203 | [Mise en place structure](M2203-seance-6.md) | 15/09/17 |
+| 8 | TD2 | M2202 | [Accès aux base de données](M2202-seance-2.md) | 18/09/17, 17h00 |
+| 9 | TP1 | M2202 | [Accès aux base de données](M2202-seance-3.md)  | 19/09/17 |
+| 10 | TD5 | M2203 | [Catalogue](M2203-seance-7.md)  | 26/09/17, 8h00 |
+| 11 | TD6 | M2203 | [Recherche petit prix](M2203-seance-8.md) | 27/09/17, 11h00 |
+| 12 | TP2 | M2202 | [Formatage et fonctions pratiques en PHP](M2202-seance-4.md) | |
+| 13 | TD3 | M2202 | [Sessions et panier](M2202-seance-5.md) | |
+| 14 | TP3 | M2202 | [Sessions et panier](M2202-seance-6.md) | |
+| 15 | TP3 | M2203 | [Administration + Ajout d’article](M2203-seance-9.md)  | |
+| 16 | TP4 | M2203 | [Modification d’un article](M2203-seance-10.md) | |
+| 17 | TD4 | M2202 | [Upload d’image et marquage de l’image](M2202-seance-7.md)| |
+| 18 | TP4 | M2202 | [Upload d’image et marquage de l’image et modification](M2202-seance-8.md)| |
+| 19 | TP5 | M2203 | [Suppression d’un article et de l’image associée](M2203-seance-11.md) | |
+| 20 | TD5 | M2202 | [Sécurisation du back-office en PHP](M2202-seance-9.md)| |
+| 21 | TP5 | M2202 | [Sécurisation du back-office en PHP](M2202-seance-10.md)| |
+| 22 | TD6 | M2202 | [Export format text/csv](M2202-seance-11.md)| |
+| 23 | TP6 | M2202 | [Export format text/csv](M2202-seance-12.md)| |
+| 24 | TP7 | M2202 | [Finalisation DUTAF](M2202-seance-13.md)| |
+| 25 | TP6 | M2203 | [Finalisation DUTAF](M2203-seance-12.md) | |
+| 26 | TD7 | M2203 | [Evaluation](M2203-seance-13.md) | |
+| 27 | TD7 | M2202 | [Evaluation](M2202-seance-14.md)| |
 
 
 [^1]: 2017/2018, A titre indicatif. Vérifier l'emploi du temps
