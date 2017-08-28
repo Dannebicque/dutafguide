@@ -14,6 +14,7 @@ Il existe plusieurs manière de se connecter à une base de données en PHP. Il 
 
 ## Se connecter à une base de données
 Pour pouvoir se connecter à une base de données, quelque soit la méthode utilisée, vous devez disposer des 4 informations suivantes :
+
 * User : Login de votre base de données (*mmi17xxx*)
 * Password : Mot de passe pour accéder à votre base de données (4 caractères en MMI)
 * Serveur : Adresse où se trouve votre base de données (localhost en général)
@@ -26,11 +27,11 @@ certain cas, on pourra indiquer une URL ou une adresse IP.
 
 Le code ci-dessous correspond à la phrase de connexion à une base de données de type MySQL. Cette instruction comprend 3 éléments. La *phrase de connexion* `mysql:host=serveur;dbname=nom_de_la_BDD;charset=utf8` (propre à chaque système de base de données), un *login* et un *mot de passe*.
 
-{% highlight php linenos %}
+```php
 <?php
 $bdd = new PDO('mysql:host=serveur;dbname=nom_de_la_BDD;
 charset=utf8', 'User', 'Password');
-{% endhighlight %}
+```
 
 Il faut bien sûr remplacer dans l’instruction précédente le "serveur", le "nom de la BDD", le "User" et le "Password" par vos informations personnelles. *Il est important de ne mettre aucun espace dans la phrase de connexion.*
 
@@ -44,34 +45,36 @@ Une solution consiste donc à définir des constantes PHP. Une constante est une
 
 La syntaxe est la suivante :
 
-{% highlight php linenos %}
+```php
 <?php
 define('NOM_CONSTANTE', 'valeur');
-{% endhighlight %}
+...
+```
 
 L’usage veut que le nom d’une constante soit en majuscule. **A noter qu’une constante ne commence pas par un $**. 
 
 Dans notre cas, un fichier type de constante pourrait être :
 
-{% highlight php linenos %}
+```php
 <?php
 define('BDD_LOGIN', 'monlogin');
 define('BDD_PASSWORD', 'monpassword');
 define('BDD_SERVER', 'localhost');
 define('BDD_DATABASE', 'basededonnees');
-{% endhighlight %}
+?>
+```
 
 Ces éléments sont sauvegardés dans un fichier que l’on peut appeler *"config.inc.php"*. Ce fichier contiendra toutes nos constantes. Il faut ensuite **inclure** ce fichier à chaque fois que l’on va faire une connexion à notre base de données. 
 
 Ce qui pourrait donner le code suivant :
 
-{% highlight php linenos %}
+```php
 ...
 <?php
 include('config.inc.php');
 
 $bdd = new PDO('mysql:host='.BDD_SERVER.';dbname='.BDD_DATABASE.';charset=utf8', BDD_LOGIN, BDD_PASSWORD);
-{% endhighlight %}
+```
 
 ## Récupérer des données
 
@@ -79,7 +82,7 @@ $bdd = new PDO('mysql:host='.BDD_SERVER.';dbname='.BDD_DATABASE.';charset=utf8',
 
 Le code ci-dessous va permettre d'écrire une requête en MySQL et de l'éxécuter afin d'intéragir avec le serveur de base de données.
 
-{% highlight php linenos %}
+```php
 ...
 <?php
 include('config.inc.php');
@@ -88,7 +91,7 @@ $bdd = new PDO('mysql:host='.BDD_SERVER.';dbname='.BDD_DATABASE.';charset=utf8',
 
 $requete = 'SELECT * FROM table';
 $exe = $bdd->query($requete);
-{% endhighlight %}
+```
 
 Explication des lignes :
 1. Cette ligne permet d’écrire la requête au format MySQL. Une requête est avant tout du texte ! Il est donc possible de construire cette phrase en concaténant des variables.
@@ -108,8 +111,7 @@ Ce résultat, si la requête a réussi, est un tableau composé des lignes de la
 
 #### Parcourir avec une boucle for
 
-{% highlight php linenos %}
-
+```php
 <?php
 include('config.inc.php');
 
@@ -125,7 +127,7 @@ for($i=0; $i<$nbresponses; $i++)
     $ligne = $exe->fetch();
     echo '<p>'.$ligne['champ1'].' '.$ligne['champ2'].'</p>';
 }
-{% endhighlight %}
+```
 
 Explication des lignes
 * ligne 1 : Ecriture de notre requête dans une variable ´
@@ -137,7 +139,7 @@ Explication des lignes
 
 #### Parcourir avec une boucle while
 
-{% highlight php linenos %}
+```php
 <?php
 include('config.inc.php');
 
@@ -150,7 +152,7 @@ while($ligne = $exe->fetch())
 {
     echo '<p>'.$ligne['champ1'].' '.$ligne['champ2'].'</p>';
 }
-{% endhighlight %}
+```
 
 Explication des lignes :
 
@@ -170,10 +172,10 @@ Cette erreur apparait sur la ligne du fetch, mais en fait elle signifie que la l
 
 Affichez donc votre requête grâce à :
 
-{% highlight php linenos %}
+```php
 <?php
 echo $req;
-{% endhighlight %}
+```
 
 Copier/coller la réponse dans phpmyadmin, onglet "SQL" afin de tester la requête et obtenir un message d’erreur plus précis.
 
