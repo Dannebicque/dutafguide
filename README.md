@@ -23,6 +23,15 @@ Mettre en œuvre une Solution PHP/MySQL pour répondre à un problème de ges
 
 * II désire aussi qu’un client puisse demander uniquement la liste des articles correspondant à son budget. Pour cela, il devra y avoir une section dans laquelle le client pourra entrer un prix maximum et par la suite consulter uniquement les articles correspondants à sa requête. 
 
+## Version de démonstration de DUTAF
+
+La démonstration est visible ici : 
+
+http://195.83.128.55/~dannebicque/dutaf/
+
+Sur ce lien vous trouverez les fonctionnalités à mettre en place, ainsi que des éléments d'explication sur les différentes pages. Les critères de notation sont également explicités.
+
+
 ## Organisation des séances entre les modules M2202 et M2203
 
 DUTAF est exploité sur les deux modules M2202 (Algorithmique et PHP) et M2203 (base de données).
