@@ -27,7 +27,7 @@ Mettre en œuvre une Solution PHP/MySQL pour répondre à un problème de ges
 
 La démonstration est visible ici : 
 
-http://195.83.128.55/~dannebicque/dutaf/
+[http://195.83.128.55/~dannebicque/dutaf/](http://195.83.128.55/~dannebicque/dutaf/)
 
 Sur ce lien vous trouverez les fonctionnalités à mettre en place, ainsi que des éléments d'explication sur les différentes pages. Les critères de notation sont également explicités.
 
@@ -87,6 +87,6 @@ Si vous respectez l’ensemble de ces éléments vous obtiendrez donc une notati
 
 ## Contacts
 
-David Annebicque (M2202) : david.annebicque [@] univ-reims.fr | @DavidAnnebicque
+David Annebicque (M2202) : david.annebicque [@] univ-reims.fr,  @DavidAnnebicque
 
 Fabrice Meuzeret (M2203) : fabrice.meuzeret [@] univ-reims.fr
