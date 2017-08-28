@@ -69,14 +69,15 @@ Plusieurs étapes intermédiaires feront l’objet d’une vérification afin de
 
 L’ensemble des points qui seront évalués sont indiqués dans le document. Ces différentes étapes composeront la note du module M2202 (PHP et algorithmique) et la note du module M2203 (Base de données). Chaque point est évalué selon la notation sur 3 points :
 
-0 : rien n’est fait
-1 : des éléments présents, mais non fonctionnel, ne respecte pas les consignes
-2 : les consignes sont respectées
-3 : les consignes sont respectées, mais vous avez apporté des éléments de personnalisation ou des fonctionnalités supplémentaires.
+* 0 : rien n’est fait
+* 1 : des éléments présents, mais non fonctionnel, ne respecte pas les consignes
+* 2 : les consignes sont respectées
+* 3 : les consignes sont respectées, mais vous avez apporté des éléments de personnalisation ou des fonctionnalités supplémentaires.
 
 Si vous respectez l’ensemble de ces éléments vous obtiendrez donc une notation de ⅔ pour chacun des critères. Vous devez montrer votre capacité à aller plus loin que la consigne (mise en page de qualité, utilisation de fonctionnalités spécifiques, respect de l’ergonomie, …) afin d’obtenir l’ensemble des points sur chacun des critères.
 
 ## Contacts
 
 David Annebicque (M2202) : david.annebicque [@] univ-reims.fr | @DavidAnnebicque
+
 Fabrice Meuzeret (M2203) : fabrice.meuzeret [@] univ-reims.fr
