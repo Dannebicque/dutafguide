@@ -1,7 +1,3 @@
----
-title: DUTAF :  Guide 2017-2018
----
-
 # DUTAF
 
 Ce site est le support pour les modules M2202 (développement PHP) et M2203 (base de données). Ces modules ont pour exemple 
