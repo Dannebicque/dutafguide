@@ -1,8 +1,5 @@
 ---
-M2202 : Séance 1
-
-Rappels de concepts du PHP (tests, boucles)
-
+title: M2202 : Séance 1
 ---
 
 # Quelques rappels essentiels du PHP
