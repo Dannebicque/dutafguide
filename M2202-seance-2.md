@@ -27,9 +27,9 @@ certain cas, on pourra indiquer une URL ou une adresse IP.
 Le code ci-dessous correspond à la phrase de connexion à une base de données de type MySQL. Cette instruction comprend 3 éléments. La *phrase de connexion* `mysql:host=serveur;dbname=nom_de_la_BDD;charset=utf8` (propre à chaque système de base de données), un *login* et un *mot de passe*.
 
 ```php
-    <?php
-    $bdd = new PDO('mysql:host=serveur;dbname=nom_de_la_BDD;
-    charset=utf8', 'User', 'Password');
+<?php
+$bdd = new PDO('mysql:host=serveur;dbname=nom_de_la_BDD;
+charset=utf8', 'User', 'Password');
 ```
 
 Il faut bien sûr remplacer dans l’instruction précédente le "serveur", le "nom de la BDD", le "User" et le "Password" par vos informations personnelles. *Il est important de ne mettre aucun espace dans la phrase de connexion.*
@@ -88,98 +88,90 @@ $exe = $bdd->query($requete);
 ```
 
 Explication des lignes :
-1. Cette ligne permet d’écrire la requête au format MySQL. Une requête
-est avant tout du texte ! Il est donc possible de construire cette phrase
-en concaténant des variables.
-3
-1 <?php
-2 $requete = 'SELECT * FROM table';
-3 $exe = $bdd->query($requete);
-Listing 5: Exécuter une requête
-2. Cette ligne exécute la requête précédemment écrite. C’est à ce moment
-là que le résultat de la requête est récupéré dans la variable $exe.
-Il n’est techniquement pas nécessaire de passer par une variable intermédiaire
-pour écrire la requête SQL (la variable $requete). Cependant vous
-utiliserez TOUJOURS cette solution durant ce semestre. Il sera ainsi
-beaucoup plus facile de débuguer et comprendre ce qui se passe en affichant,
-dans le navigateur, la requête.
+1. Cette ligne permet d’écrire la requête au format MySQL. Une requête est avant tout du texte ! Il est donc possible de construire cette phrase en concaténant des variables.
+
+2. Cette ligne exécute la requête précédemment écrite. C’est à ce moment là que le résultat de la requête est récupéré dans la variable $exe.
+
+Il n’est techniquement pas nécessaire de passer par une variable intermédiaire pour écrire la requête SQL (la variable $requete). **Cependant vous utiliserez TOUJOURS cette solution durant ce semestre**. Il sera ainsi beaucoup plus facile de débuguer et comprendre ce qui se passe en affichant, dans le navigateur, la requête.
 
 ### Afficher le résultat d’une requête
 
-La variable $exe contient donc le résultat de notre requête. Ce résultat, si
-la requête a réussi, est un tableau composé des lignes de la base de données
-correspondant à la selection. Il faut donc parcourir ce tableau afin d’afficher
-chacune des lignes.
-Il y a deux méthodes pour réaliser cela :
-— Compter le nombre total d’élément dans le tableau, et faire une boucle
-"for"
-— Parcourir le tableau jusqu’à ce qu’il n’y ait plus d’éléments.
+La variable $exe contient donc le résultat de notre requête. 
+
+Ce résultat, si la requête a réussi, est un tableau composé des lignes de la base de données correspondant à la selection. Il faut donc parcourir ce tableau afin d’afficher chacune des lignes. Il y a deux méthodes pour réaliser cela :
+
+* Compter le nombre total d’élément dans le tableau, et faire une boucle "for"
+* Parcourir le tableau jusqu’à ce qu’il n’y ait plus d’éléments.
 
 #### Parcourir avec une boucle for
 
+```php
+
+<?php
+include('config.inc.php');
+
+$bdd = new PDO('mysql:host='.BDD_SERVER.';dbname='.BDD_DATABASE.';charset=utf8', BDD_LOGIN, BDD_PASSWORD);
+
+$requete = 'SELECT * FROM table';
+$exe = $db->query($requete);
+
+$nbreponses = $exe->rowCount();
+
+for($i=0; $i<$nbresponses; $i++)
+{
+    $ligne = $exe->fetch();
+    echo '<p>'.$ligne['champ1'].' '.$ligne['champ2'].'</p>';
+}
+```
+
 Explication des lignes
-— ligne 1 : Ecriture de notre requête dans une variable ´
-— ligne 2 : Exécution de la requête pour récupérer les réponses
-— ligne 4 : Comptage du nombre de réponse de la requête. On pourrait
-utiliser cette variable pour afficher le nombre de réponse à l’utilisateur.
-— ligne 6 : Déclaration d’une boucle for qui va permettre de parcourir
-toutes les réponses
-— ligne 8 : Cette ligne permet de récupérer une ligne parmi l’ensemble
-des lignes du tableau. "fetch" signifiant "va chercher". A chaque itération
-de la boucle, on va chercher la ligne suivante dans le tableau des
-réponses. La notation "->" est une notation objet. Vous la comprendrez
-mieux lors du prochain semestre.
-4
-1 <?php
-2 $requete = 'SELECT * FROM table';
-3 $exe = $db->query($requete);
-4
-5 $nbreponses = $exe->rowCount();
-6
-7 for($i=0; $i<$nbresponses; $i++)
-8 {
-9 $ligne = $exe->fetch();
-10 echo '<p>'.$ligne['champ1'].' '.$ligne['champ2'].'</p>';
-11 }
-Listing 6: Parcourir avec une boucle for
-— ligne 9 : On affiche les données. A noter que la variable $ligne est un
-tableau associatif dont la clé est le nom du champ de votre table.
+* ligne 1 : Ecriture de notre requête dans une variable ´
+* ligne 2 : Exécution de la requête pour récupérer les réponses
+* ligne 4 : Comptage du nombre de réponse de la requête. On pourrait utiliser cette variable pour afficher le nombre de réponse à l’utilisateur.
+* ligne 6 : Déclaration d’une boucle for qui va permettre de parcourir toutes les réponses
+* ligne 8 : Cette ligne permet de récupérer une ligne parmi l’ensemble des lignes du tableau. "fetch" signifiant "va chercher". A chaque itération de la boucle, on va chercher la ligne suivante dans le tableau des réponses. La notation "->" est une notation objet. Vous la comprendrez mieux lors du prochain semestre.
+* ligne 9 : On affiche les données. A noter que la variable $ligne est un tableau associatif dont la clé est le nom du champ de votre table.
 
 #### Parcourir avec une boucle while
 
-1 <?php
-2 $requete = 'SELECT * FROM table';
-3 $exe = $db->query($requete);
-4
-5 while($ligne = $exe->fetch())
-6 {
-7 echo '<p>'.$ligne['champ1'].' '.$ligne['champ2'].'</p>';
-8 }
-Listing 7: Parcourir avec une boucle while
-Explication des lignes
-— ligne 1 : Ecriture de notre requête dans une variable ´
-— ligne 2 : Exécution de la requête pour récupérer les réponses
-— ligne 4 :Déclaration d’une boucle while. Cette boucle va s’exécuter
-tant qu’il y a des valeurs dans le tableau $exe, tant que le fetch arrive
-à aller chercher une ligne.
-— ligne 6 : On affiche les données. A noter que la variable $ligne est un
-tableau associatif dont la clé est le nom du champ de votre table.
+```php
+<?php
+include('config.inc.php');
+
+$bdd = new PDO('mysql:host='.BDD_SERVER.';dbname='.BDD_DATABASE.';charset=utf8', BDD_LOGIN, BDD_PASSWORD);
+
+$requete = 'SELECT * FROM table';
+$exe = $db->query($requete);
+
+while($ligne = $exe->fetch())
+{
+    echo '<p>'.$ligne['champ1'].' '.$ligne['champ2'].'</p>';
+}
+```
+
+Explication des lignes :
+
+* ligne 1 : Ecriture de notre requête dans une variable ´
+* ligne 2 : Exécution de la requête pour récupérer les réponses
+* ligne 4 :Déclaration d’une boucle while. Cette boucle va s’exécuter tant qu’il y a des valeurs dans le tableau $exe, tant que le fetch arrive à aller chercher une ligne.
+* ligne 6 : On affiche les données. A noter que la variable $ligne est un tableau associatif dont la clé est le nom du champ de votre table.
 
 ### Les erreurs
 
 Une erreur classique, que vous rencontrerez ressemblera à :
-1 Fatal error: Call to a member function fetch() on a
-2 non-object in C:\wamp\www\tests\index.php on line 13
-Listing 8: Message d’erreur
-Cette erreur apparait sur la ligne du fetch, mais en fait elle signifie que
-la ligne récupérée (quelque soit la méthode utilisée) est vide (Null). La cause
-de cela est quasiment toujours le fait que votre requête comporte une erreur
-et qu’elle renvoie un résultat vide.
-Affichez donc votre requête grˆace à :
-1 <?php
-2 echo $req;
-Listing 9: Afficher la requête
-Copier/coller la réponse dans phpmyadmin, onglet "SQL" afin de tester
-la requête et obtenir un message d’erreur plus précis.
+
+```
+Fatal error: Call to a member function fetch() on a non-object in C:\wamp\www\tests\index.php on line xx
+```
+
+Cette erreur apparait sur la ligne du fetch, mais en fait elle signifie que la ligne récupérée (quelque soit la méthode utilisée) est vide (Null). La cause de cela est quasiment toujours le fait que votre requête comporte une erreur et qu’elle renvoie un résultat vide.
+
+Affichez donc votre requête grâce à :
+
+```php
+<?php
+echo $req;
+```
+Copier/coller la réponse dans phpmyadmin, onglet "SQL" afin de tester la requête et obtenir un message d’erreur plus précis.
 
 ## Exercices
