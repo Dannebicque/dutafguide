@@ -76,7 +76,7 @@ $bdd = new PDO('mysql:host='.BDD_SERVER.';dbname='.BDD_DATABASE.';charset=utf8',
 
 Le code ci-dessous va permettre d'écrire une requête en MySQL et de l'éxécuter afin d'intéragir avec le serveur de base de données.
 
-{% highlight php linenos %}
+```php
 ...
 <?php
 include('config.inc.php');
@@ -85,7 +85,7 @@ $bdd = new PDO('mysql:host='.BDD_SERVER.';dbname='.BDD_DATABASE.';charset=utf8',
 
 $requete = 'SELECT * FROM table';
 $exe = $bdd->query($requete);
-{% endhighlight %}
+```
 
 Explication des lignes :
 1. Cette ligne permet d’écrire la requête au format MySQL. Une requête
