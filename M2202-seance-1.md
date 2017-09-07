@@ -78,7 +78,8 @@ $tab = array (
         'realisateur' = > 'Taika Waititi',
         'annee'= > 2017)
     );
-````        
+````
+
 #### Fonctions et tableaux
 
 Ecrire une fonction qui prend en paramètre un tableau avec clés associatives, qu’on ne connait pas a priori, et afficher se tableau dans un tableau HTML. Tester la fonction avec deux tableaux associatifs différents (nombre de ligne et de colonne).
