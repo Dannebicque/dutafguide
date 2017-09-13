@@ -190,4 +190,9 @@ Copier/coller la réponse dans phpmyadmin, onglet "SQL" afin de tester la requê
 
 ![Résultat attendu](m2202/resultat.png)
 
+## Questions Complémentaires
+
+1. Ajouter le montant total de la collection en bas du tableau
+2. Ajouter le prix moyen d’un album en bas du tableau.
+
 
