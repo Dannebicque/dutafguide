@@ -52,8 +52,8 @@ Cette page présente l'organisation globale entre ces deux modules.
 | 9 | TP1 | M2202 | [Accès aux base de données](M2202-seance-3.md)  | 19/09/17 |
 | 10 | TD5 | M2203 | [Catalogue](M2203-seance-7.md)  | 26/09/17, 8h00 |
 | 11 | TD6 | M2203 | [Recherche petit prix](M2203-seance-8.md) | 27/09/17, 11h00 |
-| 12 | TP2 | M2202 | [Formatage et fonctions pratiques en PHP](M2202-seance-4.md) | |
-| 13 | TD3 | M2202 | [Sessions et panier](M2202-seance-5.md) | |
+| 12 | TP2 | M2202 | [Formatage et fonctions pratiques en PHP](M2202-seance-4.md) | 25 et 26/09/2017 |
+| 13 | TD3 | M2202 | [Sessions et panier](M2202-seance-5.md) | 4/10/2017 |
 | 14 | TP3 | M2202 | [Sessions et panier](M2202-seance-6.md) | |
 | 15 | TP3 | M2203 | [Administration + Ajout d’article](M2203-seance-9.md)  | |
 | 16 | TP4 | M2203 | [Modification d’un article](M2203-seance-10.md) | |
