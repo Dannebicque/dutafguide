@@ -108,3 +108,6 @@ Ecrire 3 pages php (*index.php*, *page1.php* et *page2.php*) Sur la page index.p
 ## Solutions
 
 * [index.php](m2202/td3/index.php)
+* [page1.php](m2202/td3/page1.php)
+* [page2.php](m2202/td3/page2.php)
+* [logout.php](m2202/td3/logout.php)
