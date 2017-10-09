@@ -6,7 +6,7 @@ Mettre en oeuvre la page gestion.html et la page gest_art.php en les créant dan
 
 Protéger l'ensemble du dossier "admin" en ajoutant un fichier ".htaccess" et un fichier "htpassword"
 
-Pour crééer un fichier htaccess :
+Pour crééer un fichier ".htaccess" :
 
 Créez un nouveau fichier nommé htaccess, sans le point devant & sans extension, à l’aide du bloc note ou Sublime Text, et coller ce qui suit en modifiant srcXXXX par votre login SRC :
 
@@ -19,11 +19,11 @@ Require valid-user
 </LIMIT>
 
 
-Transférer le fichier htaccess dans le répertoire admin de dutaf, ainsi que le fichier htpasswd.
+Transférer le fichier ".htaccess" dans le répertoire admin de dutaf, ainsi que le fichier "htpasswd".
 
 Pour générer un mot de passe, vous pouvez utiliser ce site web ( http://aspirine.org/htpasswd.html ). Une fois que vous avez chiffré le mot de passe à l’aide de l’algorithme MD5, créez un autre fichier nommé htpasswd dans lequel vous collez la ligne complète.
 
-Voici l’empreinte htaccess à ajouter dans votre fichier htpasswd :
+Voici l’empreinte  à ajouter dans votre fichier "htpasswd" pour que l'enseignant puisse accéder à vore back-office :
 
 sgbdr:$apr1$ra/iTYt.$vhTxsDexBSCv7NN2h8ABO.
 
