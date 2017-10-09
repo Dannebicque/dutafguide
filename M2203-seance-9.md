@@ -8,7 +8,7 @@ Protéger l'ensemble du dossier "admin" en ajoutant un fichier ".htaccess" et un
 
 Pour crééer un fichier ".htaccess" :
 
-Créez un nouveau fichier nommé htaccess, sans le point devant & sans extension, à l’aide du bloc note ou Sublime Text, et coller ce qui suit en modifiant srcXXXX par votre login SRC :
+Créez un nouveau fichier nommé ".htaccess", avec le point devant et sans extension, à l’aide d'un editeur de texte, et coller ce qui suit en modifiant mmiXXXX par votre identifiant mmi :
 
 ```
 AuthUserFile /home/etudiants/mmiXXXX/public_html/dutaf/admin/htpasswd
