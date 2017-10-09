@@ -1,6 +1,6 @@
 [Retour à l'accueil](README.md)
 
-# M2203 | Séance 9 (TP) | Administration + Ajout d’article
+# M2203 | Séance 9 (TP) | Administration (gestion.html et gest_art.php)
 ![GitHub Logo](/plangestion-gest_art.png)
 Mettre en oeuvre la page gestion.html et la page gest_art.php en les créant dans un sous-dossier "admin"
 
