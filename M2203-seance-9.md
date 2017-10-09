@@ -5,3 +5,25 @@
 Mettre en oeuvre la page gestion.html et la page gest_art.php en les créant dans un sous-dossier "admin"
 
 Protéger l'ensemble du dossier "admin" en ajoutant un fichier ".htaccess" et un fichier "htpassword"
+
+Pour crééer un fichier htaccess :
+
+Créez un nouveau fichier nommé htaccess, sans le point devant & sans extension, à l’aide du bloc note ou Sublime Text, et coller ce qui suit en modifiant srcXXXX par votre login SRC :
+
+AuthUserFile /home/etudiants/mmiXXXX/public_html/dutaf/admin/htpasswd
+AuthGroupFile /dev/null
+AuthName "Acces securise a mon site Dutaf"
+AuthType Basic
+<LIMIT GET POST>
+Require valid-user
+</LIMIT>
+
+
+Transférer le fichier htaccess dans le répertoire admin de dutaf, ainsi que le fichier htpasswd.
+
+Pour générer un mot de passe, vous pouvez utiliser ce site web ( http://aspirine.org/htpasswd.html ). Une fois que vous avez chiffré le mot de passe à l’aide de l’algorithme MD5, créez un autre fichier nommé htpasswd dans lequel vous collez la ligne complète.
+
+Voici l’empreinte htaccess à ajouter dans votre fichier htpasswd :
+
+sgbdr:$apr1$ra/iTYt.$vhTxsDexBSCv7NN2h8ABO.
+
