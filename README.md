@@ -55,7 +55,7 @@ Cette page présente l'organisation globale entre ces deux modules.
 | 12 | TP2 | M2202 | [Formatage et fonctions pratiques en PHP](M2202-seance-4.md) | 25 et 26/09/2017 |
 | 13 | TD3 | M2202 | [Sessions et panier](M2202-seance-5.md) | 4/10/2017 |
 | 14 | TP3 | M2202 | [Sessions et panier](M2202-seance-6.md) | |
-| 15 | TP3 | M2203 | [Administration + Ajout d’article](M2203-seance-9.md)  | |
+| 15 | TP3 | M2203 | [Administration du back-office](M2203-seance-9.md)  | 9/10/17 |
 | 16 | TP4 | M2203 | [Modification d’un article](M2203-seance-10.md) | |
 | 17 | TD4 | M2202 | [Upload d’image et marquage de l’image](M2202-seance-7.md)| |
 | 18 | TP4 | M2202 | [Upload d’image et marquage de l’image et modification](M2202-seance-8.md)| |
