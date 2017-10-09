@@ -1,7 +1,7 @@
 [Retour à l'accueil](README.md)
 
 # M2203 | Séance 7 | Catalogue
-![GitHub Logo](/plan.png)
+![GitHub Logo](/plancatalogue.png)
 #### 1) développement de la page d'accueil
 après avoir pris connaissance de l'arbre de navigation, développez la page d'accueil (index.html)
 
