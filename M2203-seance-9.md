@@ -4,7 +4,7 @@
 ![GitHub Logo](/plangestion-gest_art.png)
 Mettre en oeuvre la page gestion.html et la page gest_art.php en les créant dans un sous-dossier "admin"
 
-Protéger l'ensemble du dossier "admin" en ajoutant un fichier ".htaccess" et un fichier "htpassword"
+Protéger l'ensemble du dossier "admin" en ajoutant un fichier ".htaccess" et un fichier "htpasswd"
 
 Pour crééer un fichier ".htaccess" :
 
