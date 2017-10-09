@@ -10,6 +10,7 @@ Pour crééer un fichier ".htaccess" :
 
 Créez un nouveau fichier nommé htaccess, sans le point devant & sans extension, à l’aide du bloc note ou Sublime Text, et coller ce qui suit en modifiant srcXXXX par votre login SRC :
 
+```
 AuthUserFile /home/etudiants/mmiXXXX/public_html/dutaf/admin/htpasswd
 AuthGroupFile /dev/null
 AuthName "Acces securise a mon site Dutaf"
@@ -17,7 +18,7 @@ AuthType Basic
 <LIMIT GET POST>
 Require valid-user
 </LIMIT>
-
+```
 
 Transférer le fichier ".htaccess" dans le répertoire admin de dutaf, ainsi que le fichier "htpasswd".
 
@@ -25,5 +26,6 @@ Pour générer un mot de passe, vous pouvez utiliser ce site web ( http://aspiri
 
 Voici l’empreinte  à ajouter dans votre fichier "htpasswd" pour que l'enseignant puisse accéder à vore back-office :
 
+```
 sgbdr:$apr1$ra/iTYt.$vhTxsDexBSCv7NN2h8ABO.
-
+```
