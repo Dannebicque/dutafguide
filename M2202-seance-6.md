@@ -20,10 +20,26 @@ Voici les étapes que nous allons suivre pour la mise en place de ce panier.
 <a href="ajout_panier.php?id=<?php echo $article_id; ?>">Ajouter au panier</a>
 ```
 
+* Pour récuper les informations dans la page de traitement du produit, on pourrait écrire :
+
+```php
+$numarticle = $_GET['id'];
+
+//Et pour récupérer les informations du produit concerné
+
+$dblink = new PDO('mysql:host=' . BDD_SERVER . ';dbname=' . BDD_DATABASE . '; charset=utf8', BDD_USER, BDD_PASSWORD);
+$requete = 'SELECT * FROM articles WHERE article_id = ' . $numarticle;
+$exearticle = $dblink->query($requete);
+
+$article = $exearticle->fetch(); //récupération du premier (et normalement unique, enregistrement)
+
+```
+
 * On peut considérer le panier comme un tableau où la clé serait l'Id du produit. On peut ensuite sauvegarder l'ensemble des éléments du produit (nom, prix unitaire, quantité), sous un tableau associatif.
 
 ```php
 $panier = array(12 => array('designation' => 'ABC123', 'Prix_u'=> '12,34', 'Quantite' => 3), ...);
+// où 12  représente l'id du produit
 ```
 
 ## Améliorations à apporter.
