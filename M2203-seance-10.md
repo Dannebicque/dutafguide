@@ -1,3 +1,32 @@
 [Retour à l'accueil](README.md)
 
-# M2203 | Séance 10 (TP) | Ajout d’un article
+# M2203 | Séance 10 (TP) | Ajout d’un article (form_new_art.php et valid_new_art.php)
+![GitHub Logo](/planajout.png)
+Mettre en oeuvre la form_new_art.php et la page valid_new_art.php en les créant dans le sous-dossier "admin"
+
+dans le fichier form_new_art.php, bien nommer les différents champs du formulaire comme sur le document ci-dessus.
+
+Passer les champs en GET  ( <form... method='GET' ...)
+
+Vérifier que quand vous valider le formulaire en cliquant sur le bouton que les parametres passent dans l'URL.
+
+Réaliser une liste déroulante pour choissir le fournisseur plutot que de saisir son code.
+
+```
+<select name="four">
+<?php 
+$maconnexion = ... PDO ...
+$req2='SELECT * FROM fournisseurs';
+$result2 = $maconnexion->query($req2);
+ 
+while( $un_four = $resultat2->fetch_array() ) {
+ echo '<option value="'.$un_four['four_id'].'">'.$un_four['four_nom'].'</option>';
+ }
+?>
+</select>
+```
+
+dans le fichier valid_new_art.php récupérer les champs du formulaire (... $designation= $_GET['design'] ...)
+
+dans le fichier valide_new_art.php, préparer la requete SQL nécessaire pour ajouter un article (tester votre requete dans phpMyAdmin avnt de la tester dans le fichier php.
+
