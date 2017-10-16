@@ -19,8 +19,8 @@ $maconnexion = ... PDO ...
 $req2='SELECT * FROM fournisseurs';
 $result2 = $maconnexion->query($req2);
  
-while( $un_four = $resultat2->fetch_array() ) {
- echo '<option value="'.$un_four['four_id'].'">'.$un_four['four_nom'].'</option>';
+while( $un_four = $resultat2->fe.....() ) {
+ echo '<option value="'.$un_four['...._id'].'">'.$un_four['.....nom'].'</option>';
  }
 ?>
 </select>
