@@ -28,5 +28,18 @@ while( $un_four = $resultat2->fe.....() ) {
 
 dans le fichier valid_new_art.php récupérer les champs du formulaire (... $designation= $_GET['design'] ...)
 
-dans le fichier valide_new_art.php, préparer la requete SQL nécessaire pour ajouter un article (tester votre requete dans phpMyAdmin avnt de la tester dans le fichier php.
+dans le fichier valide_new_art.php, préparer la requete SQL nécessaire pour ajouter un article (tester votre requete dans phpMyAdmin avant de la tester dans le fichier php.
+
+```
+<html>
+...
+<?php 
+$maconnexion = ... PDO ...
+$req='INSERT INTO .... VALUES(... $designation ... $prix ...)';
+$maconnexion->query($req);
+?>
+vous venez d'ajouter un article (sans vérification:-) )
+...
+</html>
+```
 
