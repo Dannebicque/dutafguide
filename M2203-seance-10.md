@@ -17,10 +17,10 @@ Réaliser une liste déroulante pour choissir le fournisseur plutot que de saisi
 <?php 
 $maconnexion = ... PDO ...
 $req2='SELECT * FROM fournisseurs';
-$result2 = $maconnexion->query($req2);
+$resultat2 = $maconnexion->query($req2);
  
 while( $un_four = $resultat2->fe.....() ) {
- echo '<option value="'.$un_four['...._id'].'">'.$un_four['.....nom'].'</option>';
+ echo '<option value="'.$un_four['...._id'].'">'.$un_four['...._nom'].'</option>';
  }
 ?>
 </select>
