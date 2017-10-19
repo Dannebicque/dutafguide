@@ -58,7 +58,7 @@ Cette page présente l'organisation globale entre ces deux modules.
 | 15 | TP3 | M2203 | [Administration du back-office](M2203-seance-9.md)  | 9/10/17 |
 | 16 | TP4 | M2203 | [Ajout d'un article](M2203-seance-10.md) | 15/10/17 |
 | 17 | TD4 | M2202 | [Sécurisation du back-office en PHP](M2202-seance-7.md)| 24/10/2017 |
-| 18 | TP4 | M2202 | [Sécurisation du back-office en PHP](M2202-seance-8.md)| |
+| 18 | TP4 | M2202 | [Sécurisation du back-office en PHP](M2202-seance-7.md)| |
 | 19 | TP5 | M2203 | [Suppresion d'un article](M2203-seance-11.md) | |
 | 20 | TD5 | M2202 | [Upload d’image et marquage de l’image](M2202-seance-9.md)| |
 | 21 | TP5 | M2202 | [Upload d’image et marquage de l’image et modification](M2202-seance-10.md)| |
