@@ -57,11 +57,11 @@ Cette page présente l'organisation globale entre ces deux modules.
 | 14 | TP3 | M2202 | [Sessions et panier](M2202-seance-6.md) | |
 | 15 | TP3 | M2203 | [Administration du back-office](M2203-seance-9.md)  | 9/10/17 |
 | 16 | TP4 | M2203 | [Ajout d'un article](M2203-seance-10.md) | 15/10/17 |
-| 17 | TD4 | M2202 | [Upload d’image et marquage de l’image](M2202-seance-7.md)| |
-| 18 | TP4 | M2202 | [Upload d’image et marquage de l’image et modification](M2202-seance-8.md)| |
+| 17 | TD4 | M2202 | [Sécurisation du back-office en PHP](M2202-seance-7.md)| 24/10/2017 |
+| 18 | TP4 | M2202 | [Sécurisation du back-office en PHP](M2202-seance-8.md)| |
 | 19 | TP5 | M2203 | [Suppresion d'un article](M2203-seance-11.md) | |
-| 20 | TD5 | M2202 | [Sécurisation du back-office en PHP](M2202-seance-9.md)| |
-| 21 | TP5 | M2202 | [Sécurisation du back-office en PHP](M2202-seance-10.md)| |
+| 20 | TD5 | M2202 | [Upload d’image et marquage de l’image](M2202-seance-9.md)| |
+| 21 | TP5 | M2202 | [Upload d’image et marquage de l’image et modification](M2202-seance-10.md)| |
 | 22 | TD6 | M2202 | [Export format text/csv](M2202-seance-11.md)| |
 | 23 | TP6 | M2202 | [Export format text/csv](M2202-seance-12.md)| |
 | 24 | TP7 | M2202 | [Finalisation DUTAF](M2202-seance-13.md)| |
