@@ -134,7 +134,7 @@ Pour réaliser cette partie, nous allons une nouvelle fois utiliser les sessions
 Cette table doit contenir, a minima, 3 champs :
 
 * Un ID (utilisateur_id), unique, auto incréménté
-* Un login (utilisateur_login), qui devrait être unique (index) et de type texte.
+* Un login (utilisateur_login), qui devrait être unique (unique) et de type texte.
 * Un mot de passe (utilisateur_mdp), qui sera du texte
 * Tous les champs que vous pourriez trouver utile (mail, nom, ...)
 
