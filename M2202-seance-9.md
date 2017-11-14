@@ -9,7 +9,7 @@ Dans ce TD/TP nous allons nous intéresser à la création et à la manipulation
 Tout cela PHP peut le faire nativement grâce à la librairie GD. Il existe également beaucoup d’autres librairies qui pourraient vous proposer des fonctionnalités plus "simples" ou plus "rapides".
 
 Pour pouvoir manipuler les fichiers, vous devez vous assurer de mettre les droits en écriture et exécution sur votre répertoire. Il faut  ́egalement vérifier que la librairie GD est activée sur votre hébergement. Pour cela il suffit de faire un fichier php avec une commande phpinfo pour vérifier si GD est bien présent.
-Vous trouverez toute la document sur la librairie GD sur le site de PHP.net : http://php.net/manual/fr/book.image.php
+Vous trouverez toute la document sur la librairie GD sur le site de PHP.net : [http://php.net/manual/fr/book.image.php](http://php.net/manual/fr/book.image.php)
 
 ```php
  <?php
@@ -19,7 +19,7 @@ phpinfo();
 
 Si la librairie est activée vous devriez trouver un bloc ressemblant à celui ci-dessous :
 
-IMAGE
+![Librairie GD installée](m2202/gd.PNG)
 
 ## Une histoire de Header
 
@@ -57,7 +57,7 @@ header ("Content-type: image/png"); $image = imagecreate(200,50);
 
 Le positionnement dans une image fonctionne en pixel. L’identification d’un point se fait selon ses coordonnées x et y, notées (x, y). Le point (0, 0) se trouve en haut à gauche. Le schéma ci dessous vous montre comment repérer un rectangle.
 
-IMAGE
+![Repère dans une image](m2202/repere.png)
 
 ## Exercices
 
