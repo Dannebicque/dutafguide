@@ -2,9 +2,9 @@
 
 # M2202 | Séance 10 (TP) | Intégration d'image sur DUTAF
 
-Dans cette partie, vous travaillerez sur DUTAF afin d'intégrer pour les produits, la possibilité d'uploader une image pour chacun des articles.
+Dans cette partie, vous travaillerez sur **DUTAF** afin d'intégrer pour les produits, la possibilité d'uploader une image pour chacun des articles.
 
-Chacune des images comportera un copyrigth automatiquement inscrit lors de l'upload.
+Chacune des images comportera un copyright automatiquement inscrit lors de l'upload.
 
 Cette modification implique :
 
