@@ -66,7 +66,7 @@ Cette page présente l'organisation globale entre ces deux modules.
 | 23 | TP6 | M2202 | [Export format text/csv](M2202-seance-12.md)| |
 | 24 | TP7 | M2202 | [Finalisation DUTAF](M2202-seance-13.md)| |
 | 25 | TP6 | M2203 | [Modification d'un article](M2203-seance-12.md) | 12/12/2017 |
-| 26 | TD7 | M2203 | [Evaluation](M2203-seance-13.md) | |
+| 26 | TD7 | M2203 | [Evaluation](M2203-seance-13.md) | 19/12/2017 |
 | 27 | TD7 | M2202 | [Evaluation](M2202-seance-14.md)| |
 
 
