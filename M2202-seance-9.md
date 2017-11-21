@@ -148,7 +148,7 @@ Nous avons précédemment créé une image à partir de rien. Cette méthode est
 header("Content-type: image/jpeg");
 $image = imagecreatefromjpeg("monimage.jpg"); 
 ?>
-```php
+```
 
 Cette instruction permet de créer une resource image à partir d'une image existante. On peut ensuite la manipuler comme vu précédemment.
 
