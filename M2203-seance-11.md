@@ -3,7 +3,7 @@
 # M2203 | Séance 11 (TP) | Suppression d’un article 
 [Retour à l'accueil](README.md)
 
-![GitHub Logo](/planajout.png)
+![GitHub Logo](/plansup.png)
 Mettre en oeuvre la page valid_sup_art.php en la créant dans le sous-dossier "admin"
 
 Passer le champs numart en GET depuis la page gest_art.php ( <form... method='GET' ...)
