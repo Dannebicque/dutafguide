@@ -6,7 +6,7 @@
 ![GitHub Logo](/plansup.png)
 Mettre en oeuvre la page valid_sup_art.php en la créant dans le sous-dossier "admin"
 
-Passer le champs numart en GET depuis la page gest_art.php ( <form... method='GET' ...)
+Passer le champs numart en GET depuis la page gest_art.php  ( ... form_modif_art.php?numart= ...)
 
 Vérifier que quand vous cliquer sur "supprimer" (dans la page gest_art.php)  que le numero de l'article passent dans l'URL.
 
