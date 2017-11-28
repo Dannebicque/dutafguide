@@ -150,7 +150,7 @@ Cette fonction va transformer le tableau en une ligne de texte, où les élémen
 * Ecrire un fichier php qui permet de générer un fichier txt contenant le texte de votre choix
 
 ### Lire un fichier csv
-* Récupérer le fichier comics.csv
+* Récupérer le fichier [comics.csv](m2202/comics.csv)
 * le mettre dans votre répertoire, vérifier les droits.
 * Ecrire un fichier qui va récupérer et afficher le contenu de ce fichier.
 
