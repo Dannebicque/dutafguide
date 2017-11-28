@@ -141,7 +141,7 @@ Cette fonction va transformer le tableau en une ligne de texte, où les élémen
 
 ### Lire un fichier texte
 
-* Récupérer le fichier exemple.txt
+* Récupérer le fichier [exemple.txt](exemple.txt)
 * le mettre dans votre répertoire, vérifier les droits.
 * Ecrire un fichier qui va récupérer et afficher le contenu de ce fichier.
 
