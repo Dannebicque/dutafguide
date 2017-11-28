@@ -152,7 +152,7 @@ Cette fonction va transformer le tableau en une ligne de texte, où les élémen
 ### Lire un fichier csv
 * Récupérer le fichier [comics.csv](m2202/comics.csv)
 * le mettre dans votre répertoire, vérifier les droits.
-* Ecrire un fichier qui va récupérer et afficher le contenu de ce fichier.
+* Ecrire un fichier qui va récupérer et afficher le contenu de ce fichier, sous forme d'un tableau HTML.
 
 ### Ecrire un fichier csv
 * Ecrire un fichier csv, séparateur ”;” qui va contenir les données d'une table de votre base de données
