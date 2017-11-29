@@ -94,7 +94,6 @@ La manipulation d’un fichier csv est très similaire à un fichier texte, en e
 
 ```php
 <?php
-$ligne = 1; // compteur de ligne
 $fichier = fopen("fichier.csv", "a+"); 
 
 while($ligne=fgetcsv($fichier,1024,';')) {
