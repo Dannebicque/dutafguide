@@ -42,32 +42,19 @@ Cette page présente l'organisation globale entre ces deux modules.
 | Séance | Type  | Module | Objectifs                                         | Date(s) [^1]            |
 | ------ | ----- | ------ | --------------------------------------------------| ----------------------- |
 |    1   | TD1 | M2203 | [Cours sur les BDD et présentation DUTAF](M2203-seance-1.md) | 07/09/17, 8h00 |
-|    2   | TD1 | M2202 | [Révision formulaire, boucles, ...](M2202-seance-1.md)  | 07/09/17, 9h30 |
 |    3   | TD2 | M2203 | [Exercice Stages, Arboretum](M2203-seance-2.md)  | 08/09/17, 8h00 |
 | 4 | TD3 | M2203 | [Exercice court métrage, mediatheque et ASAD](M2203-seance-3.md)  | 11/09/17, 11h00 |
 | 5 | TD4 | M2203 | [Exercice requêtes Chenil](M2203-seance-4.md) | 13/09/17, 8h00 |
 | 6 | TP1 | M2203 | [Analyse DUTAF](M2203-seance-5.md)  | 13 et 14/09/17 |
 | 7 | TP2 | M2203 | [Mise en place structure](M2203-seance-6.md) | 15/09/17 |
-| 8 | TD2 | M2202 | [Accès aux base de données](M2202-seance-2.md) | 18/09/17, 17h00 |
-| 9 | TP1 | M2202 | [Accès aux base de données](M2202-seance-3.md)  | 19/09/17 |
 | 10 | TD5 | M2203 | [Catalogue](M2203-seance-7.md)  | 26/09/17, 8h00 |
 | 11 | TD6 | M2203 | [Recherche petit prix](M2203-seance-8.md) | 27/09/17, 11h00 |
-| 12 | TP2 | M2202 | [Formatage et fonctions pratiques en PHP](M2202-seance-4.md) | 25 et 26/09/2017 |
-| 13 | TD3 | M2202 | [Sessions et panier](M2202-seance-5.md) | 4/10/2017 |
-| 14 | TP3 | M2202 | [Sessions et panier](M2202-seance-6.md) | |
 | 15 | TP3 | M2203 | [Administration du back-office](M2203-seance-9.md)  | 9/10/17 |
 | 16 | TP4 | M2203 | [Ajout d'un article](M2203-seance-10.md) | 15/10/17 |
-| 17 | TD4 | M2202 | [Sécurisation du back-office en PHP](M2202-seance-7.md)| 24/10/2017 |
-| 18 | TP4 | M2202 | [Sécurisation du back-office en PHP](M2202-seance-7.md)| |
 | 19 | TP5 | M2203 | [Suppresion d'un article](M2203-seance-11.md) | 21/11/2017 |
-| 20 | TD5 | M2202 | [Upload d’image et marquage de l’image](M2202-seance-9.md)| |
-| 21 | TP5 | M2202 | [Upload d’image et marquage de l’image et modification](M2202-seance-10.md)| |
-| 22 | TD6 | M2202 | [Export format text/csv](M2202-seance-11.md)| |
-| 23 | TP6 | M2202 | [Export format text/csv](M2202-seance-12.md)| |
-| 24 | TP7 | M2202 | [Finalisation DUTAF](M2202-seance-13.md)| 13/12/2017 |
 | 25 | TP6 | M2203 | [Modification d'un article](M2203-seance-12.md) | 12/12/2017 |
 | 26 | TD7 | M2203 | [Evaluation](M2203-seance-13.md) | 19/12/2017 |
-| 27 | TD7 | M2202 | [Evaluation](M2202-seance-14.md)| 19/12/2017, 8h00 |
+| 27 | TD7 | M202 | [Evaluation](M2202-seance-14.md)| 19/12/2017, 8h00 |
 
 
 [^1]: 2017/2018, A titre indicatif. Vérifier l'emploi du temps
