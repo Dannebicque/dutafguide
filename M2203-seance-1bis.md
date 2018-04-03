@@ -2,5 +2,5 @@
 
 # M2203 | Séance 1bis | Commandes SQL
 
-lien: http://195.83.128.55/~fmeuzeret/vrac/docs/m2203~sgbdr-merise.pdf
+lien: [presentation des commandes SQL](M2203_sql_commandes.pdf)
  
