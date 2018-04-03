@@ -44,7 +44,8 @@ Cette page présente l'organisation globale entre ces deux modules.
 |    1   | CM1 | M2203 | [Cours sur les BDD et présentation DUTAF](M2203-seance-1.md) | mars |
 |    3   | TD1 | M2203 | [Exercice Stages, Arboretum](M2203-seance-2.md)  | mars |
 | 4 | TP1 | M2203 | [Exercice court métrage, mediatheque et ASAD](M2203-seance-3.md)  | mars |
-| 5 | x | M2203 | [Exercice requêtes Chenil](M2203-seance-4.md) | 13/09/17, 8h00 |
+| 5 | TD2 | M2203 | [Presentation SQL](M2203-seance-1bis.md) | avril |
+| 5 | TP2 | M2203 | [Exercice requêtes Chenil](M2203-seance-4.md) | avril |
 | 6 | x | M2203 | [Analyse DUTAF](M2203-seance-5.md)  | 13 et 14/09/17 |
 | 7 | x | M2203 | [Mise en place structure](M2203-seance-6.md) | 15/09/17 |
 | 10 | x | M2203 | [Catalogue](M2203-seance-7.md)  | 26/09/17, 8h00 |
