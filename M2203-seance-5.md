@@ -35,8 +35,21 @@ uniquement les articles correspondants à sa requête.
 2. Récupérez le fichier dutaf.xls contenant les données nécessaires au TD pour les importer dans les
 tables. (attention, n'utilisez pas l'importation automatique ! Passez par des fichiers CSV)
 
-#### mise en place du site
+#### Troisieme exercice : analyse fonctionnelle et mise en place du site 
+Analysez le cahier des charges des fonctions demandées (visu catalogue, formulaire...) et retrouver ces
+fonctionnalités dans l'arborescence proposée.
+Développer l'ensemble des pages en mode statique (mettre quelques exemples sur la page catalogue) 
 analyser l'ensemble des fonctionnalités nécessaires et leur structuration au sein du site.
 ![GitHub Logo](/plan.png)
+
+#### pour chacune des pages, écrire la requete SQL nécessaire à son fonctionnement:
+ catalogue.php :
+budget_art.php :
+gest_art.php :
+form_new_art.php :
+valide_new_art.php :
+valide_sup_art.php :
+form_modif_art.php :
+valide_modif_art.php :
 
 lien: http://195.83.128.55/~fmeuzeret/vrac/docs/m2203~tp1dutaf.pdf
