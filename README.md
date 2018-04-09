@@ -46,8 +46,8 @@ Cette page présente l'organisation globale entre ces deux modules.
 | 4 | TP1 | M2203 | [Exercice court métrage, mediatheque et ASAD](M2203-seance-3.md)  | mars |
 | 5 | TD2 | M2203 | [Presentation SQL](M2203-seance-1bis.md) | avril |
 | 5 | TP2 | M2203 | [Exercice requêtes Chenil](M2203-seance-4.md) | avril |
-| 6 | x | M2203 | [Analyse DUTAF](M2203-seance-5.md)  | x |
-| 7 | x | M2203 | [Mise en place structure](M2203-seance-6.md) | x |
+| 6 | TD3 | M2203 | [Analyse DUTAF et mise en oeuvre de la Bd](M2203-seance-5.md)  | avril |
+| 7 | TP3 | M2203 | [Finalisation du TD3](M2203-seance-5.md) | avril |
 | 10 | x | M2203 | [Catalogue](M2203-seance-7.md)  | x |
 | 11 | x | M2203 | [Recherche petit prix](M2203-seance-8.md) | 2x |
 | 15 | x | M2203 | [Administration du back-office](M2203-seance-9.md)  | x |
