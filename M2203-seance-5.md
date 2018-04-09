@@ -1,7 +1,7 @@
 [Retour à l'accueil](README.md)
 
 # M2203 | TD2 | Analyse DUTAF et Mise en place de la Bd
-![GitHub Logo](/plan.png)
+
 
 #### Objectif :
 Mettre en œuvre une Solution PHP/MySQL pour répondre à un problème de gestion de base de données.
@@ -35,7 +35,8 @@ uniquement les articles correspondants à sa requête.
 2. Récupérez le fichier dutaf.xls contenant les données nécessaires au TD pour les importer dans les
 tables. (attention, n'utilisez pas l'importation automatique ! Passez par des fichiers CSV)
 
-#### complement: mise en place du site
+#### mise en place du site
 analyser l'ensemble des fonctionnalités nécessaires et leur structuration au sein du site.
+![GitHub Logo](/plan.png)
 
 lien: http://195.83.128.55/~fmeuzeret/vrac/docs/m2203~tp1dutaf.pdf
