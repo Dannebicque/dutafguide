@@ -40,6 +40,20 @@ uniquement les articles correspondants à sa requête.
 2. Récupérez le fichier [dutaf.xls](dutaf.xls) contenant les données nécessaires au TD pour les importer dans les
 tables. (attention, n'utilisez pas l'importation automatique ! Passez par des fichiers CSV)
 
+#### complément:
+Tester les requetes suivantes:
+1. Afficher la liste des artcles (désignaton, prix de vente).
+2. Afcher la liste des artcles de moins de 50 Euros.
+3. Afcher la liste complète des artcles avec à chaque fois la provenance (le fournisseur).
+4. Supprimer l’artcle numéro 12.
+5. Augmenter tous les prix de vente de 4%.
+6. Retrouver les prix d’origine.
+7. Afcher la descripton et le prix de l’artcle le moins cher.
+8. Afcher la descripton et le prix de l'artcle le plus cher.
+9. De la même façon, afcher le prix moyen des artcles.
+10. Afcher le prix moyen des artcles pour chacun des fournisseurs.
+11. Compter les artcles pour chacun des fournisseurs.
+
 #### Troisieme exercice : analyse fonctionnelle et mise en place du site 
 Analysez le cahier des charges des fonctions demandées (visu catalogue, formulaire...) et retrouver ces
 fonctionnalités dans l'arborescence proposée.
