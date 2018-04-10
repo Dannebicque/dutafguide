@@ -37,7 +37,7 @@ uniquement les articles correspondants à sa requête.
 
 #### Deuxième exercice : mise en œuvre de la base de données sous mySQL
 1. En vous basant sur l'analyse, créez les tables dans PhpMyAdmin.
-2. Récupérez le fichier dutaf.xls contenant les données nécessaires au TD pour les importer dans les
+2. Récupérez le fichier [dutaf.xls](dutaf.xls) contenant les données nécessaires au TD pour les importer dans les
 tables. (attention, n'utilisez pas l'importation automatique ! Passez par des fichiers CSV)
 
 #### Troisieme exercice : analyse fonctionnelle et mise en place du site 
