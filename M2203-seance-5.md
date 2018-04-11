@@ -61,7 +61,7 @@ Développer l'ensemble des pages en mode statique (mettre quelques exemples sur
 analyser l'ensemble des fonctionnalités nécessaires et leur structuration au sein du site.
 ![GitHub Logo](/plan.png)
 
-#### pour chacune des pages, siter la requete SQL nécessaire à son fonctionnement:
+#### pour chacune des pages, citer la requete SQL nécessaire à son fonctionnement:
 catalogue.php :
 budget_art.php :
 gest_art.php :
