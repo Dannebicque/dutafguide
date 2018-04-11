@@ -42,17 +42,17 @@ tables. (attention, n'utilisez pas l'importation automatique ! Passez par des fi
 
 #### complément:
 Tester les requetes suivantes:
-1. Afficher la liste des artcles (désignaton, prix de vente).
-2. Afcher la liste des artcles de moins de 50 Euros.
-3. Afcher la liste complète des artcles avec à chaque fois la provenance (le fournisseur).
-4. Supprimer l’artcle numéro 12.
+1. Afficher la liste des articles (désignation, prix de vente).
+2. Afficher la liste des articles de moins de 50 Euros.
+3. Afficher la liste complète des artcles avec à chaque fois la provenance (le fournisseur).
+4. Supprimer l’article numéro 12.
 5. Augmenter tous les prix de vente de 4%.
 6. Retrouver les prix d’origine.
-7. Afcher la descripton et le prix de l’artcle le moins cher.
-8. Afcher la descripton et le prix de l'artcle le plus cher.
-9. De la même façon, afcher le prix moyen des artcles.
-10. Afcher le prix moyen des artcles pour chacun des fournisseurs.
-11. Compter les artcles pour chacun des fournisseurs.
+7. Afficher la description et le prix de l’article le moins cher.
+8. Afficher la description et le prix de l'article le plus cher.
+9. De la même façon, afficher le prix moyen des articles.
+10. Afficher le prix moyen des articles pour chacun des fournisseurs.
+11. Compter les articles pour chacun des fournisseurs.
 
 #### Troisieme exercice : analyse fonctionnelle et mise en place du site 
 Analysez le cahier des charges des fonctions demandées (visu catalogue, formulaire...) et retrouver ces
