@@ -42,7 +42,7 @@ tables. (attention, n'utilisez pas l'importation automatique ! Passez par des fi
 
 #### complément:
 Tester les requetes suivantes:
-1. Afficher la liste des articles (désignation, prix de vente).
+1. Afficher la liste des articles (description, prix de vente) par ordre décroissant du prix .
 2. Afficher la liste des articles de moins de 50 Euros.
 3. Afficher la liste complète des artcles avec à chaque fois la provenance (le fournisseur).
 4. Supprimer l’article numéro 12.
@@ -63,12 +63,19 @@ analyser l'ensemble des fonctionnalités nécessaires et leur structuration au s
 
 #### pour chacune des pages, citer la requete SQL nécessaire à son fonctionnement:
 catalogue.php :
+
 budget_art.php :
+
 gest_art.php :
+
 form_new_art.php :
+
 valide_new_art.php :
+
 valide_sup_art.php :
+
 form_modif_art.php :
+
 valide_modif_art.php :
 
 #### creation de l'infrastructure
