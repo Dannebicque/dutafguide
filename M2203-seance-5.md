@@ -61,8 +61,8 @@ Développer l'ensemble des pages en mode statique (mettre quelques exemples sur
 analyser l'ensemble des fonctionnalités nécessaires et leur structuration au sein du site.
 ![GitHub Logo](/plan.png)
 
-#### pour chacune des pages, écrire la requete SQL nécessaire à son fonctionnement:
- catalogue.php :
+#### pour chacune des pages, siter la requete SQL nécessaire à son fonctionnement:
+catalogue.php :
 budget_art.php :
 gest_art.php :
 form_new_art.php :
@@ -71,4 +71,8 @@ valide_sup_art.php :
 form_modif_art.php :
 valide_modif_art.php :
 
+#### creation de l'infrastructure
+développer l'ensemble des pages en mode statique (mettre quelques exemples sur la page catalogue)
+
+#### (ancien document)
 lien: http://195.83.128.55/~fmeuzeret/vrac/docs/m2203~tp1dutaf.pdf
