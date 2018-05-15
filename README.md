@@ -48,14 +48,13 @@ Cette page présente l'organisation globale entre ces deux modules.
 | 5 | TP2 | M2203 | [Exercice requêtes Chenil](M2203-seance-4.md) | avril |
 | 6 | TD3 | M2203 | [Analyse DUTAF et mise en oeuvre de la Bd](M2203-seance-5.md)  | avril |
 | 7 | TP3 | M2203 | [Finalisation du TD3](M2203-seance-5.md) | avril |
-| 10 | x | M2203 | [Catalogue](M2203-seance-7.md)  | x |
-| 11 | x | M2203 | [Recherche petit prix](M2203-seance-8.md) | 2x |
-| 15 | x | M2203 | [Administration du back-office](M2203-seance-9.md)  | x |
-| 16 | x | M2203 | [Ajout d'un article](M2203-seance-10.md) | x |
-| 19 | x | M2203 | [Suppresion d'un article](M2203-seance-11.md) | x |
-| 25 | x | M2203 | [Modification d'un article](M2203-seance-12.md) | x |
-| 26 | x | M2203 | [Evaluation](M2203-seance-13.md) | x |
-| 27 | x | M202 | [Evaluation](M2202-seance-14.md)| x |
+| 10 | x | M2203 | [Catalogue](M2203-seance-7.md)  | avril |
+| 11 | x | M2203 | [Recherche petit prix](M2203-seance-8.md) | 9 mai |
+| 15 | x | M2203 | [Administration du back-office](M2203-seance-9.md)  | 15 mai |
+| 16 | x | M2203 | [Ajout d'un article](M2203-seance-10.md) | 16 mai |
+| 19 | x | M2203 | [Suppresion d'un article](M2203-seance-11.md) | 22 mai |
+| 25 | x | M2203 | [Modification d'un article](M2203-seance-12.md) | 31 mai |
+| 26 | x | M2203 | [Evaluation](M2203-seance-13.md) | 4 juin |
 
 
 [^1]: 2017/2018, A titre indicatif. Vérifier l'emploi du temps
