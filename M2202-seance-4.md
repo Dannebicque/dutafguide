@@ -1,55 +1,113 @@
 [Retour à l'accueil](README.md)
 
-# M2202 | Séance 4 (TP) | Formatage et fonctions pratiques en PHP
+# M2202 | Séance 4 | Sessions et panier
 
-PHP propose de nombreuses fonctions qui permettent d'effectuer des tâches récurrentes dans la mise en forme de donnes. On trouve par exemple des fonctions capables de transformer des minuscules en majuscules et réciproquement, de formatter des nombres ou encore manipuler des dates.
+## Rappels sur les variables 'superglobale', ou variable globale automatique
 
-Il existe de très nombreuses fonctions que vous pouvez retrouver sur la [documentation officielle de PHP](https://php.net)
+Ces variables sont automatiquement générées par le script si cela est nécessaire. Ces variables sont accessibles partout dans le code.
 
-## Manipulation des textes
+Vous connaissez et utilisez déjà ces variables avec les formulaires : `$_POST` et `$_GET`. Ces deux variables sont des tableaux associatifs permettant, respectivement, de récupérer des données envoyées par le client en POST ou en GET.
 
-* strtolower($chaine) : [http://php.net/manual/fr/function.strtolower.php](http://php.net/manual/fr/function.strtolower.php). Permet de convertir $chaine en minusucule.
-* strtoupper($chaine) : [http://php.net/manual/fr/function.strtoupper.php](http://php.net/manual/fr/function.strtoupper.php). Permet de convertir $chaine en majuscule
-* strlen($chaine) : [http://php.net/manual/fr/function.strlen.php](http://php.net/manual/fr/function.strlen.php). Permet de connaître la longueur de $chaine
+Il existe bien d'autres variables de ce type :
 
+* `$_SERVER` : ce sont des valeurs renvoyées par le serveur (IP, ...)
+* `$_SESSION` : on y retrouve les variables de session. Ce sont des variables qui restent stockées sur le serveur le temps de la présence d'un visiteur.
+* `$_COOKIE` : contient les valeurs des cookies enregistrés sur l'ordinateur du visiteur. Cela nous permet de stocker des informations sur l'ordinateur du visiteur pendant plusieurs mois, pour se souvenir de son nom par exemple
+* `$_FILES` : elle contient la liste des fichiers qui ont été envoyés via le formulaire précédent
 
-## Manipulation des nombres
+## les Sessions
 
-* number_format($nombre) : [http://php.net/manual/fr/function.number-format.php](http://php.net/manual/fr/function.number-format.php). Permet de formatter $nombre (nombre de chiffre après la virgule, séparateur de millier, de décimal, ...)
+### Principe
 
+Les sessions constituent un moyen de conserver des variables sur toutes les pages de votre site. Jusqu'ici, nous étions parvenus à passer des variables de page en page via la méthode GET (en modifiant l'URL : `page.php?variable=valeur`) et via la méthode POST (à l'aide d'un formulaire).
 
+Cette solution n'est pas très pratique et assez peu sécurisée. Comment faire, par exemple, si vous souhaitez mémoriser le fait qu'un utilisateur soit connecté/identifié ?
 
-## Manipulation des dates
+### Fonctionnement
 
-Il est d'usage en informatique de manipuler le $timestamp. Le timestamp (unix) désigne le nombre de secondes écoulées depuis le 1er janvier 1970 à minuit UTC précise. Utiliser un timestamp est plus simple que de manipuler une date formattée, notamment pour effectuer des opérations (différence entre deux dates).
+L'utilisation des sessions se déroule en 3 grandes étapes :
 
-* date(-format-, $timestamp) : [http://php.net/manual/fr/function.date.php](http://php.net/manual/fr/function.date.php). Permet de formater une date. Si on ne précise pas de valeur de date (le second argument $timestamp), alors le résultat sera la date du jour formattée. 
+1. Un visiteur arrive sur votre site. On demande à créer une session pour lui. PHP génère alors un numéro unique. Ce numéro est souvent très grand et écrit en hexadécimal, par exemple : a02bbffc6198e6e0cc2715047bc3766f.
+2. Une fois la session générée, on peut créer une infinité de variables de session pour nos besoins. Par exemple, on peut créer une variable `$_SESSION['nom']`. Le serveur conserve ces variables même lorsque la page PHP a fini d'être générée. Cela veut dire que, quelle que soit la page de votre site, les variables sont connus.
+3. Lorsque le visiteur se déconnecte de votre site, la session est fermée et PHP "oublie" alors toutes les variables de session que vous avez créées.
 
-* strtotime() : [http://php.net/manual/fr/function.strtotime.php](http://php.net/manual/fr/function.strtotime.php).
+Le numéro de session généré, qui sert d'identifiant et est appelé  "ID de session" (ou PHPSESSID). PHP transmet automatiquement cet ID de page en page en utilisant généralement un cookie stocké sur l'ordinateur du visiteur.
 
-````php
-// La variable $today sera égale au timestamp d'aujourd'hui 0h00
-$today = strtotime ('today');
-// La variable $tomorrow sera égale au timestamp de demain 19h00
-$tomorrow = strtotime ('tomorrow 19:00');
-// La variable $special sera égale au timestamp du {{date-|1 janvier 1970}} plus deux jours et trois heures
-$special = strtotime ('01/01/1970 +2 days +3 hours');
-````
+Il est en fait diffcile de savoir précisément quand un visiteur quitte votre site. En effet, lorsqu'il ferme son navigateur ou va sur un autre site, le vôtre n'en est pas informé. Soit le visiteur clique sur un bouton "Déconnexion" (que vous aurez créé) avant de s'en aller, soit on attend quelques minutes d'inactivité pour le déconnecter automatiquement : on parle alors de timeout. Le plus souvent, le visiteur est déconnecté par un timeout.
 
-## Exercices
+En fait derrière ce fonctionnement, qui peut sembler complexe, la manipulation en PHP des sessions est très simple. Il n'y a que 3 choses à savoir :
 
-### Tests
+* `session_start()` : pour démarrer le système de session. Si aucune session existe alors elle est créée, sinon la session existante est récupérée. Cette instruction doit être présente au début de chaque page utilisant les sessions.
+* `session_destroy()` : pour "détruire", fermer la session d'un utilisateur. Par exemple si l'utilisateur clique sur un bouton déconnexion.
+* Manipuler les tableaux associatifs ! (mais ca c'est du S1)
 
-* Tester chacune des fonctions décrites sur des exemples de votre choix. Faire valider l'exercice.
+**Attention au piège !**
+Il faut appeler `session_start()` sur chacune de vos pages **AVANT** d'écrire le moindre code HTML (avant même la balise <!DOCTYPE>). Si vous oubliez de lancer `session_start()`, vous ne pourrez pas accéder aux variables superglobales `$_SESSION`.
 
-* Manipulation de dates: 
+Ci-dessous un exemple complet d'utilisation de session.
 
-  * Afficher la date au format français ainsi que l'heure avec les minutes et les secondes, exemple: Nous sommes le 25/09/2017, Il est 07:52:05.
-  * Afficher le timestamp de votre date de naissance, exemple : je suis né(e) le 12/10/1990, soit 660783600
-  * Ecrire une fonction qui permet d'afficher la date au format français : Exemple : Nous sommes le lundi 25 septembre 2017.
+Première page (on pourrait imaginer un formulaire de connexion qui récupère les données.)
 
+```php
+<?php
+// On demarre la session AVANT d'ecrire du code HTML
+session_start ();
 
-### DUTAF
+// On ajoute quelques variables de session dans $_SESSION
+$_SESSION ['prenom '] = 'Jean ';
+$_SESSION ['nom '] = 'Dupont ';
+$_SESSION ['age '] = 24;
+?>
+<!DOCTYPE html >
+<html > 
+...
+<body >
+<p>
+Salut <?php echo $_SESSION['prenom']; ?> ! <br />
+Tu es sur l'accueil de mon site (index.php ). Tu veux aller sur une autre page ?</p>
+<a href="page2.php">Aller sur une autre page</a>
+</body>
+</html>
+```
+ > Remarque : On peut créer/modifier les variables de session n'importe où dans le code. La seule chose qui importe, c'est que le `session_start()` soit fait au tout début de la page.
+ 
+ Une autre page utilisant la session précédemment créée :
+ 
+ ```php
+ <?php
+ session_start (); // On demarre la session AVANT toute chose
+ ?>
+ <! DOCTYPE html>
+ <html>
+ ...
+ <body>
+ 
+ <p>Re - bonjour ! </p>
+ <p>
+ Je me souviens de toi ! Tu t'appelles <?php echo $_SESSION['prenom'] .' ' . $_SESSION['nom']; ?> ! <br />
+ Et tu as <?php echo $_SESSION['age ']; ?> ans.
+ </p>
+ </body >
+ </html >
+ ```
+ 
+### Cas d'utilisation des sessions
+ 
+ Concrètement, les sessions peuvent servir dans de nombreux cas sur votre site (et pas seulement pour retenir un nom et un prénom !). Voici quelques exemples :
+ 
+ * Imaginez un script qui demande un login et un mot de passe pour qu'un visiteur puisse se connecter (s'authentifier). On peut enregistrer ces informations dans des variables de session et se souvenir de l'identifiant du visiteur sur toutes les pages du site !
+ * On peut restreindre l'accès à certaines pages en fonction de l'utilisateur connecté
+ * On peut sauvegarder un panier sur un site e-commerce
+ * On peut se souvenir de la langue choisie pour afficher un site
+ * ...
+ 
+ ## Exercice 
+ 
+Ecrire 3 pages php (*index.php*, *page1.php* et *page2.php*) Sur la page index.php faite un formulaire avec deux champs (nom, ville), et sauvegarder ces champs dans une session (on utilisera le fichier index.php pour le traitement également. Sur cette page *index.php*, vous mettrez deux liens pour accéder aux deux autres pages. Sur chacune de ces deux pages vous afficherez les informations de la session.
 
-* Intégrer au moins une fonction de formattage de nombre dans votre catalogue DUTAF
-* Intégrer au moins une fonction de formattage de texte dans votre catalogue DUTAF
+## Solutions
+
+* [index.php](m2202/td3/index.php)
+* [page1.php](m2202/td3/page1.php)
+* [page2.php](m2202/td3/page2.php)
+* [logout.php](m2202/td3/logout.php)

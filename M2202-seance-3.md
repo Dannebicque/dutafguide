@@ -1,64 +1,56 @@
 [Retour à l'accueil](README.md)
 
-# M2202 | Séance 3 (TP) | Accès aux base de données
+# M2202 | Séance 3 | Formatage et fonctions pratiques en PHP
 
-## Execution de requètes "complexes"
+PHP propose de nombreuses fonctions qui permettent d'effectuer des tâches récurrentes dans la mise en forme de donnes. On trouve par exemple des fonctions capables de transformer des minuscules en majuscules et réciproquement, de formatter des nombres ou encore manipuler des dates.
 
-On souhaite filtrer la liste des comics en fonction du prix.
+Il existe de très nombreuses fonctions que vous pouvez retrouver sur la [documentation officielle de PHP](https://php.net)
 
-1. Ecrire la requête qui permet d'obtenir tous les comics dont le prix est inférieur à 17 €. Tester cette requête dans PhpMyAdmin
-2. Créer une page qui va afficher le résultat de cette requête. On pourra fortement s'inspirer de la page catalogue du TD2.
+## Manipulation des textes
 
-##  Insérer des données dans une table
+* strtolower($chaine) : [http://php.net/manual/fr/function.strtolower.php](http://php.net/manual/fr/function.strtolower.php). Permet de convertir $chaine en minusucule.
+* strtoupper($chaine) : [http://php.net/manual/fr/function.strtoupper.php](http://php.net/manual/fr/function.strtoupper.php). Permet de convertir $chaine en majuscule
+* strlen($chaine) : [http://php.net/manual/fr/function.strlen.php](http://php.net/manual/fr/function.strlen.php). Permet de connaître la longueur de $chaine
 
-L'insertion de données dans une table passe par une requête SQL de type :
 
-    INSERT INTO table (liste des champs) VALUES (valeur des champs)
-    
-    
-**L'ordre des champs doit être le même que l'ordre des valeurs**. On ne précise pas les champs de type auto incrémenté, car ils sont gérés automatiquement par la base de données.
+## Manipulation des nombres
 
-### Exercice
+* number_format($nombre) : [http://php.net/manual/fr/function.number-format.php](http://php.net/manual/fr/function.number-format.php). Permet de formatter $nombre (nombre de chiffre après la virgule, séparateur de millier, de décimal, ...)
 
-Ecire une requête qui va venir ajouter une donnée dans la table comics.
 
-Le code pourrait ressembler à :
 
- ````php
- <?php
- include('config.inc.php');
- $bdd = new PDO('mysql:host='.BDD_SERVEUR.';dbname='.BDD_BDD.';charset=utf8', BDD_USER, BDD_PASS);
- 
- $req = 'INSERT INTO (titre, collection, nbpages, prix) VALUES ("Titre de test", "Collection de test", "12", "33.45")';
- $exe = $bdd->query($req);
- ````
- 
- Comme pour une requête SELECT, on procéde de manière identique
- 
- 1. Import des paramêtres de connexion,
- 2. Connexion à la base de données
- 3. Préparation de la requête dans une variable ($req)
- 4. Execution de la requête.
- 
- L'execution vient ajouter les éléments dans la base de données.
- 
- Cet exemple va ajouter une ligne contenant les données écrites dans la requête. Si on execute plusieurs fois ce script, on va obtenir plusieurs lignes identiques car les données sont définies et non dynamiques.
- 
-Afin de rendre cette requête dynamique les valeurs des champs proviennent généralement d'éléments issus de l’utilisateur (remplissant d'un formulaire, choix d'article dans un panier, ...), ou de données calculées par le site web (nombre de clics par exemple).
+## Manipulation des dates
 
-Il faut donc pouvoir construire une requête qui va comporter des variables PHP comme valeur. Cela se fait très classiquement puisque la requête est en fait une chîne de caractère. Il faut donc concaténer les variables PHP aureste de la chaîne, comme dans l’exemple ci-dessous :
+Il est d'usage en informatique de manipuler le $timestamp. Le timestamp (unix) désigne le nombre de secondes écoulées depuis le 1er janvier 1970 à minuit UTC précise. Utiliser un timestamp est plus simple que de manipuler une date formattée, notamment pour effectuer des opérations (différence entre deux dates).
+
+* date(-format-, $timestamp) : [http://php.net/manual/fr/function.date.php](http://php.net/manual/fr/function.date.php). Permet de formater une date. Si on ne précise pas de valeur de date (le second argument $timestamp), alors le résultat sera la date du jour formattée. 
+
+* strtotime() : [http://php.net/manual/fr/function.strtotime.php](http://php.net/manual/fr/function.strtotime.php).
 
 ````php
-<?php
-$req = 'INSERT INTO table (nom_champ1, nom_champ2) VALUES ("'.$champ1.'","'.$_GET['champ2'].'")';
+// La variable $today sera égale au timestamp d'aujourd'hui 0h00
+$today = strtotime ('today');
+// La variable $tomorrow sera égale au timestamp de demain 19h00
+$tomorrow = strtotime ('tomorrow 19:00');
+// La variable $special sera égale au timestamp du {{date-|1 janvier 1970}} plus deux jours et trois heures
+$special = strtotime ('01/01/1970 +2 days +3 hours');
 ````
 
-Il faut noter dans cette expression le fait que les valeurs soient encadrées par des " ", ceci est obligatoire dans le cas de champs texte. Ne pas les mettre provoque une erreur. Pour des raisons pratiques d'écriture on utilisera toujours les simples quotes ' ', pour encadrer cette chaîne. L'exécution de cette requête est effectuée avec la méthode query comme précédemment.
+## Exercices
 
-On prend le soin de stocker le résultat de l’exécution dans une variable afin de pouvoir contrôler la bonne exécution de la requête.
+### Tests
 
-### Exercices
+* Tester chacune des fonctions décrites sur des exemples de votre choix. Faire valider l'exercice.
 
-1. Tester une requête d’insert pour la table comics
-2. Ecrire un formulaire qui permet la saisie des données
-3. Ecrire la page de traitement qui permette l’insertion des données du formulaire dans la base de données.
+* Manipulation de dates: 
+
+  * Afficher la date au format français ainsi que l'heure avec les minutes et les secondes, exemple: Nous sommes le 25/09/2017, Il est 07:52:05.
+  * Afficher le timestamp de votre date de naissance, exemple : je suis né(e) le 12/10/1990, soit 660783600
+  * Ecrire une fonction qui permet d'afficher la date au format français : Exemple : Nous sommes le lundi 25 septembre 2017.
+
+
+### DUTAF
+
+* Intégrer au moins une fonction de formattage de nombre dans votre catalogue DUTAF
+* Intégrer au moins une fonction de formattage de texte dans votre catalogue DUTAF
+* Intégrer au moins une fonction de formattage de date dans votre catalogue DUTAF

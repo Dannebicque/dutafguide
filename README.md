@@ -38,6 +38,7 @@ DUTAF est exploité sur les deux modules M2202 (Algorithmique et PHP) et M2203 (
 
 Cette page présente l'organisation globale entre ces deux modules.
 
+### M2203 (Base de données)
 
 | Séance | Type  | Module | Objectifs                                         | Date(s) [^1]            |
 | ------ | ----- | ------ | --------------------------------------------------| ----------------------- |
@@ -59,21 +60,32 @@ Cette page présente l'organisation globale entre ces deux modules.
 
 [^1]: 2017/2018, A titre indicatif. Vérifier l'emploi du temps
 
+### M2202 (PHP)
+
+| Séance | Type  | Module | Objectifs                                         | Date(s)           |
+| ------ | ----- | ------ | --------------------------------------------------| ----------------------- |
+|    1   | TD | M2202 | [Révisions](M2202-seance-1.md) | 5/11/2018 |
+|    2   | TP | M2202 | [Révisions BDD](M2202-seance-2.md)  | 5/11/2018 |
+| 3 | TD | M2202 | [Formatage et fonctions pratiques en PHP](M2202-seance-3.md)  | 12/11/2018 |
+| 4 | TP | M2202 | [Sessions et panier](M2202-seance-4.md) | 12/11/2018 |
+| 5 | TD | M2202 | [Sessions et panier](M2202-seance-5.md) | 19/11/2018 |
+| 6 | TP | M2202 | [Sécurisation du back-office en PHP](M2202-seance-6.md)  | 21/11/2018 |
+| 7 | TD | M2202 | [Sécurisation du back-office en PHP](M2202-seance-7.md) | 27/11/2018 |
+| 8 | TP | M2202 | [Manipulation d'images](M2202-seance-8.md)  | 28/11/2018 |
+| 9 | TD | M2202 | [Manipulation d'images](M2202-seance-9.md) | 3/12/2018 |
+| 10 | TP | M2202 | [Export format text/csv](M2202-seance-10.md)  | 3/12/2018 |
+| 11 | TD | M2202 | [Export format text/csv](M2202-seance-11.md) | 12/12/2018 |
+| 12 | TP | M2202 | [Finalisation](M2202-seance-12.md) | 12/12/2018 |
+| 13 | TP | M2202 | [TP Noté](M2202-seance-12.md) | 18/12/2018 |
+| 14 | TD | M2202 | [Evaluation](M2202-seance-14.md) | 19/12/2018 |
+
 ## Notations
 
-Plusieurs étapes intermédiaires feront l’objet d’une vérification afin de voir votre avancée. Vous veillerez à les respecter. Le respect de ces échéances entrera en compte dans la notation finale de DUTAF.
 
-L’ensemble des points qui seront évalués sont indiqués dans le document. Ces différentes étapes composeront la note du module M2202 (PHP et algorithmique) et la note du module M2203 (Base de données). Chaque point est évalué selon la notation sur 3 points :
-
-* 0 : rien n’est fait
-* 1 : des éléments présents, mais non fonctionnel, ne respecte pas les consignes
-* 2 : les consignes sont respectées
-* 3 : les consignes sont respectées, mais vous avez apporté des éléments de personnalisation ou des fonctionnalités supplémentaires.
-
-Si vous respectez l’ensemble de ces éléments vous obtiendrez donc une notation de ⅔ pour chacun des critères. Vous devez montrer votre capacité à aller plus loin que la consigne (mise en page de qualité, utilisation de fonctionnalités spécifiques, respect de l’ergonomie, …) afin d’obtenir l’ensemble des points sur chacun des critères.
 
 ## Contacts
 
 David Annebicque (M2202) : david.annebicque [@] univ-reims.fr,  @DavidAnnebicque
+Brahim Boudiaf (M2202) : brahim.boudiaf [@] univ-reims.fr
 
 Fabrice Meuzeret (M2203) : fabrice.meuzeret [@] univ-reims.fr

@@ -4,7 +4,18 @@
 
 ## Support de cours
 
-[Support de cours](m2202-td1.pdf)
+### Objectifs du module :
+* Comprendre le fonctionnement d’un site internet dynamique 
+* Comprendre les échanges clients-serveurs
+* Écrire ses premières pages dynamiques
+* Comprendre les concepts de boucles, tests conditionnels et fonctions
+
+### Organisation du module
+* 7 TD
+* 7 TP
+* 1 évaluation écrite (dernier TD) 
+* 1 évaluations de TP
+* Note DUTAF avec les améliorations mises en place dans ce module
 
 ## Rappels
 

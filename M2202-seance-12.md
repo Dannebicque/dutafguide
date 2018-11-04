@@ -1,11 +1,15 @@
 [Retour à l'accueil](README.md)
 
-# M2202 | Séance 12 (TP) | Export format text/csv
+# M2202 | Séance 12 | Finalisation DUTAF
 
-Dans cette partie, vous allez intégrer un export des produits dans l'administration de votre projet **DUTAF**.
+## S'assurer du bon fonctionnement de DUTAF
 
-Pour cela vous proposerez donc les modifications suivantes :
+### Pour le module M2202
+* Sécurisation de l'Administration avec un vrai formulaire de login (supprimer le htaccess une fois ce formulaire opérationnel)
+* Export CSV des données du catalogue
+* Upload d'image pour un produit, avec un marquage sur les images
+* Gestion d'un panier pour les produits
 
-* Intégrer un lien dans la partie "gestion des articles".
-* Permettre un export avec séparateur ";"
-* L'export contiendra toutes les informations d'un article, ainsi que le fournisseur associé.
+Chaque partie est sur 5 points.
+
+**VOUS DEVEZ ENVOYER UN LOGIN ET UN MOT DE PASSE à david.annebicque@univ-reims.fr ET fabrice.meuzeret@univ-reims.fr**
