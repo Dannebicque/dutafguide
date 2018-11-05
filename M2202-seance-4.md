@@ -104,10 +104,3 @@ Tu es sur l'accueil de mon site (index.php ). Tu veux aller sur une autre page ?
  ## Exercice 
  
 Ecrire 3 pages php (*index.php*, *page1.php* et *page2.php*) Sur la page index.php faite un formulaire avec deux champs (nom, ville), et sauvegarder ces champs dans une session (on utilisera le fichier index.php pour le traitement également. Sur cette page *index.php*, vous mettrez deux liens pour accéder aux deux autres pages. Sur chacune de ces deux pages vous afficherez les informations de la session.
-
-## Solutions
-
-* [index.php](m2202/td3/index.php)
-* [page1.php](m2202/td3/page1.php)
-* [page2.php](m2202/td3/page2.php)
-* [logout.php](m2202/td3/logout.php)
