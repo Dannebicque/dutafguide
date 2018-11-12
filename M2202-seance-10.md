@@ -157,3 +157,28 @@ Cette fonction va transformer le tableau en une ligne de texte, où les élémen
 * Ecrire un fichier csv, séparateur ”;” qui va contenir les données d'une table de votre base de données
 * Tester le fichier généré dans un tableur.
 
+## Forcer le téléchargement
+
+Avec les méthodes précédentes, le fichier est créé, mais disponible uniquement sur le serveur. Il faut créer un lien (<a></a>) pour permettre à l'utilisateur de le télécharger. Cela peut être le comportement souhaité.
+
+Cependant on pourrait aussi souhaité que le fichier se télécharge automatiquement. Pour cela, il faut envoyer au navigateur un "header" qui l'informe que l'on souhaite télécharger un fichier.
+
+**Le Header doit être la seule et uniquement chose envoyée au navigateur. S'il y a un autre header ou du texte envoyé avant, alors le contenu sera considéré comme du HTML et vous ne pourrez pas télécharger votre fichier**
+
+a envoyé une fois le fichier créé pourrait donc être :
+
+````
+header('Content-Type: application/octet-stream');
+header('Content-disposition: attachment; filename='. $nom);
+header('Pragma: no-cache');
+header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
+header('Expires: 0');
+readfile($nom);
+exit();
+````
+
+* La première ligne permet de dire qu'on envoie un fichier (sans préciser son type, on pourrait le faire)
+* La deuxième ligne précise le nom du fichier (peut être différent du nom réel)
+* Les lignes 3,4 et 5 permettent de gérer le cache
+* La ligne 6 permet d'associer le fichier existant sur le serveur en indiquant son **chemin relatif** à la page
+* La ligne 7 termine l'envoi du header.
