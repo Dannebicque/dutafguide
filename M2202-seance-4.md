@@ -51,12 +51,12 @@ Première page (on pourrait imaginer un formulaire de connexion qui récupère l
 ```php
 <?php
 // On demarre la session AVANT d'ecrire du code HTML
-session_start ();
+session_start();
 
 // On ajoute quelques variables de session dans $_SESSION
-$_SESSION ['prenom '] = 'Jean ';
-$_SESSION ['nom '] = 'Dupont ';
-$_SESSION ['age '] = 24;
+$_SESSION['prenom'] = 'Jean ';
+$_SESSION['nom'] = 'Dupont ';
+$_SESSION['age'] = 24;
 ?>
 <!DOCTYPE html >
 <html > 
@@ -75,9 +75,9 @@ Tu es sur l'accueil de mon site (index.php ). Tu veux aller sur une autre page ?
  
  ```php
  <?php
- session_start (); // On demarre la session AVANT toute chose
+ session_start(); // On demarre la session AVANT toute chose
  ?>
- <! DOCTYPE html>
+ <!DOCTYPE html>
  <html>
  ...
  <body>
@@ -85,7 +85,7 @@ Tu es sur l'accueil de mon site (index.php ). Tu veux aller sur une autre page ?
  <p>Re - bonjour ! </p>
  <p>
  Je me souviens de toi ! Tu t'appelles <?php echo $_SESSION['prenom'] .' ' . $_SESSION['nom']; ?> ! <br />
- Et tu as <?php echo $_SESSION['age ']; ?> ans.
+ Et tu as <?php echo $_SESSION['age']; ?> ans.
  </p>
  </body >
  </html >
@@ -107,3 +107,4 @@ Ecrire 3 pages php (*index.php*, *page1.php* et *page2.php*).
 
 * Sur la page *index.php*, ajoutez un formulaire avec deux champs (nom, ville), et sauvegardez ces champs dans une session (on utilisera le fichier index.php pour le traitement également). Sur cette page *index.php*, vous mettrez deux liens pour accéder aux deux autres pages. 
 * Sur chacune de ces deux pages vous afficherez les informations de la session.
+* Ajouter un lien (et une page) pour gérer l'effacement des données de la session.
