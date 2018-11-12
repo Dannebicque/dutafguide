@@ -44,7 +44,7 @@ $special = strtotime ('01/01/1970 +2 days +3 hours');
 
 * Manipulation de dates: 
 
-  * Afficher la date au format français ainsi que l'heure avec les minutes et les secondes, exemple: Nous sommes le 25/09/2017, Il est 07:52:05.
+  * Afficher la date au format français ainsi que l'heure avec les minutes et les secondes, exemple: Nous sommes le 12/11/2018, Il est 11:52:05.
   * Afficher le timestamp de votre date de naissance, exemple : je suis né(e) le 12/10/1990, soit 660783600
   * Ecrire une fonction qui permet d'afficher la date au format français : Exemple : Nous sommes le lundi 25 septembre 2017.
 
