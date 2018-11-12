@@ -12,12 +12,17 @@ Il existe de très nombreuses fonctions que vous pouvez retrouver sur la [docume
 * strtoupper($chaine) : [http://php.net/manual/fr/function.strtoupper.php](http://php.net/manual/fr/function.strtoupper.php). Permet de convertir $chaine en majuscule
 * strlen($chaine) : [http://php.net/manual/fr/function.strlen.php](http://php.net/manual/fr/function.strlen.php). Permet de connaître la longueur de $chaine
 
+**Ces fonctions manipulent les textes selons la locale du serveur, et sans considérer les caractères accentuées.**
+
+Il est ainsi recommandé de privilegier les fonctions issues de la librairie "mb" qui gère l'Unicode et qui permet une prise en compte de tous les caractères.
+
+* mb_strtolower($chaine) : [http://php.net/manual/fr/function.mb-strtolower.php](http://php.net/manual/fr/function.mb-strtolower.php). Permet de convertir $chaine en minusucule.
+* mb_strtoupper($chaine) : [http://php.net/manual/fr/function.mb-strtoupper.php](http://php.net/manual/fr/function.mb-strtoupper.php). Permet de convertir $chaine en majuscule
+* mb_strlen($chaine) : [http://php.net/manual/fr/function.mb-strlen.php](http://php.net/manual/fr/function.mb-strlen.php). Permet de connaître la longueur de $chaine
 
 ## Manipulation des nombres
 
 * number_format($nombre) : [http://php.net/manual/fr/function.number-format.php](http://php.net/manual/fr/function.number-format.php). Permet de formatter $nombre (nombre de chiffre après la virgule, séparateur de millier, de décimal, ...)
-
-
 
 ## Manipulation des dates
 
