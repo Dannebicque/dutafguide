@@ -38,7 +38,10 @@ $article = $exearticle->fetch(); //récupération du premier (et normalement uni
 * On peut considérer le panier comme un tableau où la clé serait l'Id du produit. On peut ensuite sauvegarder l'ensemble des éléments du produit (nom, prix unitaire, quantité), sous un tableau associatif.
 
 ```php
-$panier = array(12 => array('designation' => 'ABC123', 'Prix_u'=> '12,34', 'Quantite' => 3), ...);
+$panier = array(
+  12 => array('designation' => 'ABC123', 'Prix_u'=> '12,34', 'Quantite' => 3), 
+  ... //(les autres produits)
+  );
 // où 12  représente l'id du produit
 ```
 
