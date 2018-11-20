@@ -23,7 +23,7 @@ Cette table doit contenir, a minima, 3 champs :
 * Tous les champs que vous pourriez trouver utile (mail, nom, ...)
 
 
-** Pour des raisons de souplesse et de simplicité on utilisera sha1 pour crypter nos mots de passe. Cette solution n'est pas recommandé, car le décryptage d'un mot de passe sha1 est relativement facile. PHP propose des méthodes pour crypter les mots de passe de manière efficace : http://php.net/manual/fr/function.password-hash.php **
+**Pour des raisons de souplesse et de simplicité on utilisera sha1 pour crypter nos mots de passe. Cette solution n'est pas recommandé, car le décryptage d'un mot de passe sha1 est relativement facile. PHP propose des méthodes pour crypter les mots de passe de manière efficace : http://php.net/manual/fr/function.password-hash.php **
 
 #### Travail à faire 
 
