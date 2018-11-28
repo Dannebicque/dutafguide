@@ -76,7 +76,7 @@ $blanc = imagecolorallocate($im, 255, 255, 255);
 imagefill($im, 0, 0, $fond);
 Imagefilledrectangle($im, 100, 200, 300, 400, $couleur); // Ecrire des textes avec GD
 $font = './arial.ttf'; $texte = 'Bonjour !';
-imagettftext($im, 148, 0, 200, 100, $blanc, $font, $texte  → );
+imagettftext($im, 148, 0, 200, 100, $blanc, $font, $texte);
 imagepng($im); imagedestroy($im); 
 ?>
 ```
