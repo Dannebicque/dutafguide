@@ -59,7 +59,7 @@ Analysez le cahier des charges des fonctions demandées (visu catalogue, formul
 fonctionnalités dans l'arborescence proposée.
 Développer l'ensemble des pages en mode statique (mettre quelques exemples sur la page catalogue) 
 analyser l'ensemble des fonctionnalités nécessaires et leur structuration au sein du site.
-![GitHub Logo](/plan2.png)
+![GitHub Logo](/plan2.jpg)
 
 
 #### creation de l'infrastructure
