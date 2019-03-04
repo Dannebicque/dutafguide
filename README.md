@@ -43,10 +43,10 @@ Cette page présente l'organisation globale entre ces deux modules.
 | Séance | Type  | Module | Objectifs                                         | Date(s)   [^1]           |
 | ------ | ----- | ------ | --------------------------------------------------| ----------------------- |
 |    1   | CM1 | M2203 | [Cours sur les BDD et présentation DUTAF](M2203-seance-1.md) | mars |
-|    2   | TD1 | M2203 | [Exercice Stages, Arboretum](M2203-seance-2.md)  | mars |
-| 3 | TP1 | M2203 | [Exercice court métrage, mediatheque et ASAD](M2203-seance-3.md)  | mars |
-| 4 | TD2 | M2203 | [Presentation SQL](M2203-seance-1bis.md) | avril |
-| 5 | TP2 | M2203 | [Exercice requêtes Chenil](M2203-seance-4.md) | avril |
+|    2   | seance 2 | M2203 | [Exercice Stages, Arboretum](M2203-seance-2.md)  | mars |
+| 3 | seance 3 | M2203 | [Exercice court métrage, mediatheque et ASAD](M2203-seance-3.md)  | mars |
+| 4 | seance 4 | M2203 | [Presentation SQL](M2203-seance-1bis.md) | avril |
+| 5 | seance 5 | M2203 | [Exercice requêtes Chenil](M2203-seance-4.md) | avril |
 | 6 | CM2 | M2203 | [Analyse DUTAF et mise en oeuvre de la Bd](M2203-seance-5.md)  | avril |
 | 7 | séance 7 | M2203 | [Mise en oeuvre du CM](M2203-seance-5.md) | avril |
 | 8 | séance 8 | M2203 | [Catalogue](M2203-seance-7.md)  | avril |
