@@ -59,27 +59,10 @@ Analysez le cahier des charges des fonctions demandées (visu catalogue, formul
 fonctionnalités dans l'arborescence proposée.
 Développer l'ensemble des pages en mode statique (mettre quelques exemples sur la page catalogue) 
 analyser l'ensemble des fonctionnalités nécessaires et leur structuration au sein du site.
-![GitHub Logo](/plan.png)
+![GitHub Logo](/plan2.png)
 
-#### pour chacune des pages, citer la requete SQL nécessaire à son fonctionnement:
-catalogue.php :
-
-budget_art.php :
-
-gest_art.php :
-
-form_new_art.php :
-
-valide_new_art.php :
-
-valide_sup_art.php :
-
-form_modif_art.php :
-
-valide_modif_art.php :
 
 #### creation de l'infrastructure
 développer l'ensemble des pages en mode statique (mettre quelques exemples sur la page catalogue)
 
-#### (ancien document)
-lien: http://195.83.128.55/~fmeuzeret/vrac/docs/m2203~tp1dutaf.pdf
+
