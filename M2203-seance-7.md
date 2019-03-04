@@ -1,7 +1,7 @@
 [Retour à l'accueil](README.md)
 
 # M2203 | Séance 8 | Catalogue
-![GitHub Logo](/seance08.png)
+![GitHub Logo](/seance08.jpg)
 #### 1) développement de la page d'accueil
 après avoir pris connaissance de l'arbre de navigation, développez la page d'accueil (index.html)
 
