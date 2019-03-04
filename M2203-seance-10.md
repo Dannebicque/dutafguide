@@ -1,7 +1,7 @@
 [Retour à l'accueil](README.md)
 
 # M2203 | Séance 10 (TP) | Ajout d’un article (form_new_art.php et valid_new_art.php)
-![GitHub Logo](/planajout.png)
+![GitHub Logo](/seance11.jpg)
 Mettre en oeuvre la form_new_art.php et la page valid_new_art.php en les créant dans le sous-dossier "admin"
 
 dans le fichier form_new_art.php, bien nommer les différents champs du formulaire comme sur le document ci-dessus.
