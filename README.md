@@ -40,7 +40,7 @@ Cette page présente l'organisation globale entre ces deux modules.
 
 ### M2203 (Base de données)
 
-| Séance | Type  | Module | Objectifs                                         | Date(s)              |
+| Séance | Type  | Module | Objectifs                                         | Date(s)   [^1]           |
 | ------ | ----- | ------ | --------------------------------------------------| ----------------------- |
 |    1   | CM1 | M2203 | [Cours sur les BDD et présentation DUTAF](M2203-seance-1.md) | mars |
 |    2   | TD1 | M2203 | [Exercice Stages, Arboretum](M2203-seance-2.md)  | mars |
@@ -50,15 +50,15 @@ Cette page présente l'organisation globale entre ces deux modules.
 | 6 | CM2 | M2203 | [Analyse DUTAF et mise en oeuvre de la Bd](M2203-seance-5.md)  | avril |
 | 7 | séance 7 | M2203 | [Mise en oeuvre du CM](M2203-seance-5.md) | avril |
 | 8 | séance 8 | M2203 | [Catalogue](M2203-seance-7.md)  | avril |
-| 9 | séance 9 | M2203 | [Recherche petit prix](M2203-seance-8.md) | 9 mai |
-| 10 | séance 10 | M2203 | [Administration du back-office](M2203-seance-9.md)  | 15 mai |
-| 11 | séance 11 | M2203 | [Ajout d'un article](M2203-seance-10.md) | 16 mai |
-| 12 | séance 12 | M2203 | [Suppresion d'un article](M2203-seance-11.md) | 22 mai |
-| 13 | séance 13 | M2203 | [Modification d'un article](M2203-seance-12.md) | 31 mai |
-| 14 | séance 14 | M2203 | [Evaluation](M2203-seance-13.md) | 4 juin |
+| 9 | séance 9 | M2203 | [Recherche petit prix](M2203-seance-8.md) |  mai |
+| 10 | séance 10 | M2203 | [Administration du back-office](M2203-seance-9.md)  |  mai |
+| 11 | séance 11 | M2203 | [Ajout d'un article](M2203-seance-10.md) |  mai |
+| 12 | séance 12 | M2203 | [Suppresion d'un article](M2203-seance-11.md) |  mai |
+| 13 | séance 13 | M2203 | [Modification d'un article](M2203-seance-12.md) |  mai |
+| 14 | séance 14 | M2203 | [Evaluation](M2203-seance-13.md) |  juin |
 
 
-[^1]: 2017/2018, A titre indicatif. Vérifier l'emploi du temps
+[^1]: 2019, A titre indicatif. Vérifier l'emploi du temps
 
 ### M2202 (PHP)
 
