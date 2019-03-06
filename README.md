@@ -48,7 +48,7 @@ Cette page présente l'organisation globale entre ces deux modules.
 | 4 | seance 4 | M2203 | [Presentation SQL](M2203-seance-1bis.md) | avril |
 | 5 | seance 5 | M2203 | [Exercice requêtes Chenil](M2203-seance-4.md) | avril |
 | 6 | CM2 | M2203 | [Analyse DUTAF et mise en oeuvre de la Bd](M2203-seance-5.md)  | avril |
-| 7 | séance 7 | M2203 | [Mise en oeuvre du CM](M2203-seance-5.md) | avril |
+| 7 | séance 7 | M2203 | [Mise en oeuvre du CM](seancePostcm.md) | avril |
 | 8 | séance 8 | M2203 | [Catalogue](M2203-seance-7.md)  | avril |
 | 9 | séance 9 | M2203 | [Recherche petit prix](M2203-seance-8.md) |  mai |
 | 10 | séance 10 | M2203 | [Administration du back-office](M2203-seance-9.md)  |  mai |
