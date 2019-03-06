@@ -8,7 +8,7 @@ Mettre en œuvre une Solution PHP/MySQL pour répondre à un problème de ges
 #### document :
 support du cours [cm2.pdf](cm2.pdf).
 
-#### Exposé du sujet :
+#### rappeĺ du sujet "cas Dutaf" :
 • La société Dutaf, qui vend des articles en tout genre, vous demande de créer son site Internet sur lequel ses
 clients pourront consulter le catalogue complet. Cette société appartient à M. Pastot. Son catalogue est
 composé de plus de 500 articles.
@@ -32,23 +32,24 @@ pas s'investir dans la création de page web. II ne connaît d'ailleurs pas pl
 cela, il devra y avoir une section dans laquelle le client pourra entrer un prix maximum et par la suite consulter
 uniquement les articles correspondants à sa requête.
 
-#### Premier exercice : analyse SGBDR (correction)
+####  analyse SGBDR (correction du MLD de l'analyse merise faites en CM)
 MLD: 
 
 articles(**art_id**, art_design, art_descript, art_prix, art_qte, _four_id )
 
 fournisseurs(**four_id**, four_nom, four_ville, four_tel )
 
-#### Deuxième exercice : mise en œuvre de la base de données sous mySQL
+####  exercice 1 : mise en œuvre de la base de données sous mySQL
 1. En vous basant sur l'analyse, créez les 2 tables dans PhpMyAdmin.
 2. Récupérez le fichier [dutaf.xls](dutaf.xls) contenant les données nécessaires au TD pour les importer dans les
 tables. (attention, n'utilisez pas l'importation automatique ! Passez par des fichiers CSV)
  Compter les articles pour chacun des fournisseurs.
 
-#### Troisieme exercice : analyse fonctionnelle et mise en place du site 
+####  exercice 2 : analyse fonctionnelle et mise en place du site 
 Analysez le cahier des charges des fonctions demandées (visu catalogue, formulaire...) et retrouver ces
 fonctionnalités dans l'arborescence proposée.
-développer l'ensemble des pages en mode statique (mettre quelques exemples sur la page catalogue mais aucun code php pour l'instant biensur)
+
+Développer l'ensemble des pages (au moins index.html et catalogue.php) en mode statique (mettre quelques exemples sur la page catalogue mais aucun code php pour l'instant biensur)
 ![GitHub Logo](/plan2.jpg)
 
 
