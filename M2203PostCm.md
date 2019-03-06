@@ -34,7 +34,9 @@ uniquement les articles correspondants à sa requête.
 
 #### Premier exercice : analyse SGBDR (correction)
 MLD: 
+
 articles(**art_id**, art_design, art_descript, art_prix, art_qte, _four_id )
+
 fournisseurs(**four_id**, four_nom, four_ville, four_tel )
 
 #### Deuxième exercice : mise en œuvre de la base de données sous mySQL
