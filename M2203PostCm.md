@@ -6,7 +6,7 @@
 Mettre en œuvre une Solution PHP/MySQL pour répondre à un problème de gestion de base de données.
 
 #### document :
-support du cours [cm2.pdf](cm).
+support du cours [cm2.pdf](cm2.pdf).
 
 #### Exposé du sujet :
 • La société Dutaf, qui vend des articles en tout genre, vous demande de créer son site Internet sur lequel ses
