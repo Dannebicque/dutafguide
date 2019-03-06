@@ -42,8 +42,7 @@ fournisseurs(**four_id**, four_nom, four_ville, four_tel )
 ####  exercice 1 : mise en œuvre de la base de données sous mySQL
 1. En vous basant sur le MLD , créez les 2 tables dans PhpMyAdmin.
 2. Récupérez le fichier [dutaf.xls](dutaf.xls) contenant les données nécessaires au TD pour les importer dans les
-tables. (attention, n'utilisez pas l'importation automatique ! Passez par des fichiers CSV)
- Compter les articles pour chacun des fournisseurs.
+tables. (attention, n'utilisez pas l'importation automatique ! Passez par des fichiers CSV: 1 fichier CSV par table, donc 2 fichiers CSV "fournisseurs.csv" et "articles.csv" )
 
 ####  exercice 2 : analyse fonctionnelle et mise en place du site 
 Analysez le cahier des charges des fonctions demandées (visu catalogue, formulaire...) et retrouver ces
