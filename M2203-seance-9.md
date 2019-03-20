@@ -11,8 +11,7 @@ Pour crééer un fichier ".htaccess" :
 Créez un nouveau fichier nommé ".htaccess", avec le point devant et sans extension, à l’aide d'un editeur de texte, et coller ce qui suit en modifiant mmiXXXX par votre identifiant mmi :
 
 ```
-AuthUserFile ...........
-AuthGroupFile /dev/null
+AuthUserFile /home/mmiXXX/public_html/dutaf/admin/htpasswd
 AuthName "Acces securise a mon site Dutaf"
 AuthType Basic
 <LIMIT GET POST>
