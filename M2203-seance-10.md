@@ -2,9 +2,9 @@
 
 # M2203 | Séance 10 (TP) | Ajout d’un article (form_new_art.php et valid_new_art.php)
 ![GitHub Logo](/seance11b.jpg)
-Mettre en oeuvre la form_new_art.php et la page valid_new_art.php en les créant dans le sous-dossier "admin"
+Mettre en oeuvre le formulaire article_new.php et la page article_new_valid.php en les créant dans le sous-dossier "admin"
 
-dans le fichier form_new_art.php, bien nommer les différents champs du formulaire comme sur le document ci-dessus.
+dans le fichier article_new.php, bien nommer les différents champs du formulaire comme sur le document ci-dessus.
 
 Passer les champs en GET  ( <form... method='GET' ...)
 
@@ -26,7 +26,7 @@ while( $un_four = $resultat2->fe.....() ) {
 </select>
 ```
 
-dans le fichier article_new-valid.php récupérer les champs du formulaire (... $designation= $_GET['design'] ...)
+dans le fichier article_new_valid.php récupérer les champs du formulaire (... $designation= $_GET['design'] ...)
 
 dans le fichier article_new-valid.php, préparer la requete SQL nécessaire pour ajouter un article (tester votre requete dans phpMyAdmin avant de la tester dans le fichier php.
 
