@@ -21,6 +21,8 @@ Require valid-user
 
 Transférer le fichier ".htaccess" dans le répertoire admin de dutaf, ainsi que le fichier "htpasswd".
 
+Dans le fichier "htpasswd" ajouter l'empreinte (  prof:$apr1$dJfZ1bRd$kKzpw.TAK9lSU99wOIp.Q.  ) pour que les enseignants puissent venir consulter le back-office.
+
 Pour générer un mot de passe, vous pouvez utiliser ce site web ( http://aspirine.org/htpasswd.html ). Une fois que vous avez chiffré le mot de passe à l’aide de l’algorithme MD5, créez un autre fichier nommé htpasswd dans lequel vous collez la ligne complète.
 
 (prévoir avec l'enseignant la mise en oeuvre d'un accès sécurisé pour lui)
