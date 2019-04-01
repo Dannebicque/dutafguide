@@ -27,9 +27,10 @@ Pour générer un mot de passe, vous pouvez utiliser ce site web ( http://aspiri
 
 votre fichier htpasswd doit ressembler à ça:
 
+```
 monlogperso:bRd$K9lSU99wOkKzr1$dJfZ
-
 prof:$apr1$dJfZ1bRd$kKzpw.TAK9lSU99wOIp.Q.
+```
 
 faites vérifier l'accès au backoffice par votre enseignant lors de votre dernier TP.
 
