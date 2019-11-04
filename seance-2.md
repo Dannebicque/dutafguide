@@ -2,7 +2,7 @@
 
 ## Introduction / Rappels
 
-Lire \(et relire\) les rappels sur la manipulation des bases de données vues en M2203 et ici [un rappel très utile](M2202-rappels-bdd.md).
+Lire \(et relire\) les rappels sur la manipulation des bases de données vues en M2203 et ici [un rappel très utile](ressources/acces-aux-base-de-donnees.md).
 
 ### Exercice 1
 
