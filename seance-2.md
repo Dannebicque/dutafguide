@@ -6,7 +6,7 @@ Lire \(et relire\) les rappels sur la manipulation des bases de données vues en
 
 ### Exercice 1
 
-1. Créer une nouvelle table dans votre base de données que vous nommerez "comics". Ajouter les champs du tableau précédent.
+1. Créer une nouvelle table dans votre base de données que vous nommerez "comics". Ajouter les champs du tableau ci-dessous.
 2. Récupérer le fichier comics.csv ci-dessous
 3. Vérifiez l’ordre des champs et importez les données dans votre table.
 4. Préparez votre fichier config.inc.php avec vos constantes.
@@ -14,6 +14,14 @@ Lire \(et relire\) les rappels sur la manipulation des bases de données vues en
 6. Obtenir le résultat ci-dessous.
 
 ![](.gitbook/assets/resultat.png)
+
+| Champs | Type | Remarque |
+| :--- | :--- | :--- |
+| id | integer | clé primaire |
+| titre | varchar | 200 |
+| collection | varchar | 200 |
+| nbpages | integer |  |
+| prix | double |  |
 
 {% file src=".gitbook/assets/comics.csv" caption="Fichier comics.csv à télécharger" %}
 
