@@ -20,12 +20,14 @@ Cette table doit contenir, a minima, 3 champs :
 * Un mot de passe \(utilisateur\_mdp\), qui sera du texte
 * Tous les champs que vous pourriez trouver utile \(mail, nom, ...\)
 
-**Pour des raisons de souplesse et de simplicité on utilisera sha1 pour crypter nos mots de passe. Cette solution n'est pas recommandé, car le décryptage d'un mot de passe sha1 est relativement facile. PHP propose des méthodes pour crypter les mots de passe de manière efficace :** [http://php.net/manual/fr/function.password-hash.php](http://php.net/manual/fr/function.password-hash.php) ****
+{% hint style="info" %}
+Le mot de passe devra être crypté. On choisira le format [bcrypt](https://fr.wikipedia.org/wiki/Bcrypt).
+{% endhint %}
 
 ### **Travail à faire**
 
 * Créer cette table dans votre base de données.
-* Ajoutez manuellement \(insérer\) un ou plusieurs utilisateurs. Vous pouvez utiliser le site : [https://www.sha1.fr/](https://www.sha1.fr/) pour crypter votre mot de passe.
+* Ajoutez manuellement \(insérer\) un ou plusieurs utilisateurs. Vous pouvez utiliser le site : [https://www.bcrypt.fr/](https://www.bcrypt.fr/) pour crypter votre mot de passe.
 
 ### Formulaire de connexion
 
@@ -41,7 +43,7 @@ Le traitement doit effectuer la vérification des informations. Il doit recherch
 
 Il faut donc effectuer une requête et regarder si cette requête retourne un résultat, et si ce dernier est unique.
 
-Si la requête réussie alors, on sauvegarde une session pour mémoriser l'utilsateur. On peut ensuite le rediriger vers le back-office. Dans le cas contraire, on peut le rediriger vers la page de connexion.
+Si la requête réussie alors, on sauvegarde une session pour mémoriser l'utilisateur. On peut ensuite le rediriger vers le back-office. Dans le cas contraire, on peut le rediriger vers la page de connexion.
 
 On pourrait avoir le code suivant :
 
@@ -53,7 +55,7 @@ include('../includes/config.php');
 $dblink = new PDO('mysql:host=' . BDD_SERVER . ';dbname=' . BDD_DATABASE . '; charset=utf8', BDD_USER,
     BDD_PASSWORD);
 
-$password = sha1($_POST['password']);
+$password = bcrypt($_POST['password']);
 
 $requete = 'SELECT * FROM utilisateurs WHERE utilisateur_login = "' . $_POST['login'].'" and utilisateur_mdp = "'.$password.'"';
 
@@ -72,6 +74,10 @@ if ($nbreponses == 1){
 ?>
 ```
 
+{% hint style="warning" %}
+n sauvegarde ici le login de l'utilisateur dans la session. Cette technique fonctionne, mais l'usage voudrait qu'on sauvegarde plutôt une clé générée automatique et stockée dans la base de données et dans la session. De cette manière le login n'est pas utilisé, et la clé change à chaque connexion.
+{% endhint %}
+
 ### **Travail à faire**
 
 Mettre en place la partie traitement. Vous devez adapter le code ci-dessus en fonction de votre situation. N'oubliez pas comment fonctionne les sessions.
@@ -80,7 +86,7 @@ Mettre en place la partie traitement. Vous devez adapter le code ci-dessus en fo
 
 Il va maintenant falloir vérifier sur chacune des pages de notre back-office que l'utilisateur est connecté. Si c'est le cas, on le laissera visualiser la page, sinon, on le redirigera.
 
-On pourrait écrire et dupliquer le code sur chacune des pages, mais cela ne serait pas très professionnel. On va donc écrire un fichier php qui va vérifier les éléments, et ce fichier sera inclu dans toutes les pages nécessitant une sécurité.
+On pourrait écrire et dupliquer le code sur chacune des pages, mais cela ne serait pas très professionnel. On va donc écrire un fichier php qui va vérifier les éléments, et ce fichier sera inclus dans toutes les pages nécessitant une sécurité.
 
 On pourrait donc avoir un fichier \(verification\_connexion.php\) contenant le code ci-dessous:
 
