@@ -21,13 +21,13 @@ Cette table doit contenir, a minima, 3 champs :
 * Tous les champs que vous pourriez trouver utile \(mail, nom, ...\)
 
 {% hint style="info" %}
-Le mot de passe devra être crypté. On choisira le format [bcrypt](https://fr.wikipedia.org/wiki/Bcrypt).
+Le mot de passe devra être crypté. On choisira le format sha1 par simplicité. Mais ce format **ne doit pas être utilisé sur un serveur de production**. Voir du coté de [Password\_hash\(\)](https://www.php.net/manual/fr/function.password-hash.php).
 {% endhint %}
 
 ### **Travail à faire**
 
 * Créer cette table dans votre base de données.
-* Ajoutez manuellement \(insérer\) un ou plusieurs utilisateurs. Vous pouvez utiliser le site : [https://www.bcrypt.fr/](https://www.bcrypt.fr/) pour crypter votre mot de passe.
+* Ajoutez manuellement \(insérer\) un ou plusieurs utilisateurs. Vous pouvez utiliser le site : [https://www.sha](https://www.sha1.fr/)[.fr/](https://www.sha1.fr/) pour crypter votre mot de passe.
 
 ### Formulaire de connexion
 
