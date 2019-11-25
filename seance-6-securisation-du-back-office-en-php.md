@@ -55,7 +55,7 @@ include('../includes/config.php');
 $dblink = new PDO('mysql:host=' . BDD_SERVER . ';dbname=' . BDD_DATABASE . '; charset=utf8', BDD_USER,
     BDD_PASSWORD);
 
-$password = bcrypt($_POST['password']);
+$password = password_hash($_POST['password'], PASSWORD_BCRYPT);
 
 $requete = 'SELECT * FROM utilisateurs WHERE utilisateur_login = "' . $_POST['login'].'" and utilisateur_mdp = "'.$password.'"';
 
@@ -75,7 +75,7 @@ if ($nbreponses == 1){
 ```
 
 {% hint style="warning" %}
-n sauvegarde ici le login de l'utilisateur dans la session. Cette technique fonctionne, mais l'usage voudrait qu'on sauvegarde plutôt une clé générée automatique et stockée dans la base de données et dans la session. De cette manière le login n'est pas utilisé, et la clé change à chaque connexion.
+On sauvegarde ici le login de l'utilisateur dans la session. Cette technique fonctionne, mais l'usage voudrait qu'on sauvegarde plutôt une clé générée automatique et stockée dans la base de données et dans la session. De cette manière le login n'est pas utilisé, et la clé change à chaque connexion.
 {% endhint %}
 
 ### **Travail à faire**
