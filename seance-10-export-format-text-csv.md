@@ -141,13 +141,17 @@ Cette fonction va transformer le tableau en une ligne de texte, où les élémen
 
 ### Lire un fichier texte
 
-* Récupérer le fichier [exemple.txt](m2202/exemple.txt)
+{% file src=".gitbook/assets/exemple.txt" caption="Fichier exemple.txt" %}
+
+* Télécharger le fichier ci-dessus
 * le mettre dans votre répertoire, vérifier les droits.
 * Ecrire un fichier qui va récupérer et afficher le contenu de ce fichier.
 
 ### Ecrire un fichier texte
 
 * Ecrire un fichier php qui permet de générer un fichier txt contenant le texte de votre choix
+
+{% file src=".gitbook/assets/comics.csv" caption="Fichier comics.csv" %}
 
 ### Lire un fichier csv
 
