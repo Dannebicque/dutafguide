@@ -1,0 +1,14 @@
+# M2203-seance-7
+
+## M2203 \| Séance 8 \| Catalogue
+
+![GitHub Logo](.gitbook/assets/seance08.jpg)
+
+### 1\) développement de la page d'accueil
+
+après avoir pris connaissance de l'arbre de navigation, développez la page d'accueil \(index.html\)
+
+### 2\) développement de la page catalogue.php.
+
+Pour la page catalogue.php, servez vous du [TD M2202](https://github.com/Dannebicque/dutafguide/blob/master/M2202-seance-2.md) sur l'affichage d'informations provenants d'une base de données. utilisez "dataTable" pour mettre en forme ce tableau d'article. \([https://datatables.net/](https://datatables.net/) \)
+
