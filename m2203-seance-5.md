@@ -4,27 +4,25 @@
 
 ## M2203 \| CM \| Analyse DUTAF et Mise en place de la Bd
 
-### Objectif :
+### Objectifs
 
 Mettre en œuvre une Solution PHP/MySQL pour répondre à un problème de gestion de base de données.
 
-### document :
+### Document
 
 support du cours \[cm2.pdf\].
 
 ### Exposé du sujet :
 
-• La société Dutaf, qui vend des articles en tout genre, vous demande de créer son site Internet sur lequel ses clients pourront consulter le catalogue complet. Cette société appartient à M. Pastot. Son catalogue est composé de plus de 500 articles.
-
-• II désire pouvoir faire la mise à jour de ses produits lui-même \(changer un prix, ajouter un article, effacer un article\) sans avoir à faire appel à vos services. Pour cela, il vous demande de développer le site de telle manière qu’il y ait une section qui lui sera réservée et dans laquelle il pourra, via Internet et des pages web, venir faire ses modifications.
-
-• Un article est identifié par un numéro dans le catalogue, une désignation, un descriptif, un prix de vente, une quantité disponible, un numéro de fournisseur, un nom de fournisseur, un téléphone de fournisseur, une ville de localisation du fournisseur. Remarque : un artcle du catalogue ne peut provenir que d'un seul fournisseur.
-
-• II existe une cinquantaine de fournisseurs. Sur le même principe que les articles, M. Pastot désire pouvoir faire ses propres changements dans la liste des fournisseurs.
-
-• M. Pastot se sert déjà un peu d’internet mais il ne connaît aucun logiciel de mise en page web et ne compte pas s'investir dans la création de page web. II ne connaît d'ailleurs pas plus les notons de base de données.
-
-• II désire aussi qu’un client puisse demander uniquement la liste des articles correspondant à son budget. Pour cela, il devra y avoir une section dans laquelle le client pourra entrer un prix maximum et par la suite consulter uniquement les articles correspondants à sa requête.
+* La société Dutaf, qui est une librairie en ligne, vous demande de créer son site Internet sur lequel ses clients pourront consulter le catalogue complet. Cette société appartient à M. Levetar. Son catalogue est composé de plus de 1000 bandes dessinées.
+* II désire pouvoir faire la mise à jour de ses produits lui-même \(changer un prix, ajouter une bande dessinées, effacer une bande dessinées\) sans avoir à faire appel à vos services. Pour cela, il vous demande de développer le site de telle manière qu’il y ait une section qui lui sera réservée et dans laquelle il pourra, via Internet et des pages web, venir faire ses modifications.
+* Une bande dessinées est identifiée par un numéro dans le catalogue \(ISBN\), un titre, éventuellement une série, un prix de vente, un numéro d'éditeur et un identifiant d'auteur.
+* Un éditeur est qualifié par un numéro et un nom. Une bande dessinée n'est fournie que par un seul éditeur.
+* Un auteur est défini par son nom, prénom, une nationalité et une photo. Une bande dessinée n'est écrite que par un seul auteur.
+* II existe une vingtaine d'éditeurs. Cette liste est fixe et ne demande pas a être modifiable par M. Levetar.
+* Sur le même principe que les bandes dessinées, M. Levetar désire pouvoir faire ses propres changements dans la liste des auteurs.
+* M. Levetar se sert déjà un peu d’internet mais il ne connaît aucun logiciel de mise en page web et ne compte pas s'investir dans la création de page web. II ne connaît d'ailleurs pas plus les notons de base de données.
+* II désire aussi qu’un client puisse demander uniquement la liste des bandes dessinées  correspondant à un auteur en particulier. Pour cela, il devra y avoir une section dans laquelle le client pourra entrer quelques lettres du nom ou du prénom de l'auteur et par la suite consulter uniquement les bandes dessinées correspondantes à sa requête.
 
 ### Premier exercice : analyse SGBDR
 
@@ -41,9 +39,21 @@ support du cours \[cm2.pdf\].
 
 ### complément:
 
-Tester les requetes suivantes: 1. Afficher la liste des articles \(description, prix de vente\) par ordre décroissant du prix . 2. Afficher la liste des articles de moins de 50 Euros. 3. Afficher la liste complète des artcles avec à chaque fois la provenance \(le fournisseur\). 4. Supprimer l’article numéro 12. 5. Augmenter tous les prix de vente de 4%. 6. Retrouver les prix d’origine. 7. Afficher la description et le prix de l’article le moins cher. 8. Afficher la description et le prix de l'article le plus cher. 9. De la même façon, afficher le prix moyen des articles. 10. Afficher le prix moyen des articles pour chacun des fournisseurs. 11. Compter les articles pour chacun des fournisseurs.
+Tester les requêtes suivantes: 
 
-### Troisieme exercice : analyse fonctionnelle et mise en place du site
+1. Afficher la liste des articles \(titre, collection, prix de vente\) par ordre décroissant du prix
+2. Afficher la liste des bandes dessinées de moins de 11 Euros. 
+3. Afficher la liste complète des bandes dessinées avec à chaque fois l'éditeur.
+4. Afficher la liste complète des bandes dessinées avec à chaque fois l'éditeur et le nom et prénom de l'auteur.
+5. Augmenter tous les prix de vente de 4%. 
+6. Retrouver les prix d’origine.
+7. Afficher le titre et le prix de l’article le moins cher. 
+8. Afficher le titre et le prix de l'article le plus cher. 
+9. De la même façon, afficher le prix moyen des bandes dessinées. 
+10. Afficher le prix moyen des bandes dessinées pour chacun des éditeurs. 
+11. Compter les bandes dessinées pour chacun des éditeurs
+
+### Troisième exercice : analyse fonctionnelle et mise en place du site
 
 Analysez le cahier des charges des fonctions demandées \(visu catalogue, formulaire...\) et retrouver ces fonctionnalités dans l'arborescence proposée. Développer l'ensemble des pages en mode statique \(mettre quelques exemples sur la page catalogue\) analyser l'ensemble des fonctionnalités nécessaires et leur structuration au sein du site. ![GitHub Logo](.gitbook/assets/plan2.jpg)
 
