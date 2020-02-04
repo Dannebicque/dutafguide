@@ -1,10 +1,10 @@
-# M2203-seance-12
+# M2203 \| Séance 12 \(TP\) \| Finalisation DUTAF
 
-## M2203 \| Séance 12 \(TP\) \| Finalisation DUTAF
+![GitHub Logo](.gitbook/assets/seance13.jpg) 
 
-![GitHub Logo](.gitbook/assets/seance13.jpg) Mettre en oeuvre la page article\_modif\_valid.php et article\_modif.php en les créant dans le sous-dossier "admin"
+## Mettre en oeuvre la page bd\_update\_form.php et bd\_update\_valide.php en les créant dans le sous-dossier "admin"
 
-Passer le champs numart en GET depuis la page article\_gestion.php \( ... article\_modif.php?numart= ...\)
+Passer le champs numart en GET depuis la page article\_gestion.php \( ... bd\_update\_form.php?num\_bd= ...\)
 
 ...
 

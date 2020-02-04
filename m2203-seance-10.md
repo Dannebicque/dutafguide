@@ -1,18 +1,18 @@
-# M2203-seance-10
+# M2203 \| Séance 10 \| Ajout d’une BD \(bd\_new\_form.php et bd\_new\_valide.php\)
 
-## M2203 \| Séance 10 \(TP\) \| Ajout d’un article \(form\_new\_art.php et valid\_new\_art.php\)
+![GitHub Logo](.gitbook/assets/seance11b.jpg) 
 
-![GitHub Logo](.gitbook/assets/seance11b.jpg) Mettre en oeuvre le formulaire article\_new.php et la page article\_new\_valid.php en les créant dans le sous-dossier "admin"
+## Mettre en oeuvre le formulaire bd\_new\_form.php et la page bd\_new\_valide.php en les créant dans le sous-dossier "admin"
 
-dans le fichier article\_new.php, bien nommer les différents champs du formulaire comme sur le document ci-dessus.
+dans le fichier bd\_new\_form.php, bien nommer les différents champs du formulaire comme sur le document ci-dessus.
 
 Passer les champs en GET \( &lt;form... method='GET' ...\)
 
-Vérifier que quand vous valider le formulaire en cliquant sur le bouton que les parametres passent dans l'URL.
+Vérifier que quand vous valider le formulaire en cliquant sur le bouton que les paramètres passent dans l'URL.
 
-Réaliser une liste déroulante pour choissir le fournisseur plutot que de saisir son code.
+Réaliser une liste déroulante pour choisir le fournisseur plutôt que de saisir son code.
 
-```text
+```php
 <select name="four">
 <?php 
 $maconnexion = ... PDO ...
@@ -26,11 +26,11 @@ while( $un_four = $resultat2->fe.....() ) {
 </select>
 ```
 
-dans le fichier article\_new\_valid.php récupérer les champs du formulaire \(... $designation= $\_GET\['design'\] ...\)
+dans le fichier bd\_new\_valide.php récupérer les champs du formulaire \(... $designation= $\_GET\['design'\] ...\)
 
-dans le fichier article\_new-valid.php, préparer la requete SQL nécessaire pour ajouter un article \(tester votre requete dans phpMyAdmin avant de la tester dans le fichier php.
+dans le fichier bd\_new\_valide.php, préparer la requête SQL nécessaire pour ajouter un article \(tester votre requete dans phpMyAdmin avant de la tester dans le fichier php.
 
-```text
+```php
 <html>
 ...
 <?php 

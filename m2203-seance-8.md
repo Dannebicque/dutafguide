@@ -1,16 +1,24 @@
-# M2203-seance-8
-
-## M2203 \| Séance 8 \| Recherche petit prix
+# M2203 \| Séance 8 \| Recherche par auteur
 
 ![GitHub Logo](.gitbook/assets/seance09.jpg)
 
-### 1\) développement du formulaire "petit budget" \(page form\_budget.html\)
+## Développement du formulaire "petit budget" \(page form\_recherche.php\)
 
-développez la page question\_budget.html. Attention à bien nommer le champs du formulaire "prixmax" comme indiqué sur l'arbre de navigation. De plus, bien faire 'pointer' la validation du formulaire vers la page 'reponse\_budget.php' ainsi que de préciser dans les parametres du formulaire que les données seront transmises dans l'URL \(method GET\)
+Développez la page `form_recherche.php`. Attention à bien nommer le champs du formulaire `texte` comme indiqué sur l'arbre de navigation. De plus, bien faire pointer la validation du formulaire vers la page `reponse_recherche.php` ainsi que de préciser dans les paramètres du formulaire que les données seront transmises dans l'URL \(méthode **GET**\)
 
-### 2\) développement de la page budget\_art.php.
+## Développement de la page reponse\_recherche.php.
 
-Pour la page reponse\_budget.php, reprendre la mise en page et le php de base déjà vus dans de votre page catalogue.php
+Pour la page reponse\_recherche.php, reprendre la mise en page et le php de base déjà vus dans de votre page catalogue.php
 
-Modifier la requete SQL de cette page pour afficher uniquement les articles correspondants au budget de l'internaute \(donc en reprenant le contenu du parametre passé dans l'URL. rappel: on récupére les parametres passés dans l'url via $\_GET\['nom\_du\_parametre'\] \)
+Modifier la requête SQL de cette page pour afficher uniquement les articles correspondants au caractères d'un nom ou d'un prénom d'un auteur existant \(donc en reprenant le contenu du paramètre passé dans l'URL. rappel: on récupère les paramètres passés dans l'url via `$_GET['nom_du_parametre']` \)
+
+{% hint style="info" %}
+On effectue ici une recherche, dite "**selon un modèle**", c'est à dire qu'on ne recherche pas de manière exacte ce qu'a saisie l'utilisateur, mais une enregistrement qui contient les caractères demandées. Par exemple :
+
+Ma base contient les 4 noms suivants : Léon, Odette, Vivien, Etienne.
+
+L'utilisateur saisie "ien"
+
+Vous devez afficher : Viv**ien** et Et**ien**ne comme réponse
+{% endhint %}
 

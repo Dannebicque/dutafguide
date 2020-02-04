@@ -1,8 +1,8 @@
-# M2203-seance-9
+# M2203 \| Séance 9 \| Administration \(gestion.php et bd\_gestion.php\)
 
-## M2203 \| Séance 9 \(TP\) \| Administration \(gestion.html et gest\_art.php\)
+![GitHub Logo](.gitbook/assets/seance10.jpg) 
 
-![GitHub Logo](.gitbook/assets/seance10.jpg) Mettre en oeuvre la page gestion.html et la page article\_gestion.php en les créant dans un sous-dossier "admin"
+## Mettre en oeuvre la page gestion.php et la page bd\_gestion.php en les créant dans un sous-dossier "admin"
 
 Protéger l'ensemble du dossier "admin" en ajoutant un fichier ".htaccess" et un fichier "htpasswd"
 
@@ -21,7 +21,9 @@ Require valid-user
 
 Transférer le fichier ".htaccess" dans le répertoire admin de dutaf, ainsi que le fichier "htpasswd".
 
-Dans le fichier "htpasswd" ajouter l'empreinte \( prof:$apr1$dJfZ1bRd$kKzpw.TAK9lSU99wOIp.Q. \) pour que les enseignants puissent venir consulter le back-office.
+Dans le fichier "htpasswd" ajouter l'empreinte :`prof:$apr1$dJfZ1bRd$kKzpw.TAK9lSU99wOIp.Q.`
+
+pour que les enseignants puissent venir consulter le back-office.
 
 Pour générer un mot de passe, vous pouvez utiliser ce site web \( [http://aspirine.org/htpasswd.html](http://aspirine.org/htpasswd.html) \). Une fois que vous avez chiffré le mot de passe à l’aide de l’algorithme MD5, créez un autre fichier nommé htpasswd dans lequel vous collez la ligne complète.
 
