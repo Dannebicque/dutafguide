@@ -2,13 +2,13 @@
 
 ![GitHub Logo](.gitbook/assets/seance10.jpg) 
 
-## Mettre en oeuvre la page gestion.php et la page bd\_gestion.php en les créant dans un sous-dossier "admin"
+## Mettre en oeuvre la page admin.html et la page bd\_gestion.php en les créant dans un sous-dossier "admin"
 
 Protéger l'ensemble du dossier "admin" en ajoutant un fichier ".htaccess" et un fichier "htpasswd"
 
 Pour crééer un fichier ".htaccess" :
 
-Créez un nouveau fichier nommé ".htaccess", avec le point devant et sans extension, à l’aide d'un editeur de texte, et coller ce qui suit en modifiant mmiXXXX par votre identifiant mmi :
+Créez un nouveau fichier nommé ".htaccess", avec le point devant et sans extension, à l’aide d'un éditeur de texte, et coller ce qui suit en modifiant mmiXXXX par votre identifiant mmi :
 
 ```text
 AuthUserFile /home/mmiXXX/public_html/dutaf/admin/htpasswd
