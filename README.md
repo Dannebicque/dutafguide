@@ -8,14 +8,9 @@ Vous trouverez ici toutes les informations sur ces modules : le planning, les su
 
 Mettre en œuvre une Solution PHP/MySQL pour répondre à un problème de gestion de base de données. Approfondir les connaissances en algorithmique et en PHP afin de pouvoir mettre en place un panier, gérer les sessions, ...
 
-## Présentation de DUTAF
+## Présentation de la société DUTAF
 
-* La société Dutaf, qui vend des bandes dessinées, vous demande de créer son site Internet sur lequel ses clients pourront consulter le catalogue complet, et établir un panier en vue de réaliser une commande. Cette société appartient à M. Pastot. Son catalogue est composé de plus de 500 articles.
-* II désire pouvoir faire la mise à jour de ses produits lui-même \(changer un prix, ajouter un article, effacer un article\) sans avoir à faire appel à vos services. Pour cela, il vous demande de développer le site de telle manière qu’il y ait une section qui lui sera réservée et dans laquelle il pourra, via Internet et des pages web, venir faire ses modifications.
-* Un article est identifié par un code dans le catalogue, une nom, un descriptif, un prix de vente, une quantité disponible, un numéro de fournisseur, un nom de fournisseur, un téléphone de fournisseur, une ville de localisation du fournisseur. Remarque : un article du catalogue ne peut provenir que d'un seul fournisseur.
-* II existe une cinquantaine de fournisseurs. Sur le même principe que les articles, M. Pastot désire pouvoir faire ses propres changements dans la liste des fournisseurs.
-* M. Pastot se sert déjà un peu d’internet mais il ne connaît aucun logiciel de mise en page web et ne compte pas s'investir dans la création de page web. II ne connaît d'ailleurs pas plus les notions de base de données.
-* II désire aussi qu’un client puisse demander uniquement la liste des articles correspondant à son budget. Pour cela, il devra y avoir une section dans laquelle le client pourra entrer un prix maximum et par la suite consulter uniquement les articles correspondants à sa requête.
+{% page-ref page="presentation-de-la-societe-dutaf.md" %}
 
 ## Version de démonstration de DUTAF
 

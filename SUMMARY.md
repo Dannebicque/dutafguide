@@ -1,6 +1,7 @@
 # Table of contents
 
 * [M2203 : Base de données](README.md)
+* [Présentation de la société DUTAF](presentation-de-la-societe-dutaf.md)
 * [M2203PostCm](m2203postcm.md)
 * [M2203-seance-1](m2203-seance-1.md)
 * [M2203-seance-1bis](m2203-seance-1bis.md)
