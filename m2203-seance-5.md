@@ -8,7 +8,9 @@ Mettre en œuvre une Solution PHP/MySQL pour répondre à un problème de ges
 
 support du cours \[cm2.pdf\].
 
-## 
+## Présentation de la société DUTAF
+
+{% page-ref page="presentation-de-la-societe-dutaf.md" %}
 
 ## Premier exercice : analyse SGBDR
 
