@@ -14,19 +14,13 @@ Mettre en œuvre une Solution PHP/MySQL pour répondre à un problème de ges
 
 ## Version de démonstration de DUTAF
 
-La démonstration est visible ici :
+{% hint style="info" %}
+En cours
+{% endhint %}
 
-[http://195.83.128.55/~dannebicque/dutaf/](http://195.83.128.55/~dannebicque/dutaf/)
+## Organisation des séances du M2203
 
-Sur ce lien vous trouverez les fonctionnalités à mettre en place, ainsi que des éléments d'explication sur les différentes pages. Les critères de notation sont également explicités.
-
-## Organisation des séances entre les modules M2202 et M2203
-
-DUTAF est exploité sur les deux modules M2202 \(Algorithmique et PHP\) et M2203 \(base de données\).
-
-Cette page présente l'organisation globale entre ces deux modules.
-
-### M2203 \(Base de données\)
+DUTAF est exploité sur les deux modules M2202 \(Algorithmique et PHP\) et M2203 \(base de données\)
 
 | Séance | Type | Module | Objectifs | Date\(s\)    |
 | :--- | :--- | :--- | :--- | :--- |
@@ -44,25 +38,6 @@ Cette page présente l'organisation globale entre ces deux modules.
 | 12 | séance 12 | M2203 | [Suppresion d'un article](m2203-seance-11.md) | mai |
 | 13 | séance 13 | M2203 | [Modification d'un article](m2203-seance-12.md) | mai |
 | 14 | séance 14 | M2203 | [Evaluation](m2203-seance-13.md) | juin |
-
-### M2202 \(PHP\)
-
-| Séance | Type | Module | Objectifs | Date\(s\) |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | TD | M2202 | [Révisions]() | 5/11/2018 |
-| 2 | TP | M2202 | [Révisions BDD]() | 5/11/2018 |
-| 3 | TD | M2202 | [Formatage et fonctions pratiques en PHP]() | 12/11/2018 |
-| 4 | TP | M2202 | [Sessions et panier]() | 12/11/2018 |
-| 5 | TD | M2202 | [Sessions et panier]() | 19/11/2018 |
-| 6 | TP | M2202 | [Sécurisation du back-office en PHP]() | 21/11/2018 |
-| 7 | TD | M2202 | [Sécurisation du back-office en PHP]() | 27/11/2018 |
-| 8 | TP | M2202 | [Manipulation d'images]() | 28/11/2018 |
-| 9 | TD | M2202 | [Manipulation d'images]() | 3/12/2018 |
-| 10 | TP | M2202 | [Export format text/csv]() | 3/12/2018 |
-| 11 | TD | M2202 | [Export format text/csv]() | 12/12/2018 |
-| 12 | TP | M2202 | [Finalisation]() | 12/12/2018 |
-| 13 | TP | M2202 | [TP Noté]() | 18/12/2018 |
-| 14 | TD | M2202 | [Evaluation]() | 19/12/2018 |
 
 ## Notations
 
@@ -84,10 +59,4 @@ La notation de la partie DUTAF se décompose de la manière suivante:
   * Affichage de l'image marquée dans le catalogue
 * Export CSV \(3 points\)
   * Export de tout le catalogue dans un fichier CSV depuis le back-office
-
-## Contacts
-
-David Annebicque \(M2202\) : david.annebicque \[@\] univ-reims.fr, @DavidAnnebicque Brahim Boudiaf \(M2202\) : brahim.boudiaf \[@\] univ-reims.fr
-
-Fabrice Meuzeret \(M2203\) : fabrice.meuzeret \[@\] univ-reims.fr
 
