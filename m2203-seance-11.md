@@ -1,6 +1,6 @@
 # M2203 \| Séance 11  \| Suppression d’un article
 
-![GitHub Logo](.gitbook/assets/seance12.jpg) 
+![Partie suppression d&apos;une BD](.gitbook/assets/dutaf5.png)
 
 ## Mettre en oeuvre la page bd\_delete.php en la créant dans le sous-dossier "admin"
 

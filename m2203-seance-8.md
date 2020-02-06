@@ -1,6 +1,6 @@
 # M2203 \| Séance 8 \| Recherche par auteur
 
-![GitHub Logo](.gitbook/assets/seance09.jpg)
+![Partie recherche](.gitbook/assets/dutaf2.png)
 
 ## Développement du formulaire "petit budget" \(page form\_recherche.php\)
 

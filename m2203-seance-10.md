@@ -1,6 +1,6 @@
 # M2203 \| Séance 10 \| Ajout d’une BD \(bd\_new\_form.php et bd\_new\_valide.php\)
 
-![GitHub Logo](.gitbook/assets/seance11b.jpg) 
+![Partie ajout d&apos;une BD](.gitbook/assets/dutaf4.png)
 
 ## Mettre en oeuvre le formulaire bd\_new\_form.php et la page bd\_new\_valide.php en les créant dans le sous-dossier "admin"
 

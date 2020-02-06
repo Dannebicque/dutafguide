@@ -1,6 +1,6 @@
 # M2203 \| Séance 12 \(TP\) \| Finalisation DUTAF
 
-![GitHub Logo](.gitbook/assets/seance13.jpg) 
+![Partie modification d&apos;une BD](.gitbook/assets/dutaf6.png)
 
 ## Mettre en oeuvre la page bd\_update\_form.php et bd\_update\_valide.php en les créant dans le sous-dossier "admin"
 

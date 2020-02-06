@@ -1,6 +1,6 @@
 # M2203 \| Séance 9 \| Administration \(gestion.php et bd\_gestion.php\)
 
-![GitHub Logo](.gitbook/assets/seance10.jpg) 
+![Partie gestion BD](.gitbook/assets/dutaf3.png)
 
 ## Mettre en oeuvre la page admin.html et la page bd\_gestion.php en les créant dans un sous-dossier "admin"
 

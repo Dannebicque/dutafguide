@@ -1,8 +1,6 @@
 # M2203 \| Séance 7 \| Listing
 
-
-
-![GitHub Logo](.gitbook/assets/seance08.jpg)
+![Partie listing](.gitbook/assets/dutaf1.png)
 
 ## Développement de la page d'accueil
 
