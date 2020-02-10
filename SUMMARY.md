@@ -2,7 +2,7 @@
 
 * [M2203 : Base de données](README.md)
 * [Présentation de la société DUTAF](presentation-de-la-societe-dutaf.md)
-* [M2203-seance-1](m2203-seance-1.md)
+* [M2203-seance-1 \(CM\)](m2203-seance-1.md)
 * [M2203-seance-2](m2203-seance-2.md)
 * [M2203-seance-3](m2203-seance-3.md)
 * [M2203-seance-4](m2203-seance-4.md)

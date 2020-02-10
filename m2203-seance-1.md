@@ -2,7 +2,7 @@
 description: CM
 ---
 
-# M2203-seance-1
+# M2203-seance-1 \(CM\)
 
 [Retour à l'accueil](./)
 
