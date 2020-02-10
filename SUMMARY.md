@@ -2,9 +2,7 @@
 
 * [M2203 : Base de données](README.md)
 * [Présentation de la société DUTAF](presentation-de-la-societe-dutaf.md)
-* [M2203PostCm](m2203postcm.md)
 * [M2203-seance-1](m2203-seance-1.md)
-* [M2203-seance-1bis](m2203-seance-1bis.md)
 * [M2203-seance-2](m2203-seance-2.md)
 * [M2203-seance-3](m2203-seance-3.md)
 * [M2203-seance-4](m2203-seance-4.md)
@@ -17,4 +15,6 @@
 * [M2203 \| Séance 11  \| Suppression d’un article](m2203-seance-11.md)
 * [M2203 \| Séance 12 \(TP\) \| Finalisation DUTAF](m2203-seance-12.md)
 * [M2203 \| Séance 13 \| Evaluation](m2203-seance-13.md)
+* [M2203PostCm](m2203postcm.md)
+* [M2203-seance-1bis](m2203-seance-1bis.md)
 
