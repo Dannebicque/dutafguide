@@ -4,7 +4,9 @@
 
 ## M2203 \| Séance 2 \| Exercice Stages, Arboretum
 
-lien1 \(stages\): [http://195.83.128.55/~fmeuzeret/m2203/download/stage.pdf](http://195.83.128.55/~fmeuzeret/m2203/download/stage.pdf)
+exercice 1 \(stages\): [http://195.83.128.55/~fmeuzeret/m2203/download/stage.pdf](http://195.83.128.55/~fmeuzeret/m2203/download/stage.pdf)
 
-lien2 \(Arboretum\): [http://195.83.128.55/~fmeuzeret/m2203/download/arboretum1.pdf](http://195.83.128.55/~fmeuzeret/m2203/download/arboretum1.pdf)
+exercice 2 \(Arboretum\): 
+
+{% file src=".gitbook/assets/m2203\_arboretum.pdf" caption="exercice Arboretum" %}
 
