@@ -1,4 +1,8 @@
-# M2203 \| CM \| Analyse DUTAF et Mise en place de la Bd
+---
+description: SQL et Analyse DUTAF et Mise en place de la Bd
+---
+
+# M2203-séance 4 \(CM\)
 
 ## Objectifs
 
