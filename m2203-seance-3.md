@@ -6,5 +6,7 @@
 
 exercice 1: \(courtmetrage\) : 
 
+{% file src=".gitbook/assets/td2\_exo2.pdf" caption="TD court-metrages" %}
+
 exercice 2: \(mediatheque et ASAD\) : 
 
