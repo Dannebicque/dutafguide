@@ -10,7 +10,9 @@ Mettre en œuvre une Solution PHP/MySQL pour répondre à un problème de ges
 
 ## Document
 
-support du cours \[cm2.pdf\].
+résumé du CM: 
+
+{% file src=".gitbook/assets/sif\_sql\_version\_etudiant.pdf" caption="CM2 resumé" %}
 
 ## Présentation de la société DUTAF
 
