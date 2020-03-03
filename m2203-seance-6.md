@@ -48,5 +48,16 @@ Développer l'ensemble des pages \(au moins index.html et catalogue.php\) en mo
 
 ### complément \(pour ceux qui ont du temps\):
 
-Tester les requetes suivantes: 1. Afficher la liste des BD \(description, prix de vente\) par ordre décroissant du prix . 2. Afficher la liste des Bds de moins de 50 Euros. 3. Afficher la liste complète des Bds avec à chaque fois l'auteur \(son nom\). 4. Supprimer la BD numéro 12. 5. Augmenter tous les prix de vente de 4%. 6. Retrouver les prix d’origine. 7. Afficher la description et le prix de la BD la moins cher. 8. Afficher la description et le prix de laBD la plus cher. 9. De la même façon, afficher le prix moyen des BD. 10. Afficher le prix moyen des Bd pour chacun des auteurs.
+Tester les requêtes suivantes: 
+
+1. Afficher la liste des BD \(description, prix de vente\) par ordre décroissant du prix. 
+2. Afficher la liste des BD de moins de 50 Euros.
+3. Afficher la liste complète des Bds avec à chaque fois l'auteur \(son nom\). 
+4. Supprimer la BD numéro 12.
+5. Augmenter tous les prix de vente de 4%.
+6. Retrouver les prix d’origine.
+7. Afficher la description et le prix de la BD la moins cher.
+8. Afficher la description et le prix de la BD la plus cher.
+9. De la même façon, afficher le prix moyen des BD.
+10. Afficher le prix moyen des BD pour chacun des auteurs.
 
