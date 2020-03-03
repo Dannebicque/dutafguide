@@ -40,9 +40,9 @@
 
 ### 4\) exercice 3 : analyse fonctionnelle et mise en place du site
 
-Analysez le cahier des charges des fonctions demandées \(visu catalogue, formulaire...\) et retrouver ces fonctionnalités dans l'arborescence proposée ci-dessous. Imaginez pour chaque page le type de requete SQL nécessaire \(SELECT, UPDATE, DELETE,INSERT\)
+Analysez le cahier des charges des fonctions demandées \(visu catalogue, formulaire...\) et retrouver ces fonctionnalités dans l'arborescence proposée ci-dessous. Imaginez pour chaque page le type de requête SQL nécessaire \(SELECT, UPDATE, DELETE,INSERT\)
 
-Développer l'ensemble des pages \(au moins index.html et catalogue.php\) en mode statique \(mettre quelques exemples sur la page catalogue mais aucun code php pour l'instant biensur\) 
+Développer l'ensemble des pages \(au moins index.html et catalogue.php\) en mode statique \(mettre quelques exemples sur la page catalogue mais aucun code php pour l'instant bien sur\) 
 
 ![](.gitbook/assets/dutaf%20%281%29.png)
 
