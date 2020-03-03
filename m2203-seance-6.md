@@ -12,16 +12,16 @@
 * M. Levetar se sert déjà un peu d’internet mais il ne connaît aucun logiciel de mise en page web et ne compte pas s'investir dans la création de page web. II ne connaît d'ailleurs pas plus les notons de base de données.
 * II désire aussi qu’un client puisse demander uniquement la liste des bandes dessinées  correspondant à un auteur en particulier. Pour cela, il devra y avoir une section dans laquelle le client pourra entrer quelques lettres du nom ou du prénom de l'auteur et par la suite consulter uniquement les bandes dessinées correspondantes à sa requête.
 
-### 2\) exercice 1: proposez le MCD et le MLD depuis le dictionnaire 
+### 2\) exercice 1: proposez le MCD et le MLD depuis le dictionnaire suivant 
 
-
+![](.gitbook/assets/capture-de-cran-2020-03-03-a-17.45.34.png)
 
 ###  3\) exercice 2 : mise en œuvre de la base de données sous mySQL
 
 1. En vous basant sur le MLD \(et le MCD\) de l'exercice précédent , créez les  tables nécessaires dans PhpMyAdmin de votre VPS.
-2. Récupérez le fichier dutaf.xls ci-dessous contenant les données nécessaires au TD pour les importer dans les
+2. Récupérez le fichier dutaf.xls ci-dessous contenant les données nécessaires au TD pour les importer dans les tables. \(attention, n'utilisez pas l'importation automatique ! Passez par des fichiers CSV: 1 fichier CSV par table \)
 
-   tables. \(attention, n'utilisez pas l'importation automatique ! Passez par des fichiers CSV: 1 fichier CSV par table \)
+{% file src=".gitbook/assets/dutaf.xls" %}
 
 ### 4\) exercice 3 : analyse fonctionnelle et mise en place du site
 
@@ -33,5 +33,5 @@ Développer l'ensemble des pages \(au moins index.html et catalogue.php\) en mo
 
 ### complément \(pour ceux qui ont du temps\):
 
-Tester les requetes suivantes: 1. Afficher la liste des BD \(description, prix de vente\) par ordre décroissant du prix . 2. Afficher la liste des Bds de moins de 50 Euros. 3. Afficher la liste complète des Bds avec à chaque fois le dessinateur \(son nom\). 4. Supprimer la BD numéro 12. 5. Augmenter tous les prix de vente de 4%. 6. Retrouver les prix d’origine. 7. Afficher la description et le prix de la BD la moins cher. 8. Afficher la description et le prix de laBD la plus cher. 9. De la même façon, afficher le prix moyen des BD. 10. Afficher le prix moyen des Bd pour chacun des dessinateurs.
+Tester les requetes suivantes: 1. Afficher la liste des BD \(description, prix de vente\) par ordre décroissant du prix . 2. Afficher la liste des Bds de moins de 50 Euros. 3. Afficher la liste complète des Bds avec à chaque fois l'auteur \(son nom\). 4. Supprimer la BD numéro 12. 5. Augmenter tous les prix de vente de 4%. 6. Retrouver les prix d’origine. 7. Afficher la description et le prix de la BD la moins cher. 8. Afficher la description et le prix de laBD la plus cher. 9. De la même façon, afficher le prix moyen des BD. 10. Afficher le prix moyen des Bd pour chacun des auteurs.
 
