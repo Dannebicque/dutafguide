@@ -18,7 +18,7 @@
 
 ###  3\) exercice 2 : mise en œuvre de la base de données sous mySQL
 
-1. En vous basant sur le MLD \(et le MCD\) , créez les  tables nécessaires dans PhpMyAdmin.
+1. En vous basant sur le MLD \(et le MCD\) de l'exercice précédent , créez les  tables nécessaires dans PhpMyAdmin de votre VPS.
 2. Récupérez le fichier [dutaf.xls](https://github.com/Dannebicque/dutafguide/tree/fbeb4cdebb2ab1a9902dc9e3b2f9761508d8dcd0/dutaf.xls) contenant les données nécessaires au TD pour les importer dans les
 
    tables. \(attention, n'utilisez pas l'importation automatique ! Passez par des fichiers CSV: 1 fichier CSV par table \)
