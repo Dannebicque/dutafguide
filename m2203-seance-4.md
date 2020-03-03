@@ -1,8 +1,12 @@
+---
+description: Requetes SQL
+---
+
 # M2203-seance-5
 
 [Retour à l'accueil](./)
 
-## M2203 \| Séance 4 \| Exercice requêtes Chenil
+## Exercice requêtes Chenil
 
 lien1\(sujet\): 
 
