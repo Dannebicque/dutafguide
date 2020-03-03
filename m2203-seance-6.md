@@ -1,4 +1,4 @@
-# M2203 \| Séance 6 \| Mise en place structure
+# M2203 \| Séance 6 \| Mise en place de la structure
 
 ## 1\) Données du problème "Dutaf"
 
@@ -14,7 +14,22 @@
 
 ### 2\) exercice 1: proposez le MCD et le MLD depuis le dictionnaire suivant 
 
-![](.gitbook/assets/capture-de-cran-2020-03-03-a-17.45.34.png)
+| code | commentaire | type | taille |
+| :--- | :--- | :--- | :--- |
+| album\_id | id de l'album | N | entier |
+| album\_isbn | numero ISBN de l'album | AN | 30 |
+| album\_serie | série de l'album | AN | 40 |
+| album\_titre | titre de l'album | AN | 50 |
+| album\_prix | prix d'achat de l'album | N | réel |
+| auteur\_id | id de l'auteur | N | entier |
+| auteur\_nom | nom de l'auteur | AN | 30 |
+| auteur\_prenom | prénom de l'auteur | AN | 30 |
+| auteur\_nat | nationalité de l'auteur | AN | 30 |
+| auteur\_age | age de l'auteur | N | entier |
+| editeur\_id | code de l'éditeur | N | entier |
+| editeur\_nom | nom de l'éditeur | AN | 30 |
+| editeur\_pays | pays de l'éditeur | AN | 30 |
+| editeur\_tel | téléphone de l'éditeur | AN | 15 |
 
 ###  3\) exercice 2 : mise en œuvre de la base de données sous mySQL
 

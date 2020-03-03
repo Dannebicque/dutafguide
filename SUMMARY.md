@@ -7,7 +7,7 @@
 * [M2203-seance-3](m2203-seance-3.md)
 * [M2203-séance 4 \(CM\)](m2203-seance-5.md)
 * [M2203-seance-5](m2203-seance-4.md)
-* [M2203 \| Séance 6 \| Mise en place structure](m2203-seance-6.md)
+* [M2203 \| Séance 6 \| Mise en place de la structure](m2203-seance-6.md)
 * [M2203 \| Séance 7 \| Listing](m2203-seance-7.md)
 * [M2203 \| Séance 8 \| Recherche par auteur](m2203-seance-8.md)
 * [M2203 \| Séance 9 \| Administration \(gestion.php et bd\_gestion.php\)](m2203-seance-9.md)
