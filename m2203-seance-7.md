@@ -15,9 +15,9 @@ Pour la page listing.php, l'objectif est d'afficher toutes les BD de la base de 
 Pour pouvoir se connecter à une base de données, quelque soit la méthode utilisée, vous devez disposer des 4 informations suivantes :
 
 * User : Login de votre base de données \(_mmi17xxx_\)
-* Password : Mot de passe pour accéder à votre base de données \(4 caractères en MMI\)
+* Password : Mot de passe pour accéder à votre base de données
 * Serveur : Adresse où se trouve votre base de données \(localhost en général\)
-* Nom de la base de données : Le nom de la base de données. \(_basemmi17xxx_ en MMI\)
+* Nom de la base de données : Le nom de la base de données. \(_mmi17xxx_ en MMI\)
 
 Dans la configuration de votre VPS initiale, les accès à votre base de données par défaut, sont les mêmes que ceux de votre FTP. En cas de problème, vous pouvez vous connecter en SSH et créer une nouvelle base de données associé à un nouvel utilisateur.
 
@@ -53,7 +53,7 @@ L’usage veut que le nom d’une constante soit en majuscule. **A noter qu’un
 
 Dans notre cas, un fichier type de constante pourrait être :
 
-{% code title="config.php" %}
+{% code title="config.inc.php" %}
 ```php
 <?php
 define('BDD_LOGIN', 'monlogin');
