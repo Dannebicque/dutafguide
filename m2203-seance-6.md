@@ -36,7 +36,7 @@
 1. En vous basant sur le MLD \(et le MCD\) de l'exercice précédent , créez les  tables nécessaires dans PhpMyAdmin de votre VPS.
 2. Récupérez le fichier dutaf.xls ci-dessous contenant les données nécessaires au TD pour les importer dans les tables. \(attention, n'utilisez pas l'importation automatique ! Passez par des fichiers CSV: 1 fichier CSV par table \)
 
-{% file src=".gitbook/assets/dutaf.xls" caption="dutaf XLS" %}
+{% file src=".gitbook/assets/dutaf \(1\).xls" caption="Dutaf XLS" %}
 
 ### 4\) exercice 3 : analyse fonctionnelle et mise en place du site
 
