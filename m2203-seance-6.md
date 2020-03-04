@@ -18,8 +18,8 @@
 | :--- | :--- | :--- | :--- |
 | album\_id | id de l'album | N | entier |
 | album\_isbn | numero ISBN de l'album | AN | 30 |
-| album\_serie | série de l'album | AN | 40 |
-| album\_titre | titre de l'album | AN | 50 |
+| album\_serie | série de l'album | AN | 70 |
+| album\_titre | titre de l'album | AN | 70 |
 | album\_prix | prix d'achat de l'album | N | réel |
 | auteur\_id | id de l'auteur | N | entier |
 | auteur\_nom | nom de l'auteur | AN | 30 |
@@ -36,7 +36,7 @@
 1. En vous basant sur le MLD \(et le MCD\) de l'exercice précédent , créez les  tables nécessaires dans PhpMyAdmin de votre VPS.
 2. Récupérez le fichier dutaf.xls ci-dessous contenant les données nécessaires au TD pour les importer dans les tables. \(attention, n'utilisez pas l'importation automatique ! Passez par des fichiers CSV: 1 fichier CSV par table \)
 
-{% file src=".gitbook/assets/dutaf \(1\).xls" caption="Dutaf.xls" %}
+{% file src=".gitbook/assets/dutaf.xls" caption="dutaf XLS" %}
 
 ### 4\) exercice 3 : analyse fonctionnelle et mise en place du site
 
