@@ -13,7 +13,7 @@ Pour la page reponse\_recherche.php, reprendre la mise en page et le php de base
 Modifier la requête SQL de cette page pour afficher uniquement les articles correspondants au caractères d'un nom ou d'un prénom d'un auteur existant \(donc en reprenant le contenu du paramètre passé dans l'URL. rappel: on récupère les paramètres passés dans l'url via `$_GET['nom_du_parametre']` \)
 
 {% hint style="info" %}
-On effectue ici une recherche, dite "**selon un modèle**", c'est à dire qu'on ne recherche pas de manière exacte ce qu'a saisie l'utilisateur, mais une enregistrement qui contient les caractères demandées. Par exemple :
+On effectue ici une recherche, dite "**selon un modèle**", c'est à dire qu'on ne recherche pas de manière exacte ce qu'a saisie l'utilisateur, mais un enregistrement qui contient les caractères demandés. Par exemple :
 
 Ma base contient les 4 noms suivants : Léon, Odette, Vivien, Etienne.
 
