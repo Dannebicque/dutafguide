@@ -1,8 +1,12 @@
 # M2203 \| Séance 9 \| Administration \(gestion.php et bd\_gestion.php\) \(17 mars\)
 
-correction video des 4 premieres pages \(index.html, listing.php,form-recherche.php, reponse-recherche.php\): xxxxxxxx
+## correction video des 4 premieres pages
 
-### séance du jour:
+video 1 \(index.html et listing.php\): [https://youtu.be/BXjfq0-k0Y4](https://youtu.be/BXjfq0-k0Y4)
+
+video 2 \(form\_recherche.php et reponse\_rechercher.php\): xxxx
+
+## séance du jour:
 
 ![Partie gestion BD](.gitbook/assets/dutaf3.png)
 
