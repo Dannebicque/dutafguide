@@ -48,7 +48,7 @@ faites vérifier l'accès au backoffice par votre enseignant  TP en envoyant l'u
 
 ## exercice 2: Mettre en oeuvre la page bd\_gestion.php en  la créant dans un sous-dossier "admin" de votre dossier "dutaf"
 
-cette page html.php est très similaire à listing.php, partez donc d'une copie de cette page pour faire la page bd\_gestion.php.
+cette page html.php est très similaire à listing.php, partez donc d'une copie de cette page pour faire la page bd\_gestion.php. la seul différence, c'est l'ajout des colonnes "supprimer"et "modifier" en face de chaque article.
 
 ## exercice 3: pour ceux qui auront de l'avance, mettez en forme l'ensemble des pages déjà créée avec du CSS.
 

@@ -20,5 +20,7 @@ Ma base contient les 4 noms suivants : Léon, Odette, Vivien, Etienne.
 L'utilisateur saisie "ien"
 
 Vous devez afficher : Viv**ien** et Et**ien**ne comme réponse
+
+pour cela regardez du côté de l'expression "... LIKE '%xxx% ..." 
 {% endhint %}
 
