@@ -38,7 +38,7 @@ monlogperso:bRd$K9lSU99wOkKzr1$dJfZ
 prof:$apr1$dJfZ1bRd$kKzpw.TAK9lSU99wOIp.Q.
 ```
 
-faites vérifier l'accès au backoffice par votre enseignant  TP.
+faites vérifier l'accès au backoffice par votre enseignant  TP en envoyant l'url dans le salon M2203.
 
 
 
