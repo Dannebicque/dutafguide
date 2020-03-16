@@ -1,4 +1,4 @@
-# M2203 \| Séance 9 \| Administration \(gestion.php et bd\_gestion.php\)
+# M2203 \| Séance 9 \| Administration \(gestion.php et bd\_gestion.php\) \(17 mars\)
 
 ![Partie gestion BD](.gitbook/assets/dutaf3.png)
 
