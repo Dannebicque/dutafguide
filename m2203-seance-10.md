@@ -13,14 +13,14 @@ Vérifier que quand vous valider le formulaire en cliquant sur le bouton que les
 Réaliser une liste déroulante pour choisir le fournisseur plutôt que de saisir son code.
 
 ```php
-<select name="four">
+<select name="editeur">
 <?php 
 $maconnexion = ... PDO ...
-$req2='SELECT * FROM fournisseurs';
+$req2='SELECT * FROM editeur';
 $resultat2 = $maconnexion->query($req2);
 
-while( $un_four = $resultat2->fe.....() ) {
- echo '<option value="'.$un_four['...._id'].'">'.$un_four['...._nom'].'</option>';
+while( $un_editeur = $resultat2->fe.....() ) {
+ echo '<option value="'.$un_editeur['...._id'].'">'.$un_editeur['...._nom'].'</option>';
  }
 ?>
 </select>
@@ -38,7 +38,7 @@ $maconnexion = ... PDO ...
 $req='INSERT INTO .... VALUES(... $designation ... $prix ...)';
 $maconnexion->query($req);
 ?>
-vous venez d'ajouter un article (sans vérification:-) )
+vous venez d'ajouter une bande dessinnées (sans vérification:-) )
 ...
 </html>
 ```
