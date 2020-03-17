@@ -8,6 +8,8 @@ video 2 \(form\_recherche.php et reponse\_rechercher.php\): [https://youtu.be/di
 
 ## séance du jour:
 
+introduction: [https://youtu.be/y-CV7Y-ebqw](https://youtu.be/y-CV7Y-ebqw)
+
 ![Partie gestion BD](.gitbook/assets/dutaf3.png)
 
 ## exercice 1: Mettre en oeuvre la page admin.html en  la créant dans un sous-dossier "admin" de votre dossier "dutaf"
