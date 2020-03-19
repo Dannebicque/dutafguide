@@ -6,11 +6,13 @@
 
 dans ce screenshot, nous voyons une mise en forme du tableau des albums efficaces avec des tris, une recherche et de la pagination.
 
-video d'explication:
+video d'explication sur cette mise en forme automatique: [https://youtu.be/EnSk9w8fWGw](https://youtu.be/EnSk9w8fWGw)
 
 ## gestion de l'ajout:
 
 ![Partie ajout d&apos;une BD](.gitbook/assets/dutaf4.png)
+
+presentation de l'ajout:
 
 ## Mettre en oeuvre le formulaire bd\_new\_form.php et la page bd\_new\_valide.php en les créant dans le sous-dossier "admin"
 
