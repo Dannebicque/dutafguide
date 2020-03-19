@@ -12,7 +12,7 @@ video d'explication sur cette mise en forme automatique: [https://youtu.be/EnSk9
 
 ![Partie ajout d&apos;une BD](.gitbook/assets/dutaf4.png)
 
-presentation de l'ajout:
+presentation de l'ajout: [https://youtu.be/G6yImHeTCGo](https://youtu.be/G6yImHeTCGo)
 
 ## Mettre en oeuvre le formulaire bd\_new\_form.php et la page bd\_new\_valide.php en les créant dans le sous-dossier "admin"
 
@@ -42,7 +42,7 @@ dans le fichier bd\_new\_valide.php récupérer les champs du formulaire \(... $
 
 dans le fichier bd\_new\_valide.php, préparer la requête SQL nécessaire pour ajouter un album \(tester votre requete dans phpMyAdmin avant de la tester dans le fichier php.
 
-INSERT INDTO albums VALUE\( NULL, 'titre de mon album', '44646BD' ...\);   
+INSERT INTO albums VALUE\( NULL, 'titre de mon album', '44646BD' ...\);   
 
 n'essayez pas de taper du php tant que vous n'arrivez pas à faire une requete SQL qui fonctionne dans phpmyadmin \(cela ne servira à rien\)
 
