@@ -1,5 +1,15 @@
 # M2203 \| Séance 10 \| Ajout d’une BD \(bd\_new\_form.php et bd\_new\_valide.php\)
 
+## partie préliminaire:   améliorer le look et l'ergonomie de la page listing \(idem reponse\_recherche.php et bd\_gestion.php\)
+
+![](.gitbook/assets/capture-de-cran-2020-03-19-a-17.04.54.png)
+
+dans ce screenshot, nous voyons une mise en forme du tableau des albums efficaces avec des tris, une recherche et de la pagination.
+
+video d'explication:
+
+## gestion de l'ajout:
+
 ![Partie ajout d&apos;une BD](.gitbook/assets/dutaf4.png)
 
 ## Mettre en oeuvre le formulaire bd\_new\_form.php et la page bd\_new\_valide.php en les créant dans le sous-dossier "admin"
@@ -26,19 +36,23 @@ while( $un_editeur = $resultat2->fe.....() ) {
 </select>
 ```
 
-dans le fichier bd\_new\_valide.php récupérer les champs du formulaire \(... $designation= $\_GET\['design'\] ...\)
+dans le fichier bd\_new\_valide.php récupérer les champs du formulaire \(... $titre= $\_GET\['titre'\] ...\)
 
-dans le fichier bd\_new\_valide.php, préparer la requête SQL nécessaire pour ajouter un article \(tester votre requete dans phpMyAdmin avant de la tester dans le fichier php.
+dans le fichier bd\_new\_valide.php, préparer la requête SQL nécessaire pour ajouter un album \(tester votre requete dans phpMyAdmin avant de la tester dans le fichier php.
+
+INSERT INDTO albums VALUE\( NULL, 'titre de mon album', '44646BD' ...\);   
+
+n'essayez pas de taper du php tant que vous n'arrivez pas à faire une requete SQL qui fonctionne dans phpmyadmin \(cela ne servira à rien\)
 
 ```php
 <html>
 ...
 <?php 
 $maconnexion = ... PDO ...
-$req='INSERT INTO .... VALUES(... $designation ... $prix ...)';
+$req='INSERT INTO .... VALUES(... $titre ... $prix ...)';
 $maconnexion->query($req);
 ?>
-vous venez d'ajouter une bande dessinnées (sans vérification:-) )
+vous venez d'ajouter une bande dessinnée (sans vérification:-) )
 ...
 </html>
 ```
