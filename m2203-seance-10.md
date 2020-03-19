@@ -4,7 +4,7 @@
 
 ![](.gitbook/assets/capture-de-cran-2020-03-19-a-17.04.54.png)
 
-dans ce screenshot, nous voyons une mise en forme du tableau des albums efficaces avec des tris, une recherche et de la pagination.
+dans ce screenshot, nous voyons une mise en forme du tableau des albums efficace avec des tris, une recherche et de la pagination.
 
 video d'explication sur cette mise en forme automatique: [https://youtu.be/EnSk9w8fWGw](https://youtu.be/EnSk9w8fWGw)
 
