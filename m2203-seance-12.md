@@ -1,4 +1,4 @@
-# M2203 \| Séance 12 \(TP\) \| Finalisation DUTAF
+# M2203 \| Séance 12 \(TP\) \| Formulaire de modification \(24 mars 15h30\)
 
 ![Partie modification d&apos;une BD](.gitbook/assets/dutaf6.png)
 

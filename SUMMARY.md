@@ -13,8 +13,8 @@
 * [M2203 \| Séance 9 \| Administration \(gestion.php et bd\_gestion.php\) \(17 mars\)](m2203-seance-9.md)
 * [M2203 \| Séance 10 \| Ajout d’une BD \(bd\_new\_form.php et bd\_new\_valide.php\)](m2203-seance-10.md)
 * [M2203 \| Séance 11  \| Suppression d’un article \(24 mars 14h\)](m2203-seance-11.md)
-* [M2203 \| Séance 12 \(TP\) \| Finalisation DUTAF](m2203-seance-12.md)
-* [M2203 \| Séance 13 \| Evaluation](m2203-seance-13.md)
-* [M2203PostCm](m2203postcm.md)
-* [M2203-seance-1bis](m2203-seance-1bis.md)
+* [M2203 \| Séance 12 \(TP\) \| Formulaire de modification \(24 mars 15h30\)](m2203-seance-12.md)
+* [divers 0](m2203-seance-13.md)
+* [divers 1](m2203postcm.md)
+* [divers 2](m2203-seance-1bis.md)
 
