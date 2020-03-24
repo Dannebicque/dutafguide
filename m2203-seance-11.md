@@ -1,4 +1,4 @@
-# M2203 \| Séance 11  \| Suppression d’un article
+# M2203 \| Séance 11  \| Suppression d’un article \(24 mars 14h\)
 
 correction seance précédente \(ajout\): [https://youtu.be/IhuPkWgPx\_g](https://youtu.be/IhuPkWgPx_g)
 
