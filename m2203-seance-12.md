@@ -6,7 +6,9 @@ correction séance précedente \(11\): [https://youtu.be/N31H0ESZ72I](https://yo
 
 ## Mettre en oeuvre la page bd\_update\_form.php en la créant dans le sous-dossier "admin"
 
-Passer le champs numart en GET depuis la page article\_gestion.php \( ... bd\_update\_form.php?num\_bd= ...\)
+présentation de la mise en oeuvre de ce formulaire: [https://youtu.be/2ftd2tlE-Ac](https://youtu.be/2ftd2tlE-Ac)
 
-présentation de la mise en oeuvre de ce formulaire:
+présentation de la gestion des listes déroulantes pré-selectionnées: [https://youtu.be/yc4DLAM-OI0](https://youtu.be/yc4DLAM-OI0)
+
+Dans cette séance, nous ne faisons pas la page bd\_update\_vlid.php, nous la ferons dans la prochaine seance.  En attendant relookez l'ensemble de votre site dutaf avec du CSS digne d'un MMI S2. \(la qualité d'integration de ce site Dutaf fait partie du bareme d'évaluation finale\)
 
