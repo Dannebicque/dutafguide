@@ -71,7 +71,7 @@ Ce qui pourrait donner le code suivant :
 ```php
 ...
 <?php
-include('config.inc.php');
+require('config.inc.php');
 
 $bdd = new PDO('mysql:host='.BDD_SERVER.';dbname='.BDD_DATABASE.';charset=utf8', BDD_LOGIN, BDD_PASSWORD);
 ```
@@ -85,7 +85,7 @@ Le code ci-dessous va permettre d'écrire une requête en MySQL et de l'éxécut
 ```php
 ...
 <?php
-include('config.inc.php');
+require('config.inc.php');
 
 $bdd = new PDO('mysql:host='.BDD_SERVER.';dbname='.BDD_DATABASE.';charset=utf8', BDD_LOGIN, BDD_PASSWORD);
 
@@ -114,7 +114,7 @@ Ce résultat, si la requête a réussi, est un tableau composé des lignes de la
 
 ```php
 <?php
-include('config.inc.php');
+require('config.inc.php');
 
 $bdd = new PDO('mysql:host='.BDD_SERVER.';dbname='.BDD_DATABASE.';charset=utf8', BDD_LOGIN, BDD_PASSWORD);
 
@@ -143,7 +143,7 @@ Explication des lignes
 
 ```php
 <?php
-include('config.inc.php');
+require('config.inc.php');
 
 $bdd = new PDO('mysql:host='.BDD_SERVER.';dbname='.BDD_DATABASE.';charset=utf8', BDD_LOGIN, BDD_PASSWORD);
 
