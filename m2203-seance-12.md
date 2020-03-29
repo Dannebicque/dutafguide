@@ -1,4 +1,4 @@
-# M2203 \| Séance 12 \(TP\) \| Formulaire de modification \(24 mars 15h30\)
+# M2203 \| Séance 12 \(TP\) \| Formulaire de modification \(30 mars\)
 
 correction séance précedente \(11\): [https://youtu.be/N31H0ESZ72I](https://youtu.be/N31H0ESZ72I)
 

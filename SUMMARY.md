@@ -12,9 +12,10 @@
 * [M2203 \| Séance 8 \| Recherche par auteur](m2203-seance-8.md)
 * [M2203 \| Séance 9 \| Administration \(gestion.php et bd\_gestion.php\) \(17 mars\)](m2203-seance-9.md)
 * [M2203 \| Séance 10 \| Ajout d’une BD \(bd\_new\_form.php et bd\_new\_valide.php\)](m2203-seance-10.md)
-* [M2203 \| Séance 11  \| Suppression d’un article \(24 mars 14h\)](m2203-seance-11.md)
-* [M2203 \| Séance 12 \(TP\) \| Formulaire de modification \(24 mars 15h30\)](m2203-seance-12.md)
-* [M2203 \| Séance 13 \(TP\) \| Validation du formulaire de modification](m2203-seance-13.md)
+* [M2203 \| Séance 11  \| Suppression d’un article \(24 mars\)](m2203-seance-11.md)
+* [M2203 \| Séance 12 \(TP\) \| Formulaire de modification \(30 mars\)](m2203-seance-12.md)
+* [M2203 \| Séance 13 \(TP\) \| Valiadtion du formulaire de modification \(3 avril\)](m2203-or-seance-13-tp-or-valiadtion-du-formulaire-de-modification-3-avril.md)
+* [M2203 \| Séance 14  \| Eval du cas Dutaf \(6 avril\)](m2203-seance-13.md)
 * [divers 1](m2203postcm.md)
 * [divers 2](m2203-seance-1bis.md)
 
