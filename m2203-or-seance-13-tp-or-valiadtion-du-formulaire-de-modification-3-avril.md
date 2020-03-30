@@ -1,4 +1,4 @@
-# M2203 \| Séance 13 \(TP\) \| Valiadtion du formulaire de modification \(3 avril\)
+# M2203 \| Séance 13 \(TP\) \| Validation du formulaire de modification \(3 avril\)
 
 ![](.gitbook/assets/image.png)
 
