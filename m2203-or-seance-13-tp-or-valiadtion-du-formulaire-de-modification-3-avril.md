@@ -111,5 +111,9 @@ ensuite testez la modification et regardez dans le navigateur l'affichage de la 
 
 {% embed url="https://youtu.be/QEJhVDWTqTM" %}
 
+## éviter les magic quotes:
+
+{% embed url="https://youtu.be/tSTm1gzSXm8" %}
+
 
 
