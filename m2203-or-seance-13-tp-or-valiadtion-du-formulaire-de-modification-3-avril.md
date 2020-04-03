@@ -2,6 +2,12 @@
 
 ![](.gitbook/assets/image.png)
 
+presentation rapide:
+
+{% embed url="https://youtu.be/ovGoqNOSPJI" %}
+
+
+
 le fichier "BD\_update\_valide.php" doit comporter une requete de type UPDATE pour mettre à jour les champs modifiés dans le formulaire précédent.
 
 ```text
