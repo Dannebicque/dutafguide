@@ -103,7 +103,7 @@ ensuite testez la modification et regardez dans le navigateur l'affichage de la 
 
 ### video d'explication de tous ces points:
 
-{% embed url="https://youtu.be/MgUXfdHl45U" %}
+{% embed url="https://youtu.be/QEJhVDWTqTM" %}
 
 
 
