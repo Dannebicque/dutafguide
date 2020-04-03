@@ -10,6 +10,8 @@ votre site dutaf doit fonctionner intégralement \(partie visiteur et partie adm
 
 Vous devez aussi faire la partie gestion des auteurs  sur le même principe que nous avons fait ensemble en TP avec la gestion des albums. cette gestions des auteurs devra être accessible depuis la page admin.html tout comme la gestion des albums.
 
+[https://youtu.be/FNU7c1ydy\_A](https://youtu.be/FNU7c1ydy_A)
+
 Il faudra \(comme pour les albums pouvoir ajouter\), modifier ou supprimer un auteur .
 
 vous devez donc développer:
