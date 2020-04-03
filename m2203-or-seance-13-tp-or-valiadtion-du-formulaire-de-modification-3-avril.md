@@ -23,7 +23,7 @@ $bdd->query($requete);
 ...
 ```
 
-la question ici c'est que mettre après le WHERE?   il faut faire un UPDATE uniquement pour l'article qui a été modifié dans le formulaire, donc quelque chose comme:  ....WHERE album\_id=$id ...   mais dans ce cas il faut récupérer $id comme on récupère le prix ou le titre dans l'URL \($\_GET\)
+la question ici c'est: que mettre après le WHERE?   il faut faire un UPDATE uniquement pour l'article qui a été modifié dans le formulaire, donc quelque chose comme:  ....WHERE album\_id=$id ...   mais dans ce cas il faut récupérer $id comme on récupère le prix ou le titre dans l'URL \($\_GET\)
 
 il faudrait donc quelque chose comme:
 
@@ -100,4 +100,8 @@ $bdd->query($requete);
 ```
 
 ensuite testez la modification et regardez dans le navigateur l'affichage de la requete, copiez là et collez là dans phpmyadmin pour voir si mysql vous renvois une erreur,  tant que la requete ne marche pas dans phpmyadmin, elle  marchera encore moins dans votre page php!... bon débug à vous.
+
+### video d'explication de tous ces points:
+
+[https://youtu.be/MgUXfdHl45U](https://youtu.be/MgUXfdHl45U)
 
