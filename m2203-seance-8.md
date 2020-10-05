@@ -2,6 +2,12 @@
 
 ![Partie recherche](.gitbook/assets/dutaf2.png)
 
+correction seance 7:
+
+video 1 \(index.html et listing.php\): [https://youtu.be/BXjfq0-k0Y4](https://youtu.be/BXjfq0-k0Y4)
+
+video 2  mise en forme automatique \(datatable\): [https://youtu.be/EnSk9w8fWGw](https://youtu.be/EnSk9w8fWGw)
+
 ## Développement du formulaire "petit budget" \(page form\_recherche.php\)
 
 Développez la page `form_recherche.php`. Attention à bien nommer le champs du formulaire `texte` comme indiqué sur l'arbre de navigation. De plus, bien faire pointer la validation du formulaire vers la page `reponse_recherche.php` ainsi que de préciser dans les paramètres du formulaire que les données seront transmises dans l'URL \(méthode **GET**\)

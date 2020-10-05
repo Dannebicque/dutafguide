@@ -188,5 +188,5 @@ Copier/coller la réponse dans PhpMyAdmin, onglet "SQL" afin de tester la requê
 
 Consultez le site [https://datatables.net/](https://datatables.net/) et essayez de mettre en place les éléments nécessaires.
 
-video d'explication sur cette mise en forme automatique: [https://youtu.be/EnSk9w8fWGw](https://youtu.be/EnSk9w8fWGw)
+
 
