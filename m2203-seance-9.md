@@ -2,9 +2,9 @@
 
 ## correction video des 4 premieres pages des séances précédentes
 
-video 1 \(index.html et listing.php\):  à venir...
+video 1 \(index.html et listing.php\):  [https://youtu.be/BXjfq0-k0Y4](https://youtu.be/BXjfq0-k0Y4)
 
-video 2 \(form\_recherche.php et reponse\_rechercher.php\):  à venir...
+video 2 \(form\_recherche.php et reponse\_rechercher.php\):  [https://youtu.be/diXbF6tvDxg](https://youtu.be/diXbF6tvDxg)
 
 ## séance du jour:
 
