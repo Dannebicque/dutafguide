@@ -54,7 +54,5 @@ cette page html.php est très similaire à listing.php, partez donc d'une copie 
 
 ## exercice 3: pour ceux qui auront de l'avance, mettez en forme l'ensemble des pages déjà créée avec du CSS.
 
-## Rendu de la séance:
-
-via moodle dans le module m2203, vous trouverez un dépot à faire jusqu'à 13h derniere limite. déposez un fichier texte GroupeNomPrenom.txt dans lequel, il y aura juste une ligne avec le lien vers votre URL de dutaf \(genre http://monIP/dutaf\)
+## 
 
