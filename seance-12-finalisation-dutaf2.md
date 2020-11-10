@@ -4,11 +4,14 @@
 
 #### Critères d'évaluation
 
-* Panier : 4 points pour le respect des consignes suivantes
+* Formatage/fonctions : 2 points
+  * Affichage de la date du jour
+  * formatages monétaires
+* Panier : 3 points pour le respect des consignes suivantes
   * Possibilité d'ajouter un produit depuis le catalogue
   * Possibilité d'ajouter plusieurs produits identiques
   * Affichage d'un panier correctement mis en page.
-  * 3 points supplémentaires pour les fonctionnalités supplémentaires pertinentes
+  * 2 points supplémentaires pour les fonctionnalités supplémentaires pertinentes
 * Sécurisation du back-office : 3 points pour le respect des consignes suivantes
   * Formulaire de connexion
   * Sécurisation de toutes les pages concernées

@@ -27,6 +27,7 @@ Il est ainsi recommandé de privilégier les fonctions issues de la librairie "m
 Il est d'usage en informatique de manipuler le $timestamp. Le timestamp \(unix\) désigne le nombre de secondes écoulées depuis le 1er janvier 1970 à minuit UTC précise. Utiliser un timestamp est plus simple que de manipuler une date formatée, notamment pour effectuer des opérations \(différence entre deux dates\).
 
 * date\(-format-, $timestamp\) : [http://php.net/manual/fr/function.date.php](http://php.net/manual/fr/function.date.php). Permet de formater une date. Si on ne précise pas de valeur de date \(le second argument $timestamp\), alors le résultat sera la date du jour formatée.
+* [https://www.php.net/manual/fr/function.strftime.php](https://www.php.net/manual/fr/function.strftime.php)
 * strtotime\(\) : [http://php.net/manual/fr/function.strtotime.php](http://php.net/manual/fr/function.strtotime.php).
 
 ```php
