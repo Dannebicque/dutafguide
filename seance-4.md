@@ -75,7 +75,7 @@ Tu es sur l'accueil de mon site (index.php ). Tu veux aller sur une autre page ?
 
 Une autre page utilisant la session précédemment créée :
 
-{% code title="page2.php" %}
+{% code title="page.php" %}
 ```php
  <?php
  session_start(); // On demarre la session AVANT toute chose
@@ -87,7 +87,8 @@ Une autre page utilisant la session précédemment créée :
 
  <p>Re - bonjour ! </p>
  <p>
- Je me souviens de toi ! Tu t'appelles <?php echo $_SESSION['prenom'] .' ' . $_SESSION['nom']; ?> ! <br />
+ Je me souviens de toi ! Tu t'appelles <?php echo $_SESSION['prenom'] .' ' . 
+ $_SESSION['nom']; ?> ! <br />
  Et tu as <?php echo $_SESSION['age']; ?> ans.
  </p>
  </body >
