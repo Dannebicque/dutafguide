@@ -47,6 +47,7 @@ Ci-dessous un exemple complet d'utilisation de session.
 
 Première page \(on pourrait imaginer un formulaire de connexion qui récupère les données.\)
 
+{% code title="index.php" %}
 ```php
 <?php
 // On demarre la session AVANT d'ecrire du code HTML
@@ -68,11 +69,13 @@ Tu es sur l'accueil de mon site (index.php ). Tu veux aller sur une autre page ?
 </body>
 </html>
 ```
+{% endcode %}
 
 > Remarque : On peut créer/modifier les variables de session n'importe où dans le code. La seule chose qui importe, c'est que le `session_start()` soit fait au tout début de la page.
 
 Une autre page utilisant la session précédemment créée :
 
+{% code title="page2.php" %}
 ```php
  <?php
  session_start(); // On demarre la session AVANT toute chose
@@ -90,6 +93,7 @@ Une autre page utilisant la session précédemment créée :
  </body >
  </html >
 ```
+{% endcode %}
 
 ### Cas d'utilisation des sessions
 

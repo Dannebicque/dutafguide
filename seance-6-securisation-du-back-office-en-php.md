@@ -21,13 +21,21 @@ Cette table doit contenir, a minima, 3 champs :
 * Tous les champs que vous pourriez trouver utile \(mail, nom, ...\)
 
 {% hint style="info" %}
-Le mot de passe devra être crypté. On choisira le format sha1 par simplicité. Mais ce format **ne doit pas être utilisé sur un serveur de production**. Voir du coté de [Password\_hash\(\)](https://www.php.net/manual/fr/function.password-hash.php).
+Le mot de passe devra être crypté. On choisira le format [bcrypt](https://fr.wikipedia.org/wiki/Bcrypt) qui est actuellement l'un des plus performant. Il existe maintenant d'autres solutions type [argon2i](https://fr.wikipedia.org/wiki/Argon2). Vous pourriez aussi utiliser les fonctions PHP comme : [https://www.php.net/manual/fr/function.password-hash.php](https://www.php.net/manual/fr/function.password-hash.php)
 {% endhint %}
 
 ### **Travail à faire**
 
 * Créer cette table dans votre base de données.
-* Ajoutez manuellement \(insérer\) un ou plusieurs utilisateurs. Vous pouvez utiliser le site : [https://www.sha](https://www.sha1.fr/)[.fr/](https://www.sha1.fr/) pour crypter votre mot de passe.
+* Ajoutez manuellement \(insérer\) un ou plusieurs utilisateurs. Ecrivez un petit script PHP qui utilise la fonction password-hash pour crypter votre mot de passe. Copier/Coller le résultat comme mot de passe dans votre BDD.
+
+```php
+$options = [
+    'cost' => 12,
+];
+echo password_hash("votremotdepase", PASSWORD_BCRYPT, $options);
+?>
+```
 
 ### Formulaire de connexion
 
@@ -51,11 +59,14 @@ On pourrait avoir le code suivant :
 <?php
 session_start();
 include('../includes/config.php');
+$options = [
+    'cost' => 12,
+];
 
 $dblink = new PDO('mysql:host=' . BDD_SERVER . ';dbname=' . BDD_DATABASE . '; charset=utf8', BDD_USER,
     BDD_PASSWORD);
 
-$password = password_hash($_POST['password'], PASSWORD_BCRYPT);
+$password = password_hash($_POST['password'], PASSWORD_BCRYPT, $options);
 
 $requete = 'SELECT * FROM utilisateurs WHERE utilisateur_login = "' . $_POST['login'].'" and utilisateur_mdp = "'.$password.'"';
 
