@@ -1,5 +1,9 @@
 # Séance 5 : Sessions et panier
 
+{% hint style="danger" %}
+A partir de cette séance, votre implication et votre participation dans le cours sera valorisée \(proposition de solution en PV pour les exercices, interactions sur la séance\).
+{% endhint %}
+
 Dans cette partie nous allons appliquer les sessions au cas DUTAF en créant un panier dans lequel un visiteur pourra sauvegarder les produits.
 
 ## Principe à mettre en place
