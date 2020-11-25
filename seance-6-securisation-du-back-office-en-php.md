@@ -66,22 +66,26 @@ $options = [
 
 $dblink = new PDO('mysql:host=' . BDD_SERVER . ';dbname=' . BDD_DATABASE . '; charset=utf8', BDD_USER,
     BDD_PASSWORD);
-
-$password = password_hash($_POST['password'], PASSWORD_BCRYPT, $options);
-
-$requete = 'SELECT * FROM utilisateurs WHERE utilisateur_login = "' . $_POST['login'].'" and utilisateur_mdp = "'.$password.'"';
-
+//je récupère l'utilisateur correspondant au login
+$requete = 'SELECT * FROM utilisateurs WHERE utilisateur_login = "' . $_POST['login'].'"';
 $exe = $dblink->query($requete);
 $nbreponses = $exe->rowCount();
 
 if ($nbreponses == 1){
-    //connexion OK
+    //j'ai bien un utilisateur correspondant au login
     $user = $exe->fetch(); //on récupérer les informations de l'utilisateur
-    $_SESSION['utilisateur'] = $user['utilisateur_login'];
-    header('Location: index.php'); //redirection vers l'accueil de l'administration
+    if (password_verify($_POST['password'], $user['utilisateur_mdp']) == true) {
+    //le mot de passe est correct
+        $_SESSION['utilisateur'] = $user['utilisateur_login'];
+        header('Location: index.php'); //redirection vers l'accueil de l'administration
+    } else {
+    //mot de passe incorrect
+        header('Location: form_login.html'); //redirection vers le formulaire parce que le mot de passe est faux
+    }
 } else
 {
-    header('Location: form_login.html'); //redirection vers le formulaire
+//login inexistant
+    header('Location: form_login.html'); //redirection vers le formulaire parce que le login n'existe pas dans la base de données
 }
 ?>
 ```
