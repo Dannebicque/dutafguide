@@ -27,9 +27,10 @@ Le mot de passe devra être crypté. On choisira le format [bcrypt](https://fr.w
 ### **Travail à faire**
 
 * Créer cette table dans votre base de données.
-* Ajoutez manuellement \(insérer\) un ou plusieurs utilisateurs. Ecrivez un petit script PHP qui utilise la fonction password-hash pour crypter votre mot de passe. Copier/Coller le résultat comme mot de passe dans votre BDD.
+* Ajoutez manuellement \(insérer\) un ou plusieurs utilisateurs. Ecrivez un petit script PHP qui utilise la fonction [password-hash](https://www.php.net/manual/fr/function.password-hash.php) pour crypter votre mot de passe. Copier/Coller le résultat comme mot de passe dans votre BDD.
 
 ```php
+<?php
 $options = [
     'cost' => 12,
 ];
@@ -86,7 +87,7 @@ if ($nbreponses == 1){
 ```
 
 {% hint style="warning" %}
-On sauvegarde ici le login de l'utilisateur dans la session. Cette technique fonctionne, mais l'usage voudrait qu'on sauvegarde plutôt une clé générée automatique et stockée dans la base de données et dans la session. De cette manière le login n'est pas utilisé, et la clé change à chaque connexion.
+On sauvegarde ici le login de l'utilisateur dans la session. Cette technique fonctionne, mais l'usage voudrait qu'on sauvegarde plutôt une clé générée automatiquement et stockée dans la base de données et dans la session. De cette manière le login n'est pas utilisé, et la clé change à chaque connexion.
 {% endhint %}
 
 ### **Travail à faire**
@@ -133,7 +134,5 @@ Mettre en place cette vérification sur l'ensemble des pages du backoffice.
 
 ## Améliorations possibles
 
-Cette solution est basique. On pourrait l'améliorer en gérant des permissions par exemple pour distinguer un client d'un administrateur. On pourrait aussi gérer la création d'un compte, ou encore le mot de passe perdu, ...
-
-De même dans la session, on éviterait de stocker l'Id de l'utilisateur ou son login. On préférerait générer une clé aléatoire et sauvegarder cette clé dans la session, et dans la base de données.
+Cette solution est basique. On pourrait l'améliorer en gérant des permissions par exemple pour distinguer un client d'un administrateur \(gestion d'une notion de rôle ou de droit\). On pourrait aussi gérer la création d'un compte, ou encore le mot de passe perdu, ...
 
