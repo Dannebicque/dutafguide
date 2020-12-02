@@ -2,6 +2,10 @@
 
 ### S'assurer du bon fonctionnement de DUTAF2
 
+{% hint style="danger" %}
+Le rendu est fixé au 22 décembre, minuit. Notation à partir du 23/12
+{% endhint %}
+
 #### Critères d'évaluation
 
 * Formatage/fonctions : 2 points

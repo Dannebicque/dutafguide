@@ -4,7 +4,11 @@
 
 TP Noté M2202D
 
-16 décembre 2019
+15 décembre, groupe A et B à 14h00
+
+
+
+Ci-dessous exemple du sujet de l'année dernière.
 
 ### Exercice 1 : Formulaire
 
