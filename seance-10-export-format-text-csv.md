@@ -36,6 +36,8 @@ Le second argument de la fonction fopen indique de quelle manière il faut ouvri
 | a | Ouvre le fichier en écriture seule. Mais il y a un avantage : si le fichier n’existe pas, il est automatiquement créé. |
 | a+ | Ouvre le fichier en lecture et écriture. Si le fichiers n’existe pas, il est créé automatiquement. Attention : le répertoire doit avoir un CHMOD à 777 dans ce cas ! A noter que si le fichier existe déjà, le texte sera rajouté à la fin. |
 
+Tous les mode d'ouverture d'un fichier sont décrit ici : [https://www.php.net/manual/fr/function.fopen.php](https://www.php.net/manual/fr/function.fopen.php)
+
 Si votre fichier.txt se trouve dans un répertoire, vous devez modifier la ligne 3 avec le bon chemin. Vous n’êtes absolument pas obligés de donner l’extension .txt à votre fichier. Vous pouvez l’appeler comme vous voulez : _exemple.cpt_, _exemple.num_, ou même _exemple_ tout court. En pratique vous pouvez écrire n’importe quelle extension, mais pour pouvoir l’ouvrir par la suite il faut soit que l’extension n’existe pas \(dans ce cas on ouvrir le fichier avec un éditeur de texte\), ou alors que l’extension soit en fait un fichier texte \(par exemple le html, un fichier ini ou encore du csv...\).
 
 Pour lire un fichier, il existe deux méthodes : soit ligne par ligne \(fgets\), soit caractère par caractère \(fgetc\).
@@ -85,6 +87,20 @@ fseek($monfichier,0);
 
 Qui va replacer le curseur au caractère 0, c’est à dire au début du fichier.
 
+## Exercices
+
+### Lire un fichier texte
+
+{% file src=".gitbook/assets/exemple.txt" caption="Fichier exemple.txt" %}
+
+* Télécharger le fichier ci-dessus
+* le mettre dans votre répertoire, vérifier les droits.
+* Ecrire un fichier qui va récupérer et afficher le contenu de ce fichier.
+
+### Ecrire un fichier texte
+
+* Ecrire un fichier php qui permet de générer un fichier txt contenant le texte de votre choix
+
 ## fichier CSV
 
 ### Lire
@@ -120,7 +136,7 @@ Lors de la lecture d’une ligne, la fonction fgetcsv renvoi un tableau, avec da
 
 ```php
 <?php
-  $ligne = 1; // compteur de ligne $fichier = fopen("fichier.csv", "a+");
+//...
   $tableau = array('a','b'); 
 
   fputcsv($fichier, $tableau, ";");
@@ -139,23 +155,11 @@ Cette fonction va transformer le tableau en une ligne de texte, où les élémen
 
 ## Exercices
 
-### Lire un fichier texte
-
-{% file src=".gitbook/assets/exemple.txt" caption="Fichier exemple.txt" %}
-
-* Télécharger le fichier ci-dessus
-* le mettre dans votre répertoire, vérifier les droits.
-* Ecrire un fichier qui va récupérer et afficher le contenu de ce fichier.
-
-### Ecrire un fichier texte
-
-* Ecrire un fichier php qui permet de générer un fichier txt contenant le texte de votre choix
-
 {% file src=".gitbook/assets/comics.csv" caption="Fichier comics.csv" %}
 
 ### Lire un fichier csv
 
-* Récupérer le fichier [comics.csv](m2202/comics.csv)
+* Télécharger le fichier ci-dessus
 * le mettre dans votre répertoire, vérifier les droits.
 * Ecrire un fichier qui va récupérer et afficher le contenu de ce fichier, sous forme d'un tableau HTML.
 
