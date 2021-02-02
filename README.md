@@ -12,10 +12,12 @@ Mettre en œuvre une Solution PHP/MySQL pour répondre à un problème de ges
 
 {% page-ref page="presentation-de-la-societe-dutaf.md" %}
 
-## Version de démonstration de DUTAF
+## Version de démonstration de DUTAF \(exemples d'étudiants\)
 
-{% hint style="info" %}
-En cours
+{% hint style="warning" %}
+[http://149.91.80.73/dutaf2/index.php](http://149.91.80.73/dutaf2/index.php)
+
+[http://149.91.81.64/dutaf/](http://149.91.81.64/dutaf/)
 {% endhint %}
 
 ## Organisation des séances du M2203
