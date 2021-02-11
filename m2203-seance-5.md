@@ -27,7 +27,7 @@ résumé du CM:
 ## Deuxième exercice : mise en œuvre de la base de données sous mySQL
 
 1. En vous basant sur l'analyse, créez les tables dans PhpMyAdmin.
-2. Récupérez le fichier [dutaf.xls](https://github.com/Dannebicque/dutafguide/tree/fbeb4cdebb2ab1a9902dc9e3b2f9761508d8dcd0/dutaf.xls) contenant les données nécessaires au TD pour les importer dans les
+2. Récupérez le fichier [dutaf.xls](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lzla5PFDN1ug0Sj7CAO%2F-M1a0Z6qHqXSmlkrcIO3%2F-M1a0gG9idpwbVZSCMS4%2Fdutaf.xls?alt=media&token=33477353-8dcb-400c-a4d6-63d5804e5da6) contenant les données nécessaires au TD pour les importer dans les
 
    tables. \(attention, n'utilisez pas l'importation automatique ! Passez par des fichiers CSV\)
 
