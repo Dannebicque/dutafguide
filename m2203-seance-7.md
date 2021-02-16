@@ -6,6 +6,8 @@
 
 Après avoir pris connaissance de l'arbre de navigation, développez la page d'accueil \(index.html\)
 
+\(correction séance précédente: [tables](http://195.83.128.21/~fmeuzeret/docs/s2mmi.sql) sur serveur mysql\)
+
 ## Développement de la page listing.php.
 
 Pour la page listing.php, l'objectif est d'afficher toutes les BD de la base de données avec l'auteur et l'éditeur associé. Les éléments ci-après, vous permettent de vous connecter à une base de données, d'exécuter une requête simple et d'afficher les résultats retournés.
