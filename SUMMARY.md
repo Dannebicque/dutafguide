@@ -10,7 +10,7 @@
 * [M2203 \| Séance 6 \| Mise en place de la structure](m2203-seance-6.md)
 * [M2203 \| Séance 7 \| Listing](m2203-seance-7.md)
 * [M2203 \| Séance 8 \| Recherche par auteur](m2203-seance-8.md)
-* [M2203 \| Séance 9 \| Administration \(gestion.php et bd\_gestion.php\) \(17 mars\)](m2203-seance-9.md)
+* [M2203 \| Séance 9 \| Administration \(gestion.php et bd\_gestion.php\) \(fin fevrier\)](m2203-seance-9.md)
 * [M2203 \| Séance 10 \| Ajout d’une BD \(bd\_new\_form.php et bd\_new\_valide.php\)](m2203-seance-10.md)
 * [M2203 \| Séance 11  \| Suppression d’un article \(24 mars\)](m2203-seance-11.md)
 * [M2203 \| Séance 12 \(TP\) \| Formulaire de modification \(30 mars\)](m2203-seance-12.md)

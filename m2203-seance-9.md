@@ -1,4 +1,4 @@
-# M2203 \| Séance 9 \| Administration \(gestion.php et bd\_gestion.php\) \(17 mars\)
+# M2203 \| Séance 9 \| Administration \(gestion.php et bd\_gestion.php\) \(fin fevrier\)
 
 ## correction video des 4 premieres pages des séances précédentes
 
