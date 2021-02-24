@@ -14,7 +14,7 @@ Développez la page `form_recherche.php`. Attention à bien nommer le champs du 
 
 ## Développement de la page reponse\_recherche.php.
 
-Pour la page reponse\_recherche.php, reprendre la mise en page et le php de base déjà vus dans de votre page catalogue.php
+Pour la page reponse\_recherche.php, reprendre la mise en page et le php de base déjà vus dans de votre page listing.php
 
 Modifier la requête SQL de cette page pour afficher uniquement les articles correspondants au caractères d'un nom ou d'un prénom d'un auteur existant \(donc en reprenant le contenu du paramètre passé dans l'URL. rappel: on récupère les paramètres passés dans l'url via `$_GET['nom_du_parametre']` \)
 
